@@ -1,22 +1,32 @@
 `default_nettype none
 module thinpad_top(dip_sw, leds, clock_btn, reset_btn);
-input wire [31:0] dip_sw; // ÊäÈëĞÅºÅ   
+input wire [31:0] dip_sw; // ï¿½ï¿½ï¿½ï¿½ï¿½Åºï¿½   
 input wire clock_btn;
 input wire reset_btn;
-output reg[15:0] leds;
+output wire[15:0] leds;
+reg[15:0] led_bits;
 reg[2:0] cur_state;
 reg [15:0] inputA, inputB;
 reg [3:0] opcode;
 reg flag;
+assign leds = led_bits;
 always@(posedge clock_btn or posedge reset_btn) begin
     if(reset_btn)begin
         cur_state <= 'b00;
     end
     else case(cur_state)
-            'b00: cur_state <= 'b01;
-            'b01: cur_state <= 'b10;
-            'b10: cur_state <= 'b11;
-            'b11: cur_state <= 'b00;
+            'b00: begin
+            cur_state <= 'b01;
+            end
+            'b01: begin
+            cur_state <= 'b10;
+            end
+            'b10: begin
+            cur_state <= 'b11;
+            end
+            'b11: begin
+            cur_state <= 'b00;
+            end
             default: cur_state <= 'b00;
         endcase
     end
@@ -26,68 +36,111 @@ always@(posedge clock_btn or posedge reset_btn) begin
 always@(cur_state, dip_sw)begin
     case(cur_state)
         'b00:begin
-            // TODO: ×öÏàÓ¦Êä³öµ½aluµÄ´¦Àí,ÔÚ×´Ì¬0Ó¦µ±ÊäÈë²Ù×÷ÊıA
+            // TODO: ï¿½ï¿½ï¿½ï¿½Ó¦ï¿½ï¿½ï¿½ï¿½ï¿½aluï¿½Ä´ï¿½ï¿½ï¿½,ï¿½ï¿½×´Ì¬0Ó¦ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½A
             inputA = dip_sw[15:0];
         end
         'b01:begin
-             // TODO: ×öÏàÓ¦Êä³öµ½aluµÄ´¦Àí,ÔÚ×´Ì¬1Ó¦µ±ÊäÈë²Ù×÷ÊıB
+             // TODO: ï¿½ï¿½ï¿½ï¿½Ó¦ï¿½ï¿½ï¿½ï¿½ï¿½aluï¿½Ä´ï¿½ï¿½ï¿½,ï¿½ï¿½×´Ì¬1Ó¦ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
             inputB = dip_sw[15:0];
         end
         'b10:begin
-             // TODO: ×öÏàÓ¦Êä³öµ½aluµÄ´¦Àí,ÔÚ×´Ì¬2Ó¦µ±ÊäÈë²Ù×÷Âëop£¬²¢Êä³ö²Ù×÷½á¹ûf
+             // TODO: ï¿½ï¿½ï¿½ï¿½Ó¦ï¿½ï¿½ï¿½ï¿½ï¿½aluï¿½Ä´ï¿½ï¿½ï¿½,ï¿½ï¿½×´Ì¬2Ó¦ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½opï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½f
             opcode = dip_sw[3:0];
-        end
-        'b11:begin
-            leds[0] = flag;
-             // TODO: ×öÏàÓ¦Êä³öµ½aluµÄ´¦Àí,ÔÚ×´Ì¬3Ó¦Êä³ö±êÖ¾Î»
-        end
-        default: leds[0] = 0; //
-    endcase
-   if(cur_state == 'b10) begin
-        case(opcode)
+            case(opcode)
             'b0000:begin
-                leds = inputA + inputB;
-                flag = (leds[15])&(~inputA[15])&(~inputB[15]) | (~leds[15])&(inputA[15])&(inputB[15]);
+                led_bits <= inputA + inputB;
+                flag <= (led_bits[15])&(~inputA[15])&(~inputB[15]) | (~led_bits[15])&(inputA[15])&(inputB[15]);
             end
             'b0001:begin
-                leds  = inputA - inputB;
-                flag = (leds[15])&(~inputA[15])&(inputB[15]) | (~leds[15])&(inputA[15])&(~inputB[15]);
+                led_bits  <= inputA - inputB;
+                flag <= (led_bits[15])&(~inputA[15])&(inputB[15]) | (~led_bits[15])&(inputA[15])&(~inputB[15]);
             end
             'b0010:begin
-                leds = inputA - inputB;
-                flag = 0;
+                led_bits <= inputA - inputB;
+                flag <= 'b0;
             end
             'b0011:begin
-                leds = inputA | inputB;
-                flag = 0;
+                led_bits <= inputA | inputB;
+                flag <= 'b0;
             end
             'b0100:begin
-                leds = inputA ^ inputB;
-                flag = 0;
+                led_bits <= inputA ^ inputB;
+                flag <= 'b0;
             end
             'b0101:begin
-                leds = ~inputA;
-                flag = 0;
+                led_bits <= ~inputA;
+                flag <= 'b0;
             end
             'b0110:begin
-                leds = inputA << inputB;
-                flag = 0;
+                led_bits <= inputA << inputB;
+                flag <= 'b0;
             end
             'b0111:begin
-                leds = inputA >> inputB;
-                flag = 0;
+                led_bits <= inputA >> inputB;
+                flag <= 'b0;
             end
             'b1000:begin
-                leds = inputA >>> inputB;
-                flag = 0;
+                led_bits <= inputA >>> inputB;
+                flag <= 'b0;
             end
             'b1001:begin
-                leds = (inputA << inputB) + (inputA >> (15 - inputB));
-                flag = 0;
+                led_bits <= (inputA << inputB) + (inputA >> (15 - inputB));
+                flag <= 'b0;
             end
-            default: flag = 0;
+            default: flag <= 'b0;
             endcase
-    end
-    else flag = 0;// do nothing
+        end
+        'b11:begin
+            led_bits = 16'h0 + flag;
+             // TODO: ï¿½ï¿½ï¿½ï¿½Ó¦ï¿½ï¿½ï¿½ï¿½ï¿½aluï¿½Ä´ï¿½ï¿½ï¿½,ï¿½ï¿½×´Ì¬3Ó¦ï¿½ï¿½ï¿½ï¿½ï¿½Ö¾Î»
+        end
+        default: led_bits <= 16'h0; //
+    endcase
+//    if(cur_state == 'b10) begin
+//         case(opcode)
+//             'b0000:begin
+//                 led_bits <= inputA + inputB;
+//                 flag <= (led_bits[15])&(~inputA[15])&(~inputB[15]) | (~led_bits[15])&(inputA[15])&(inputB[15]);
+//             end
+//             'b0001:begin
+//                 led_bits  <= inputA - inputB;
+//                 flag <= (led_bits[15])&(~inputA[15])&(inputB[15]) | (~led_bits[15])&(inputA[15])&(~inputB[15]);
+//             end
+//             'b0010:begin
+//                 led_bits <= inputA - inputB;
+//                 flag <= 'b0;
+//             end
+//             'b0011:begin
+//                 led_bits <= inputA | inputB;
+//                 flag <= 'b0;
+//             end
+//             'b0100:begin
+//                 led_bits <= inputA ^ inputB;
+//                 flag <= 'b0;
+//             end
+//             'b0101:begin
+//                 led_bits <= ~inputA;
+//                 flag <= 'b0;
+//             end
+//             'b0110:begin
+//                 led_bits <= inputA << inputB;
+//                 flag <= 'b0;
+//             end
+//             'b0111:begin
+//                 led_bits <= inputA >> inputB;
+//                 flag <= 'b0;
+//             end
+//             'b1000:begin
+//                 led_bits <= inputA >>> inputB;
+//                 flag <= 'b0;
+//             end
+//             'b1001:begin
+//                 led_bits <= (inputA << inputB) + (inputA >> (15 - inputB));
+//                 flag <= 'b0;
+//             end
+//             default: flag <= 'b0;
+//             endcase
+//     end
+//     else flag <= 0;// do nothing
 end
 endmodule
