@@ -1,5 +1,8 @@
 `default_nettype none
 
+`include "sram.v"
+
+
 module thinpad_top(
     input wire clk_50M,           //50MHz 时钟输入
     input wire clk_11M0592,       //11.0592MHz 时钟输入（备用，可不用）
@@ -93,9 +96,170 @@ assign ext_ram_we_n = 1'b1;
 assign uart_rdn = 1'b1;
 assign uart_wrn = 1'b1;
 
+assign ext_ram_be_n = 'b0;
+assign base_ram_be_n = 'b0;
 
 
+reg[15:0] led_bits;
+assign leds = led_bits;
+
+localparam STATE_GET_ADDRESS = 4'b0000;
+localparam STATE_GET_DATA = 4'b0001;
+
+localparam STATE_WRITE_BASE_1 = 4'b0010;
+localparam STATE_WRITE_BASE_2 = 4'b0011;
+
+localparam STATE_READ_BASE_1 = 4'b0100;
+localparam STATE_READ_BASE_2 = 4'b0101;
+
+localparam STATE_WRITE_EXT_1 = 4'b0110;
+localparam STATE_WRITE_EXT_2 = 4'b0111;
+
+localparam STATE_READ_EXT_1 = 4'b1000;
+localparam STATE_READ_EXT_2 = 4'b1001;
 
 
+reg oe;
+reg we;
+reg[3:0]be;
+reg[19:0]addr;
+reg[2:0] state;
+wire[15:0] data_in;
+reg[15:0] data_out;
+reg[4:0] count;
+
+reg base_ram_ce;
+assign base_ram_ce_n = base_ram_ce;
+
+reg ext_ram_ce;
+assign ext_ram_ce_n = ext_ram_ce;
+
+
+always@(posedge clock_btn or posedge reset_btn) begin
+    if(reset_btn) begin
+        state <= STATE_GET_ADDRESS;
+        count <= 4'b1010;
+        we <= 1'b1;
+        oe <= 1'b1;
+        be <= 'b0;
+        addr <= 'b0;
+        data_out <= 'b0;
+        // data_in <= 'b0;
+
+        ext_ram_ce <= 1'b1;
+        base_ram_ce <= 1'b1;
+    end
+    else case(state) 
+        STATE_GET_ADDRESS: begin
+            addr <= dip_sw[19:0];
+            state <= STATE_GET_DATA;
+        end
+        STATE_GET_DATA: begin
+            data_out <= dip_sw[15:0];
+            state <= STATE_WRITE_BASE_1;
+            base_ram_ce <= 1'b0;
+        end
+        STATE_WRITE_BASE_1: begin
+            if(count == 4'b0001) begin
+                state <= STATE_READ_BASE_1;
+                count <= 4'b1010;
+                addr <= addr - 'b10000 * 10; // 地址恢复
+            end
+            else begin
+                count <= count - 'b1;
+                we <= 1'b0; // 取反
+                state <= STATE_WRITE_BASE_2;
+            end
+        end
+        STATE_WRITE_BASE_2: begin 
+            we <= 1'b1;
+            state <= STATE_WRITE_BASE_1;
+            data_out <= data_out + 1;
+            addr <= addr + 'b10000; // 地址加几位？
+        end
+        STATE_READ_BASE_1: begin
+            if(count == 4'b0001) begin
+                state <= STATE_WRITE_EXT_1;
+                ext_ram_ce <= 1'b1;
+                count <= 5'b1010;
+                addr <= addr - 'b10000 * 10;
+                data_out <= data_out - 'b100;
+            end
+            else begin
+                count <= count - 1;
+                oe <= 1'b0;
+                state <= STATE_READ_BASE_2;
+            end
+        end
+        STATE_READ_BASE_2: begin
+            oe <= 1'b1;
+            state <= STATE_READ_BASE_1;
+            led_bits <= data_in; // ****
+        end
+        STATE_WRITE_EXT_1: begin
+            if(count == 4'b0001) begin
+                state <= STATE_READ_EXT_1;
+                count <= 4'b1010;
+                addr <= addr - 'b10000 * 10; // 地址恢复
+            end
+            else begin
+                count <= count - 'b1;
+                we <= 1'b0; // 取反
+                state <= STATE_WRITE_BASE_2;
+            end
+        end
+        STATE_WRITE_EXT_2: begin
+            we <= 1'b1;
+            state <= STATE_WRITE_EXT_1;
+            data_out <= data_out + 1;
+            addr <= addr + 'b10000; // 地址加几位？
+        end
+        STATE_READ_EXT_1: begin
+            if(count == 4'b0001) begin
+                state <= STATE_GET_ADDRESS; // 不确定转移到哪里
+                count <= 5'b1010;
+                addr <= addr - 'b10000 * 10;
+                data_out <= data_out - 'b100;
+            end
+            else begin
+                count <= count - 1;
+                oe <= 1'b0;
+                state <= STATE_READ_BASE_2;
+            end
+        end
+        STATE_READ_EXT_2: begin
+            oe <= 1'b1;
+            state <= STATE_READ_EXT_1;
+            led_bits <= data_in;
+        end
+    endcase
+end
+
+sram _sram(
+    .clk(clk_50M),
+    .rst(reset_btn),
+
+    .oe(oe),
+    .we(we),
+    .be(be),
+
+    .addr(addr),
+    .data_in(data_in),
+    .data_out(data_out),
+
+    .base_ram_data_wire(base_ram_data),
+    .base_ram_addr(base_ram_addr),
+    .base_ram_be_n(base_ram_be_n),
+    .base_ram_ce_n(base_ram_ce_n),
+    .base_ram_oe_n(base_ram_oe_n),
+    .base_ram_we_n(base_ram_we_n),
+
+    .ext_ram_data_wire(base_ram_data),
+    .ext_ram_addr(base_ram_addr),
+    .ext_ram_be_n(base_ram_be_n),
+    .ext_ram_ce_n(base_ram_ce_n),
+    .ext_ram_oe_n(base_ram_oe_n),
+    .ext_ram_we_n(base_ram_we_n)
+);
 
 endmodule
