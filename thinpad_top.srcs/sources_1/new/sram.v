@@ -33,8 +33,8 @@ module sram(
     input wire[3:0] be, // 字节使能
 
     input wire[19:0] addr, // 要写入的地址
-    output wire[15:0] data_in, // 读出的数据，送到上层
-    input wire[15:0] data_out, // 要写入的数据
+    output wire[31:0] data_in, // 读出的数据，送到上层
+    input wire[31:0] data_out, // 要写入的数据
 
 
     // 与下层连线
@@ -76,7 +76,7 @@ reg ext_ram_we, ext_ram_oe;
 assign ext_ram_we_n = ext_ram_we;
 assign ext_ram_oe_n = ext_ram_oe;
 
-reg[15:0] data_in_reg;
+reg[31:0] data_in_reg;
 assign data_in = data_in_reg;
 
 assign base_ram_addr = addr;
@@ -97,8 +97,8 @@ always@(posedge rst or posedge clk) begin
     
     else case(state)
         STATE_IDLE: begin
-            base_ram_data[15:0] <= data_out; // 上层需要处理，如果当前为读，data_out需要是z。
-            ext_ram_data[15:0] <= data_out; // 选片交给上层，通过ce选.
+            base_ram_data <= data_out; // 上层需要处理，如果当前为读，data_out需要是z。
+            ext_ram_data <= data_out; // 选片交给上层，通过ce选.
     
             base_ram_oe <= 1'b1;
             ext_ram_oe <= 1'b1;

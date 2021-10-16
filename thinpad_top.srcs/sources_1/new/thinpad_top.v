@@ -132,8 +132,8 @@ reg we;
 reg[3:0]be;
 reg[19:0]addr;
 reg[4:0] state;
-wire[15:0] data_in;
-reg[15:0] data_out;
+wire[31:0] data_in;
+reg[31:0] data_out;
 reg[3:0] count;
 
 reg base_ram_ce;
@@ -166,7 +166,7 @@ always@(posedge clock_btn or posedge reset_btn) begin
             base_ram_ce <= 1'b0;
         end
         STATE_GET_DATA: begin
-            data_out <= dip_sw[15:0];
+            data_out <= dip_sw;
             state <= STATE_WRITE_BASE_1;
         end
         STATE_WRITE_BASE_1: begin
@@ -197,7 +197,7 @@ always@(posedge clock_btn or posedge reset_btn) begin
                 count <= 4'b1010;
                 addr <= addr - 'b1001;
                 data_z <= 'b0;
-                data_out <= data_out - 16'b101;
+                data_out <= data_out - 32'b101;
             end
             else begin
                 oe <= 1'b0;
@@ -210,7 +210,7 @@ always@(posedge clock_btn or posedge reset_btn) begin
             oe <= 1'b1;
             count <= count - 1;
             state <= STATE_READ_BASE_1;
-            led_bits <= data_in;
+            led_bits <= data_in[15:0];
         end
         STATE_WRITE_EXT_1: begin
             count <= count - 'b1;
@@ -244,13 +244,14 @@ always@(posedge clock_btn or posedge reset_btn) begin
                 count <= count - 1;
                 oe <= 1'b0;
                 state <= STATE_READ_EXT_2;
+                addr <= addr + 'b1;
             end
         end
         STATE_READ_EXT_2: begin
             dp0 <= 8'b10000000;
             oe <= 1'b1;
             state <= STATE_READ_EXT_1;
-            led_bits <= data_in;
+            led_bits <= data_in[15:0];
         end
         default: begin
             state <= STATE_GET_ADDRESS;
