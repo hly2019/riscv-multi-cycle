@@ -88,6 +88,8 @@ always@(posedge rst or posedge clk) begin
         base_ram_oe <= 1'b1;
         ext_ram_oe <= 1'b1;
         ext_ram_we <= 1'b1;
+        base_ram_data <= 32'b0;
+        ext_ram_data <= 32'b0;
     end
     
     else case(state)
@@ -112,7 +114,7 @@ always@(posedge rst or posedge clk) begin
         STATE_WRITE_0: begin
             base_ram_we <= 1'b0; // 信号拉低，写。
             ext_ram_we <= 1'b0;
-            state <= STATE_WRITE_1;
+            state <= STATE_WRITE_1; 
         end
         STATE_WRITE_1: begin
             base_ram_we <= 1'b1; // 信号拉高
@@ -137,6 +139,9 @@ always@(posedge rst or posedge clk) begin
             else begin
                 state <= STATE_READ_1;
             end
+        end
+        default: begin
+            state <= STATE_IDLE;
         end
     endcase
 

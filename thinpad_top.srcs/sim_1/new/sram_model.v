@@ -448,6 +448,8 @@ always@(initiate_read1 or initiate_read2)
              end
          end
          else
+         
+         
              #toh data_read <=16'hzzzz;
       end
       initiate_read1 <=1'b0;
