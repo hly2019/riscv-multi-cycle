@@ -144,7 +144,7 @@ always@(posedge rst or posedge clk) begin
             state <= STATE_READ_1;
         end
         STATE_READ_1: begin
-            led_bits <= data_z ? 'b0: base_ram_ce_n ? ext_ram_data_wire: base_ram_data_wire;
+            led_bits <=  base_ram_ce_n ? ext_ram_data_wire: base_ram_data_wire;
             if(oe == 1'b1) begin
                 state <= STATE_IDLE;
             end

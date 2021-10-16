@@ -234,7 +234,7 @@ always@(posedge clock_btn or posedge reset_btn) begin
             end
         end
         STATE_READ_EXT_1: begin
-            if(count == 4'b0001) begin
+            if(count == 4'b0000) begin
                 count <= 4'b1010;
                 state <= STATE_READ_EXT_1;
                 // led_bits <= 'b0;

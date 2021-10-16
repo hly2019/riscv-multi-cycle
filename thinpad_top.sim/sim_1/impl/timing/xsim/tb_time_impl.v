@@ -1,7 +1,7 @@
 // Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-// Date        : Sat Oct 16 20:53:00 2021
+// Date        : Sat Oct 16 21:25:59 2021
 // Host        : DESKTOP-LOG1PQ3 running 64-bit major release  (build 9200)
 // Command     : write_verilog -mode timesim -nolib -sdf_anno true -force -file
 //               C:/Users/22850/Desktop/temp/cod21-hly19/thinpad_top.sim/sim_1/impl/timing/xsim/tb_time_impl.v
@@ -37,7 +37,7 @@ module IOBUF_UNIQ_BASE_
         .T(T));
 endmodule
 
-module IOBUF_HD838
+module IOBUF_HD900
    (IO,
     O,
     I,
@@ -61,7 +61,7 @@ module IOBUF_HD838
         .T(T));
 endmodule
 
-module IOBUF_HD839
+module IOBUF_HD901
    (IO,
     O,
     I,
@@ -85,7 +85,7 @@ module IOBUF_HD839
         .T(T));
 endmodule
 
-module IOBUF_HD840
+module IOBUF_HD902
    (IO,
     O,
     I,
@@ -109,7 +109,7 @@ module IOBUF_HD840
         .T(T));
 endmodule
 
-module IOBUF_HD841
+module IOBUF_HD903
    (IO,
     O,
     I,
@@ -133,7 +133,7 @@ module IOBUF_HD841
         .T(T));
 endmodule
 
-module IOBUF_HD842
+module IOBUF_HD904
    (IO,
     O,
     I,
@@ -157,7 +157,7 @@ module IOBUF_HD842
         .T(T));
 endmodule
 
-module IOBUF_HD843
+module IOBUF_HD905
    (IO,
     O,
     I,
@@ -181,7 +181,7 @@ module IOBUF_HD843
         .T(T));
 endmodule
 
-module IOBUF_HD844
+module IOBUF_HD906
    (IO,
     O,
     I,
@@ -205,7 +205,7 @@ module IOBUF_HD844
         .T(T));
 endmodule
 
-module IOBUF_HD845
+module IOBUF_HD907
    (IO,
     O,
     I,
@@ -229,7 +229,7 @@ module IOBUF_HD845
         .T(T));
 endmodule
 
-module IOBUF_HD846
+module IOBUF_HD908
    (IO,
     O,
     I,
@@ -253,7 +253,7 @@ module IOBUF_HD846
         .T(T));
 endmodule
 
-module IOBUF_HD847
+module IOBUF_HD909
    (IO,
     O,
     I,
@@ -277,7 +277,7 @@ module IOBUF_HD847
         .T(T));
 endmodule
 
-module IOBUF_HD848
+module IOBUF_HD910
    (IO,
     O,
     I,
@@ -301,7 +301,7 @@ module IOBUF_HD848
         .T(T));
 endmodule
 
-module IOBUF_HD849
+module IOBUF_HD911
    (IO,
     O,
     I,
@@ -325,7 +325,7 @@ module IOBUF_HD849
         .T(T));
 endmodule
 
-module IOBUF_HD850
+module IOBUF_HD912
    (IO,
     O,
     I,
@@ -349,7 +349,7 @@ module IOBUF_HD850
         .T(T));
 endmodule
 
-module IOBUF_HD851
+module IOBUF_HD913
    (IO,
     O,
     I,
@@ -373,7 +373,7 @@ module IOBUF_HD851
         .T(T));
 endmodule
 
-module IOBUF_HD852
+module IOBUF_HD914
    (IO,
     O,
     I,
@@ -397,7 +397,7 @@ module IOBUF_HD852
         .T(T));
 endmodule
 
-module IOBUF_HD853
+module IOBUF_HD915
    (IO,
     O,
     I,
@@ -421,7 +421,7 @@ module IOBUF_HD853
         .T(T));
 endmodule
 
-module IOBUF_HD854
+module IOBUF_HD916
    (IO,
     O,
     I,
@@ -445,7 +445,7 @@ module IOBUF_HD854
         .T(T));
 endmodule
 
-module IOBUF_HD855
+module IOBUF_HD917
    (IO,
     O,
     I,
@@ -469,7 +469,7 @@ module IOBUF_HD855
         .T(T));
 endmodule
 
-module IOBUF_HD856
+module IOBUF_HD918
    (IO,
     O,
     I,
@@ -493,7 +493,7 @@ module IOBUF_HD856
         .T(T));
 endmodule
 
-module IOBUF_HD857
+module IOBUF_HD919
    (IO,
     O,
     I,
@@ -517,7 +517,7 @@ module IOBUF_HD857
         .T(T));
 endmodule
 
-module IOBUF_HD858
+module IOBUF_HD920
    (IO,
     O,
     I,
@@ -541,7 +541,7 @@ module IOBUF_HD858
         .T(T));
 endmodule
 
-module IOBUF_HD859
+module IOBUF_HD921
    (IO,
     O,
     I,
@@ -565,7 +565,7 @@ module IOBUF_HD859
         .T(T));
 endmodule
 
-module IOBUF_HD860
+module IOBUF_HD922
    (IO,
     O,
     I,
@@ -589,7 +589,7 @@ module IOBUF_HD860
         .T(T));
 endmodule
 
-module IOBUF_HD861
+module IOBUF_HD923
    (IO,
     O,
     I,
@@ -613,7 +613,7 @@ module IOBUF_HD861
         .T(T));
 endmodule
 
-module IOBUF_HD862
+module IOBUF_HD924
    (IO,
     O,
     I,
@@ -637,7 +637,7 @@ module IOBUF_HD862
         .T(T));
 endmodule
 
-module IOBUF_HD863
+module IOBUF_HD925
    (IO,
     O,
     I,
@@ -661,7 +661,7 @@ module IOBUF_HD863
         .T(T));
 endmodule
 
-module IOBUF_HD864
+module IOBUF_HD926
    (IO,
     O,
     I,
@@ -685,7 +685,7 @@ module IOBUF_HD864
         .T(T));
 endmodule
 
-module IOBUF_HD865
+module IOBUF_HD927
    (IO,
     O,
     I,
@@ -709,7 +709,7 @@ module IOBUF_HD865
         .T(T));
 endmodule
 
-module IOBUF_HD866
+module IOBUF_HD928
    (IO,
     O,
     I,
@@ -733,7 +733,7 @@ module IOBUF_HD866
         .T(T));
 endmodule
 
-module IOBUF_HD867
+module IOBUF_HD929
    (IO,
     O,
     I,
@@ -757,7 +757,7 @@ module IOBUF_HD867
         .T(T));
 endmodule
 
-module IOBUF_HD868
+module IOBUF_HD930
    (IO,
     O,
     I,
@@ -1498,7 +1498,7 @@ module sram
         .Q(Q[9]));
 endmodule
 
-(* ECO_CHECKSUM = "1a8b810d" *) (* STATE_GET_ADDRESS = "5'b00000" *) (* STATE_GET_DATA = "5'b00001" *) 
+(* ECO_CHECKSUM = "72ebd7d3" *) (* STATE_GET_ADDRESS = "5'b00000" *) (* STATE_GET_DATA = "5'b00001" *) 
 (* STATE_READ_BASE_1 = "5'b00100" *) (* STATE_READ_BASE_2 = "5'b00101" *) (* STATE_READ_EXT_1 = "5'b01000" *) 
 (* STATE_READ_EXT_2 = "5'b01001" *) (* STATE_WRITE_BASE_1 = "5'b00010" *) (* STATE_WRITE_BASE_2 = "5'b00011" *) 
 (* STATE_WRITE_EXT_1 = "5'b00110" *) (* STATE_WRITE_EXT_2 = "5'b00111" *) 
@@ -1768,15 +1768,18 @@ module thinpad_top
   wire clock_btn_IBUF_BUFG;
   wire count;
   wire \count[0]_i_1_n_0 ;
+  wire \count[0]_i_2_n_0 ;
+  wire \count[0]_i_3_n_0 ;
   wire \count[1]_i_1_n_0 ;
   wire \count[1]_i_2_n_0 ;
   wire \count[2]_i_1_n_0 ;
+  wire \count[2]_i_2_n_0 ;
+  wire \count[2]_i_3_n_0 ;
   wire \count[3]_i_2_n_0 ;
   wire \count[3]_i_3_n_0 ;
   wire \count[3]_i_4_n_0 ;
   wire \count[3]_i_5_n_0 ;
   wire \count[3]_i_6_n_0 ;
-  wire \count[3]_i_7_n_0 ;
   wire \count_reg_n_0_[0] ;
   wire \count_reg_n_0_[1] ;
   wire \count_reg_n_0_[2] ;
@@ -1935,7 +1938,6 @@ module thinpad_top
   wire \dp0[5]_i_1_n_0 ;
   wire \dp0[7]_i_1_n_0 ;
   wire \dp0[7]_i_2_n_0 ;
-  wire \dp0[7]_i_3_n_0 ;
   wire \dp0_reg[3]_lopt_replica_1 ;
   wire \dp0_reg[5]_lopt_replica_1 ;
   wire \dp0_reg[6]_lopt_replica_1 ;
@@ -1972,7 +1974,7 @@ module thinpad_top
   wire flash_rp_n;
   wire flash_vpen;
   wire flash_we_n;
-  wire [19:1]in14;
+  wire [19:1]in13;
   wire [31:1]in6;
   wire [31:1]in7;
   wire [15:0]leds;
@@ -2072,24 +2074,24 @@ end
         .I4(\count_reg_n_0_[0] ),
         .I5(\FSM_onehot_state_reg_n_0_[4] ),
         .O(\FSM_onehot_state[5]_i_1_n_0 ));
-  LUT5 #(
-    .INIT(32'hCCCCEEFC)) 
+  LUT4 #(
+    .INIT(16'hCCFE)) 
     \FSM_onehot_state[7]_i_1 
        (.I0(\FSM_onehot_state_reg_n_0_[7] ),
         .I1(\FSM_onehot_state_reg_n_0_[8] ),
         .I2(\FSM_onehot_state_reg_n_0_[6] ),
-        .I3(\count_reg_n_0_[0] ),
-        .I4(\FSM_onehot_state[7]_i_2_n_0 ),
+        .I3(\FSM_onehot_state[7]_i_2_n_0 ),
         .O(\FSM_onehot_state[7]_i_1_n_0 ));
-  LUT3 #(
-    .INIT(8'hFE)) 
+  LUT4 #(
+    .INIT(16'hFFFE)) 
     \FSM_onehot_state[7]_i_2 
-       (.I0(\count_reg_n_0_[2] ),
+       (.I0(\count_reg_n_0_[3] ),
         .I1(\count_reg_n_0_[1] ),
-        .I2(\count_reg_n_0_[3] ),
+        .I2(\count_reg_n_0_[2] ),
+        .I3(\count_reg_n_0_[0] ),
         .O(\FSM_onehot_state[7]_i_2_n_0 ));
   LUT5 #(
-    .INIT(32'hFFFD0000)) 
+    .INIT(32'hFFFE0000)) 
     \FSM_onehot_state[8]_i_1 
        (.I0(\count_reg_n_0_[0] ),
         .I1(\count_reg_n_0_[2] ),
@@ -2226,7 +2228,7 @@ end
     .INIT(64'hFF00FFFFFF00FFF8)) 
     \addr[0]_i_2 
        (.I0(\FSM_onehot_state_reg_n_0_[3] ),
-        .I1(\FSM_onehot_state[7]_i_2_n_0 ),
+        .I1(\count[0]_i_2_n_0 ),
         .I2(\FSM_onehot_state_reg_n_0_[4] ),
         .I3(\addr[0]_i_5_n_0 ),
         .I4(ext_ram_addr_OBUF[0]),
@@ -2249,12 +2251,12 @@ end
         .I1(\FSM_onehot_state_reg_n_0_[2] ),
         .O(\addr[0]_i_5_n_0 ));
   LUT5 #(
-    .INIT(32'hFFFFF5E0)) 
+    .INIT(32'hFFFF88F8)) 
     \addr[0]_i_6 
-       (.I0(\count_reg_n_0_[0] ),
-        .I1(\FSM_onehot_state[7]_i_2_n_0 ),
-        .I2(\FSM_onehot_state_reg_n_0_[6] ),
-        .I3(\FSM_onehot_state_reg_n_0_[3] ),
+       (.I0(\FSM_onehot_state[7]_i_2_n_0 ),
+        .I1(\FSM_onehot_state_reg_n_0_[6] ),
+        .I2(\FSM_onehot_state_reg_n_0_[3] ),
+        .I3(\count_reg_n_0_[0] ),
         .I4(\FSM_onehot_state_reg_n_0_[7] ),
         .O(\addr[0]_i_6_n_0 ));
   LUT1 #(
@@ -2283,7 +2285,7 @@ end
         .I1(\addr_reg[12]_i_3_n_6 ),
         .I2(\addr[0]_i_3_n_0 ),
         .I3(addr0[10]),
-        .I4(in14[10]),
+        .I4(in13[10]),
         .I5(\addr[19]_i_7_n_0 ),
         .O(\addr[10]_i_2_n_0 ));
   LUT5 #(
@@ -2302,7 +2304,7 @@ end
         .I1(\addr_reg[12]_i_3_n_5 ),
         .I2(\addr[0]_i_3_n_0 ),
         .I3(addr0[11]),
-        .I4(in14[11]),
+        .I4(in13[11]),
         .I5(\addr[19]_i_7_n_0 ),
         .O(\addr[11]_i_2_n_0 ));
   LUT1 #(
@@ -2341,7 +2343,7 @@ end
         .I1(\addr_reg[12]_i_3_n_4 ),
         .I2(\addr[0]_i_3_n_0 ),
         .I3(addr0[12]),
-        .I4(in14[12]),
+        .I4(in13[12]),
         .I5(\addr[19]_i_7_n_0 ),
         .O(\addr[12]_i_2_n_0 ));
   LUT1 #(
@@ -2380,7 +2382,7 @@ end
         .I1(\addr_reg[16]_i_3_n_7 ),
         .I2(\addr[0]_i_3_n_0 ),
         .I3(addr0[13]),
-        .I4(in14[13]),
+        .I4(in13[13]),
         .I5(\addr[19]_i_7_n_0 ),
         .O(\addr[13]_i_2_n_0 ));
   LUT5 #(
@@ -2399,7 +2401,7 @@ end
         .I1(\addr_reg[16]_i_3_n_6 ),
         .I2(\addr[0]_i_3_n_0 ),
         .I3(addr0[14]),
-        .I4(in14[14]),
+        .I4(in13[14]),
         .I5(\addr[19]_i_7_n_0 ),
         .O(\addr[14]_i_2_n_0 ));
   LUT5 #(
@@ -2418,7 +2420,7 @@ end
         .I1(\addr_reg[16]_i_3_n_5 ),
         .I2(\addr[0]_i_3_n_0 ),
         .I3(addr0[15]),
-        .I4(in14[15]),
+        .I4(in13[15]),
         .I5(\addr[19]_i_7_n_0 ),
         .O(\addr[15]_i_2_n_0 ));
   LUT1 #(
@@ -2457,7 +2459,7 @@ end
         .I1(\addr_reg[16]_i_3_n_4 ),
         .I2(\addr[0]_i_3_n_0 ),
         .I3(addr0[16]),
-        .I4(in14[16]),
+        .I4(in13[16]),
         .I5(\addr[19]_i_7_n_0 ),
         .O(\addr[16]_i_2_n_0 ));
   LUT1 #(
@@ -2496,7 +2498,7 @@ end
         .I1(\addr_reg[19]_i_4_n_7 ),
         .I2(\addr[0]_i_3_n_0 ),
         .I3(addr0[17]),
-        .I4(in14[17]),
+        .I4(in13[17]),
         .I5(\addr[19]_i_7_n_0 ),
         .O(\addr[17]_i_2_n_0 ));
   LUT5 #(
@@ -2515,16 +2517,16 @@ end
         .I1(\addr_reg[19]_i_4_n_6 ),
         .I2(\addr[0]_i_3_n_0 ),
         .I3(addr0[18]),
-        .I4(in14[18]),
+        .I4(in13[18]),
         .I5(\addr[19]_i_7_n_0 ),
         .O(\addr[18]_i_2_n_0 ));
   LUT6 #(
-    .INIT(64'hFFFFFFFFFFFFFFD0)) 
+    .INIT(64'hFFFFFFFFFFFFFFF8)) 
     \addr[19]_i_1 
-       (.I0(\count_reg_n_0_[0] ),
-        .I1(\FSM_onehot_state[7]_i_2_n_0 ),
-        .I2(\FSM_onehot_state_reg_n_0_[7] ),
-        .I3(\data_out[0]_i_3_n_0 ),
+       (.I0(\FSM_onehot_state[7]_i_2_n_0 ),
+        .I1(\FSM_onehot_state_reg_n_0_[7] ),
+        .I2(\FSM_onehot_state_reg_n_0_[6] ),
+        .I3(\FSM_onehot_state_reg_n_0_[3] ),
         .I4(\FSM_onehot_state_reg_n_0_[4] ),
         .I5(\FSM_onehot_state_reg_n_0_[0] ),
         .O(addr));
@@ -2569,7 +2571,7 @@ end
         .I1(\addr_reg[19]_i_4_n_5 ),
         .I2(\addr[0]_i_3_n_0 ),
         .I3(addr0[19]),
-        .I4(in14[19]),
+        .I4(in13[19]),
         .I5(\addr[19]_i_7_n_0 ),
         .O(\addr[19]_i_3_n_0 ));
   LUT6 #(
@@ -2578,7 +2580,7 @@ end
        (.I0(\FSM_onehot_state_reg_n_0_[7] ),
         .I1(\FSM_onehot_state_reg_n_0_[6] ),
         .I2(\count_reg_n_0_[0] ),
-        .I3(\FSM_onehot_state[7]_i_2_n_0 ),
+        .I3(\count[0]_i_2_n_0 ),
         .I4(\FSM_onehot_state_reg_n_0_[4] ),
         .I5(\FSM_onehot_state_reg_n_0_[3] ),
         .O(\addr[19]_i_7_n_0 ));
@@ -2608,7 +2610,7 @@ end
         .I1(\addr_reg[4]_i_3_n_7 ),
         .I2(\addr[0]_i_3_n_0 ),
         .I3(addr0[1]),
-        .I4(in14[1]),
+        .I4(in13[1]),
         .I5(\addr[19]_i_7_n_0 ),
         .O(\addr[1]_i_2_n_0 ));
   LUT5 #(
@@ -2627,7 +2629,7 @@ end
         .I1(\addr_reg[4]_i_3_n_6 ),
         .I2(\addr[0]_i_3_n_0 ),
         .I3(addr0[2]),
-        .I4(in14[2]),
+        .I4(in13[2]),
         .I5(\addr[19]_i_7_n_0 ),
         .O(\addr[2]_i_2_n_0 ));
   LUT5 #(
@@ -2646,7 +2648,7 @@ end
         .I1(\addr_reg[4]_i_3_n_5 ),
         .I2(\addr[0]_i_3_n_0 ),
         .I3(addr0[3]),
-        .I4(in14[3]),
+        .I4(in13[3]),
         .I5(\addr[19]_i_7_n_0 ),
         .O(\addr[3]_i_2_n_0 ));
   LUT5 #(
@@ -2665,7 +2667,7 @@ end
         .I1(\addr_reg[4]_i_3_n_4 ),
         .I2(\addr[0]_i_3_n_0 ),
         .I3(addr0[4]),
-        .I4(in14[4]),
+        .I4(in13[4]),
         .I5(\addr[19]_i_7_n_0 ),
         .O(\addr[4]_i_2_n_0 ));
   LUT1 #(
@@ -2699,7 +2701,7 @@ end
         .I1(\addr_reg[8]_i_3_n_7 ),
         .I2(\addr[0]_i_3_n_0 ),
         .I3(addr0[5]),
-        .I4(in14[5]),
+        .I4(in13[5]),
         .I5(\addr[19]_i_7_n_0 ),
         .O(\addr[5]_i_2_n_0 ));
   LUT5 #(
@@ -2718,7 +2720,7 @@ end
         .I1(\addr_reg[8]_i_3_n_6 ),
         .I2(\addr[0]_i_3_n_0 ),
         .I3(addr0[6]),
-        .I4(in14[6]),
+        .I4(in13[6]),
         .I5(\addr[19]_i_7_n_0 ),
         .O(\addr[6]_i_2_n_0 ));
   LUT5 #(
@@ -2737,7 +2739,7 @@ end
         .I1(\addr_reg[8]_i_3_n_5 ),
         .I2(\addr[0]_i_3_n_0 ),
         .I3(addr0[7]),
-        .I4(in14[7]),
+        .I4(in13[7]),
         .I5(\addr[19]_i_7_n_0 ),
         .O(\addr[7]_i_2_n_0 ));
   LUT1 #(
@@ -2776,7 +2778,7 @@ end
         .I1(\addr_reg[8]_i_3_n_4 ),
         .I2(\addr[0]_i_3_n_0 ),
         .I3(addr0[8]),
-        .I4(in14[8]),
+        .I4(in13[8]),
         .I5(\addr[19]_i_7_n_0 ),
         .O(\addr[8]_i_2_n_0 ));
   LUT1 #(
@@ -2815,7 +2817,7 @@ end
         .I1(\addr_reg[12]_i_3_n_7 ),
         .I2(\addr[0]_i_3_n_0 ),
         .I3(addr0[9]),
-        .I4(in14[9]),
+        .I4(in13[9]),
         .I5(\addr[19]_i_7_n_0 ),
         .O(\addr[9]_i_2_n_0 ));
   FDCE #(
@@ -2880,7 +2882,7 @@ end
         .CO({\addr_reg[12]_i_4_n_0 ,\NLW_addr_reg[12]_i_4_CO_UNCONNECTED [2:0]}),
         .CYINIT(1'b0),
         .DI({1'b0,1'b0,1'b0,1'b0}),
-        .O(in14[12:9]),
+        .O(in13[12:9]),
         .S(ext_ram_addr_OBUF[12:9]));
   FDCE #(
     .INIT(1'b0)) 
@@ -2936,7 +2938,7 @@ end
         .CO({\addr_reg[16]_i_4_n_0 ,\NLW_addr_reg[16]_i_4_CO_UNCONNECTED [2:0]}),
         .CYINIT(1'b0),
         .DI({1'b0,1'b0,1'b0,1'b0}),
-        .O(in14[16:13]),
+        .O(in13[16:13]),
         .S(ext_ram_addr_OBUF[16:13]));
   FDCE #(
     .INIT(1'b0)) 
@@ -2984,7 +2986,7 @@ end
         .CO(\NLW_addr_reg[19]_i_6_CO_UNCONNECTED [3:0]),
         .CYINIT(1'b0),
         .DI({1'b0,1'b0,1'b0,1'b0}),
-        .O({\NLW_addr_reg[19]_i_6_O_UNCONNECTED [3],in14[19:17]}),
+        .O({\NLW_addr_reg[19]_i_6_O_UNCONNECTED [3],in13[19:17]}),
         .S({1'b0,ext_ram_addr_OBUF[19:17]}));
   FDCE #(
     .INIT(1'b0)) 
@@ -3032,7 +3034,7 @@ end
         .CO({\addr_reg[4]_i_4_n_0 ,\NLW_addr_reg[4]_i_4_CO_UNCONNECTED [2:0]}),
         .CYINIT(ext_ram_addr_OBUF[0]),
         .DI({1'b0,1'b0,1'b0,1'b0}),
-        .O(in14[4:1]),
+        .O(in13[4:1]),
         .S(ext_ram_addr_OBUF[4:1]));
   FDCE #(
     .INIT(1'b0)) 
@@ -3088,7 +3090,7 @@ end
         .CO({\addr_reg[8]_i_4_n_0 ,\NLW_addr_reg[8]_i_4_CO_UNCONNECTED [2:0]}),
         .CYINIT(1'b0),
         .DI({1'b0,1'b0,1'b0,1'b0}),
-        .O(in14[8:5]),
+        .O(in13[8:5]),
         .S(ext_ram_addr_OBUF[8:5]));
   FDCE #(
     .INIT(1'b0)) 
@@ -3196,91 +3198,91 @@ end
         .O(base_ram_data_IBUF[0]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD838 \base_ram_data_IOBUF[10]_inst 
+  IOBUF_HD900 \base_ram_data_IOBUF[10]_inst 
        (.I(ext_ram_data_OBUF[10]),
         .IO(base_ram_data[10]),
         .O(base_ram_data_IBUF[10]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD839 \base_ram_data_IOBUF[11]_inst 
+  IOBUF_HD901 \base_ram_data_IOBUF[11]_inst 
        (.I(ext_ram_data_OBUF[11]),
         .IO(base_ram_data[11]),
         .O(base_ram_data_IBUF[11]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD840 \base_ram_data_IOBUF[12]_inst 
+  IOBUF_HD902 \base_ram_data_IOBUF[12]_inst 
        (.I(ext_ram_data_OBUF[12]),
         .IO(base_ram_data[12]),
         .O(base_ram_data_IBUF[12]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD841 \base_ram_data_IOBUF[13]_inst 
+  IOBUF_HD903 \base_ram_data_IOBUF[13]_inst 
        (.I(ext_ram_data_OBUF[13]),
         .IO(base_ram_data[13]),
         .O(base_ram_data_IBUF[13]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD842 \base_ram_data_IOBUF[14]_inst 
+  IOBUF_HD904 \base_ram_data_IOBUF[14]_inst 
        (.I(ext_ram_data_OBUF[14]),
         .IO(base_ram_data[14]),
         .O(base_ram_data_IBUF[14]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD843 \base_ram_data_IOBUF[15]_inst 
+  IOBUF_HD905 \base_ram_data_IOBUF[15]_inst 
        (.I(ext_ram_data_OBUF[15]),
         .IO(base_ram_data[15]),
         .O(base_ram_data_IBUF[15]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD844 \base_ram_data_IOBUF[1]_inst 
+  IOBUF_HD906 \base_ram_data_IOBUF[1]_inst 
        (.I(ext_ram_data_OBUF[1]),
         .IO(base_ram_data[1]),
         .O(base_ram_data_IBUF[1]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD845 \base_ram_data_IOBUF[2]_inst 
+  IOBUF_HD907 \base_ram_data_IOBUF[2]_inst 
        (.I(ext_ram_data_OBUF[2]),
         .IO(base_ram_data[2]),
         .O(base_ram_data_IBUF[2]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD846 \base_ram_data_IOBUF[3]_inst 
+  IOBUF_HD908 \base_ram_data_IOBUF[3]_inst 
        (.I(ext_ram_data_OBUF[3]),
         .IO(base_ram_data[3]),
         .O(base_ram_data_IBUF[3]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD847 \base_ram_data_IOBUF[4]_inst 
+  IOBUF_HD909 \base_ram_data_IOBUF[4]_inst 
        (.I(ext_ram_data_OBUF[4]),
         .IO(base_ram_data[4]),
         .O(base_ram_data_IBUF[4]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD848 \base_ram_data_IOBUF[5]_inst 
+  IOBUF_HD910 \base_ram_data_IOBUF[5]_inst 
        (.I(ext_ram_data_OBUF[5]),
         .IO(base_ram_data[5]),
         .O(base_ram_data_IBUF[5]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD849 \base_ram_data_IOBUF[6]_inst 
+  IOBUF_HD911 \base_ram_data_IOBUF[6]_inst 
        (.I(ext_ram_data_OBUF[6]),
         .IO(base_ram_data[6]),
         .O(base_ram_data_IBUF[6]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD850 \base_ram_data_IOBUF[7]_inst 
+  IOBUF_HD912 \base_ram_data_IOBUF[7]_inst 
        (.I(ext_ram_data_OBUF[7]),
         .IO(base_ram_data[7]),
         .O(base_ram_data_IBUF[7]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD851 \base_ram_data_IOBUF[8]_inst 
+  IOBUF_HD913 \base_ram_data_IOBUF[8]_inst 
        (.I(ext_ram_data_OBUF[8]),
         .IO(base_ram_data[8]),
         .O(base_ram_data_IBUF[8]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD852 \base_ram_data_IOBUF[9]_inst 
+  IOBUF_HD914 \base_ram_data_IOBUF[9]_inst 
        (.I(ext_ram_data_OBUF[9]),
         .IO(base_ram_data[9]),
         .O(base_ram_data_IBUF[9]),
@@ -3369,93 +3371,129 @@ end
   IBUF clock_btn_IBUF_inst
        (.I(clock_btn),
         .O(clock_btn_IBUF));
-  LUT5 #(
-    .INIT(32'h0000FFFE)) 
-    \count[0]_i_1 
-       (.I0(\FSM_onehot_state_reg_n_0_[3] ),
-        .I1(\FSM_onehot_state_reg_n_0_[7] ),
-        .I2(\FSM_onehot_state_reg_n_0_[5] ),
-        .I3(\FSM_onehot_state_reg_n_0_[9] ),
-        .I4(\count_reg_n_0_[0] ),
-        .O(\count[0]_i_1_n_0 ));
   LUT6 #(
-    .INIT(64'hFFFFFFFFFFFFFF82)) 
-    \count[1]_i_1 
-       (.I0(\count[3]_i_3_n_0 ),
-        .I1(\count_reg_n_0_[0] ),
-        .I2(\count_reg_n_0_[1] ),
-        .I3(\count[1]_i_2_n_0 ),
-        .I4(\FSM_onehot_state_reg_n_0_[6] ),
-        .I5(\FSM_onehot_state_reg_n_0_[4] ),
-        .O(\count[1]_i_1_n_0 ));
-  LUT5 #(
-    .INIT(32'h02020200)) 
-    \count[1]_i_2 
-       (.I0(\count_reg_n_0_[0] ),
-        .I1(\count_reg_n_0_[2] ),
-        .I2(\count_reg_n_0_[3] ),
-        .I3(\FSM_onehot_state_reg_n_0_[7] ),
-        .I4(\FSM_onehot_state_reg_n_0_[3] ),
-        .O(\count[1]_i_2_n_0 ));
-  LUT4 #(
-    .INIT(16'hA802)) 
-    \count[2]_i_1 
-       (.I0(\count[3]_i_3_n_0 ),
+    .INIT(64'hEEEEFFFFEEEEFEEE)) 
+    \count[0]_i_1 
+       (.I0(\data_out[0]_i_2_n_0 ),
+        .I1(\FSM_onehot_state_reg_n_0_[1] ),
+        .I2(\FSM_onehot_state_reg_n_0_[7] ),
+        .I3(\count[0]_i_2_n_0 ),
+        .I4(\count_reg_n_0_[0] ),
+        .I5(\count[0]_i_3_n_0 ),
+        .O(\count[0]_i_1_n_0 ));
+  LUT3 #(
+    .INIT(8'hFE)) 
+    \count[0]_i_2 
+       (.I0(\count_reg_n_0_[2] ),
         .I1(\count_reg_n_0_[1] ),
-        .I2(\count_reg_n_0_[0] ),
-        .I3(\count_reg_n_0_[2] ),
+        .I2(\count_reg_n_0_[3] ),
+        .O(\count[0]_i_2_n_0 ));
+  LUT3 #(
+    .INIT(8'hFE)) 
+    \count[0]_i_3 
+       (.I0(\FSM_onehot_state_reg_n_0_[9] ),
+        .I1(\FSM_onehot_state_reg_n_0_[5] ),
+        .I2(\FSM_onehot_state_reg_n_0_[3] ),
+        .O(\count[0]_i_3_n_0 ));
+  LUT6 #(
+    .INIT(64'hFFFFFFFFFFFFFFFE)) 
+    \count[1]_i_1 
+       (.I0(\count[1]_i_2_n_0 ),
+        .I1(\FSM_onehot_state_reg_n_0_[2] ),
+        .I2(\FSM_onehot_state_reg_n_0_[0] ),
+        .I3(\FSM_onehot_state_reg_n_0_[1] ),
+        .I4(\FSM_onehot_state_reg_n_0_[4] ),
+        .I5(\FSM_onehot_state_reg_n_0_[6] ),
+        .O(\count[1]_i_1_n_0 ));
+  LUT6 #(
+    .INIT(64'hCCCC373304000400)) 
+    \count[1]_i_2 
+       (.I0(\count_reg_n_0_[2] ),
+        .I1(\count_reg_n_0_[0] ),
+        .I2(\count_reg_n_0_[3] ),
+        .I3(\FSM_onehot_state_reg_n_0_[3] ),
+        .I4(\count_reg_n_0_[1] ),
+        .I5(\count[3]_i_3_n_0 ),
+        .O(\count[1]_i_2_n_0 ));
+  LUT6 #(
+    .INIT(64'hFFFFFFFFE1E00100)) 
+    \count[2]_i_1 
+       (.I0(\count_reg_n_0_[0] ),
+        .I1(\count_reg_n_0_[1] ),
+        .I2(\count_reg_n_0_[2] ),
+        .I3(\count[2]_i_2_n_0 ),
+        .I4(\count[3]_i_3_n_0 ),
+        .I5(\count[2]_i_3_n_0 ),
         .O(\count[2]_i_1_n_0 ));
   LUT5 #(
-    .INIT(32'hAAAFAAAE)) 
+    .INIT(32'hFFFFFFF8)) 
+    \count[2]_i_2 
+       (.I0(\FSM_onehot_state_reg_n_0_[7] ),
+        .I1(\count_reg_n_0_[3] ),
+        .I2(\FSM_onehot_state_reg_n_0_[3] ),
+        .I3(\FSM_onehot_state_reg_n_0_[5] ),
+        .I4(\FSM_onehot_state_reg_n_0_[9] ),
+        .O(\count[2]_i_2_n_0 ));
+  LUT3 #(
+    .INIT(8'hFE)) 
+    \count[2]_i_3 
+       (.I0(\FSM_onehot_state_reg_n_0_[2] ),
+        .I1(\FSM_onehot_state_reg_n_0_[0] ),
+        .I2(\FSM_onehot_state_reg_n_0_[1] ),
+        .O(\count[2]_i_3_n_0 ));
+  LUT4 #(
+    .INIT(16'hCFCE)) 
     \count[3]_i_1 
-       (.I0(\count[3]_i_3_n_0 ),
-        .I1(\FSM_onehot_state_reg_n_0_[4] ),
+       (.I0(\FSM_onehot_state_reg_n_0_[4] ),
+        .I1(\count[3]_i_3_n_0 ),
         .I2(\FSM_onehot_state[7]_i_2_n_0 ),
-        .I3(\count_reg_n_0_[0] ),
-        .I4(\FSM_onehot_state_reg_n_0_[6] ),
+        .I3(\FSM_onehot_state_reg_n_0_[6] ),
         .O(count));
   LUT6 #(
-    .INIT(64'hFFEEFAEAAAFBAAFA)) 
+    .INIT(64'hFFFFFFFFFFFFFFFE)) 
     \count[3]_i_2 
-       (.I0(\count[3]_i_4_n_0 ),
-        .I1(\count_reg_n_0_[0] ),
-        .I2(\count[3]_i_5_n_0 ),
-        .I3(\count[3]_i_6_n_0 ),
-        .I4(\count[3]_i_7_n_0 ),
-        .I5(\count_reg_n_0_[3] ),
+       (.I0(\data_out[0]_i_2_n_0 ),
+        .I1(\FSM_onehot_state_reg_n_0_[1] ),
+        .I2(\count[3]_i_4_n_0 ),
+        .I3(\FSM_onehot_state_reg_n_0_[4] ),
+        .I4(\FSM_onehot_state_reg_n_0_[6] ),
+        .I5(\count[3]_i_5_n_0 ),
         .O(\count[3]_i_2_n_0 ));
   LUT4 #(
     .INIT(16'hFFFE)) 
     \count[3]_i_3 
+       (.I0(\FSM_onehot_state_reg_n_0_[7] ),
+        .I1(\FSM_onehot_state_reg_n_0_[5] ),
+        .I2(\FSM_onehot_state_reg_n_0_[9] ),
+        .I3(\FSM_onehot_state_reg_n_0_[3] ),
+        .O(\count[3]_i_3_n_0 ));
+  LUT6 #(
+    .INIT(64'hFCFCFCA8000000A0)) 
+    \count[3]_i_4 
+       (.I0(\count_reg_n_0_[0] ),
+        .I1(\count[3]_i_6_n_0 ),
+        .I2(\FSM_onehot_state_reg_n_0_[3] ),
+        .I3(\count_reg_n_0_[2] ),
+        .I4(\count_reg_n_0_[1] ),
+        .I5(\count_reg_n_0_[3] ),
+        .O(\count[3]_i_4_n_0 ));
+  LUT6 #(
+    .INIT(64'h2323232323232322)) 
+    \count[3]_i_5 
+       (.I0(\FSM_onehot_state_reg_n_0_[3] ),
+        .I1(\count[0]_i_2_n_0 ),
+        .I2(\count_reg_n_0_[0] ),
+        .I3(\FSM_onehot_state_reg_n_0_[9] ),
+        .I4(\FSM_onehot_state_reg_n_0_[5] ),
+        .I5(\FSM_onehot_state_reg_n_0_[7] ),
+        .O(\count[3]_i_5_n_0 ));
+  LUT3 #(
+    .INIT(8'hFE)) 
+    \count[3]_i_6 
        (.I0(\FSM_onehot_state_reg_n_0_[9] ),
         .I1(\FSM_onehot_state_reg_n_0_[5] ),
         .I2(\FSM_onehot_state_reg_n_0_[7] ),
-        .I3(\FSM_onehot_state_reg_n_0_[3] ),
-        .O(\count[3]_i_3_n_0 ));
-  LUT2 #(
-    .INIT(4'hE)) 
-    \count[3]_i_4 
-       (.I0(\FSM_onehot_state_reg_n_0_[4] ),
-        .I1(\FSM_onehot_state_reg_n_0_[6] ),
-        .O(\count[3]_i_4_n_0 ));
-  LUT2 #(
-    .INIT(4'hE)) 
-    \count[3]_i_5 
-       (.I0(\FSM_onehot_state_reg_n_0_[3] ),
-        .I1(\FSM_onehot_state_reg_n_0_[7] ),
-        .O(\count[3]_i_5_n_0 ));
-  LUT2 #(
-    .INIT(4'hE)) 
-    \count[3]_i_6 
-       (.I0(\count_reg_n_0_[1] ),
-        .I1(\count_reg_n_0_[2] ),
         .O(\count[3]_i_6_n_0 ));
-  LUT2 #(
-    .INIT(4'hE)) 
-    \count[3]_i_7 
-       (.I0(\FSM_onehot_state_reg_n_0_[5] ),
-        .I1(\FSM_onehot_state_reg_n_0_[9] ),
-        .O(\count[3]_i_7_n_0 ));
   FDCE #(
     .INIT(1'b0)) 
     \count_reg[0] 
@@ -4615,7 +4653,7 @@ end
     data_z_i_1
        (.I0(\FSM_onehot_state_reg_n_0_[6] ),
         .I1(\count_reg_n_0_[0] ),
-        .I2(\FSM_onehot_state[7]_i_2_n_0 ),
+        .I2(\count[0]_i_2_n_0 ),
         .I3(\FSM_onehot_state_reg_n_0_[3] ),
         .I4(\FSM_onehot_state_reg_n_0_[4] ),
         .I5(\ext_ram_data_TRI[0] ),
@@ -4745,7 +4783,7 @@ end
         .O(dm9k_pwrst_n),
         .T(1'b1));
   LUT6 #(
-    .INIT(64'hFFFFFFFFAAA8AAAA)) 
+    .INIT(64'hFFFFFFFFAAAAAAA8)) 
     \dp0[3]_i_1 
        (.I0(\FSM_onehot_state_reg_n_0_[7] ),
         .I1(\count_reg_n_0_[3] ),
@@ -4755,7 +4793,7 @@ end
         .I5(\FSM_onehot_state_reg_n_0_[0] ),
         .O(\dp0[3]_i_1_n_0 ));
   LUT6 #(
-    .INIT(64'hFFFFFFFF01000000)) 
+    .INIT(64'hFFFFFFFF00010000)) 
     \dp0[5]_i_1 
        (.I0(\count_reg_n_0_[3] ),
         .I1(\count_reg_n_0_[1] ),
@@ -4769,7 +4807,7 @@ end
     \dp0[7]_i_1 
        (.I0(\FSM_onehot_state_reg_n_0_[8] ),
         .I1(\FSM_onehot_state_reg_n_0_[6] ),
-        .I2(\dp0[7]_i_3_n_0 ),
+        .I2(\FSM_onehot_state[7]_i_2_n_0 ),
         .I3(\FSM_onehot_state_reg_n_0_[7] ),
         .I4(reset_btn_IBUF),
         .I5(\FSM_onehot_state_reg_n_0_[0] ),
@@ -4780,14 +4818,6 @@ end
        (.I0(\FSM_onehot_state_reg_n_0_[0] ),
         .I1(\FSM_onehot_state_reg_n_0_[8] ),
         .O(\dp0[7]_i_2_n_0 ));
-  LUT4 #(
-    .INIT(16'hFFFE)) 
-    \dp0[7]_i_3 
-       (.I0(\count_reg_n_0_[3] ),
-        .I1(\count_reg_n_0_[1] ),
-        .I2(\count_reg_n_0_[2] ),
-        .I3(\count_reg_n_0_[0] ),
-        .O(\dp0[7]_i_3_n_0 ));
   FDRE #(
     .INIT(1'b0)) 
     \dp0_reg[3] 
@@ -5097,97 +5127,97 @@ end
         .PRE(reset_btn_IBUF),
         .Q(ext_ram_ce_n_OBUF));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD853 \ext_ram_data_IOBUF[0]_inst 
+  IOBUF_HD915 \ext_ram_data_IOBUF[0]_inst 
        (.I(ext_ram_data_OBUF[0]),
         .IO(ext_ram_data[0]),
         .O(ext_ram_data_IBUF[0]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD854 \ext_ram_data_IOBUF[10]_inst 
+  IOBUF_HD916 \ext_ram_data_IOBUF[10]_inst 
        (.I(ext_ram_data_OBUF[10]),
         .IO(ext_ram_data[10]),
         .O(ext_ram_data_IBUF[10]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD855 \ext_ram_data_IOBUF[11]_inst 
+  IOBUF_HD917 \ext_ram_data_IOBUF[11]_inst 
        (.I(ext_ram_data_OBUF[11]),
         .IO(ext_ram_data[11]),
         .O(ext_ram_data_IBUF[11]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD856 \ext_ram_data_IOBUF[12]_inst 
+  IOBUF_HD918 \ext_ram_data_IOBUF[12]_inst 
        (.I(ext_ram_data_OBUF[12]),
         .IO(ext_ram_data[12]),
         .O(ext_ram_data_IBUF[12]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD857 \ext_ram_data_IOBUF[13]_inst 
+  IOBUF_HD919 \ext_ram_data_IOBUF[13]_inst 
        (.I(ext_ram_data_OBUF[13]),
         .IO(ext_ram_data[13]),
         .O(ext_ram_data_IBUF[13]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD858 \ext_ram_data_IOBUF[14]_inst 
+  IOBUF_HD920 \ext_ram_data_IOBUF[14]_inst 
        (.I(ext_ram_data_OBUF[14]),
         .IO(ext_ram_data[14]),
         .O(ext_ram_data_IBUF[14]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD859 \ext_ram_data_IOBUF[15]_inst 
+  IOBUF_HD921 \ext_ram_data_IOBUF[15]_inst 
        (.I(ext_ram_data_OBUF[15]),
         .IO(ext_ram_data[15]),
         .O(ext_ram_data_IBUF[15]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD860 \ext_ram_data_IOBUF[1]_inst 
+  IOBUF_HD922 \ext_ram_data_IOBUF[1]_inst 
        (.I(ext_ram_data_OBUF[1]),
         .IO(ext_ram_data[1]),
         .O(ext_ram_data_IBUF[1]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD861 \ext_ram_data_IOBUF[2]_inst 
+  IOBUF_HD923 \ext_ram_data_IOBUF[2]_inst 
        (.I(ext_ram_data_OBUF[2]),
         .IO(ext_ram_data[2]),
         .O(ext_ram_data_IBUF[2]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD862 \ext_ram_data_IOBUF[3]_inst 
+  IOBUF_HD924 \ext_ram_data_IOBUF[3]_inst 
        (.I(ext_ram_data_OBUF[3]),
         .IO(ext_ram_data[3]),
         .O(ext_ram_data_IBUF[3]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD863 \ext_ram_data_IOBUF[4]_inst 
+  IOBUF_HD925 \ext_ram_data_IOBUF[4]_inst 
        (.I(ext_ram_data_OBUF[4]),
         .IO(ext_ram_data[4]),
         .O(ext_ram_data_IBUF[4]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD864 \ext_ram_data_IOBUF[5]_inst 
+  IOBUF_HD926 \ext_ram_data_IOBUF[5]_inst 
        (.I(ext_ram_data_OBUF[5]),
         .IO(ext_ram_data[5]),
         .O(ext_ram_data_IBUF[5]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD865 \ext_ram_data_IOBUF[6]_inst 
+  IOBUF_HD927 \ext_ram_data_IOBUF[6]_inst 
        (.I(ext_ram_data_OBUF[6]),
         .IO(ext_ram_data[6]),
         .O(ext_ram_data_IBUF[6]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD866 \ext_ram_data_IOBUF[7]_inst 
+  IOBUF_HD928 \ext_ram_data_IOBUF[7]_inst 
        (.I(ext_ram_data_OBUF[7]),
         .IO(ext_ram_data[7]),
         .O(ext_ram_data_IBUF[7]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD867 \ext_ram_data_IOBUF[8]_inst 
+  IOBUF_HD929 \ext_ram_data_IOBUF[8]_inst 
        (.I(ext_ram_data_OBUF[8]),
         .IO(ext_ram_data[8]),
         .O(ext_ram_data_IBUF[8]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD868 \ext_ram_data_IOBUF[9]_inst 
+  IOBUF_HD930 \ext_ram_data_IOBUF[9]_inst 
        (.I(ext_ram_data_OBUF[9]),
         .IO(ext_ram_data[9]),
         .O(ext_ram_data_IBUF[9]),
@@ -5429,10 +5459,10 @@ end
        (.I(leds_OBUF[9]),
         .O(leds[9]));
   LUT6 #(
-    .INIT(64'hFFFFFF15FFFFFF00)) 
+    .INIT(64'hFFFFFF57FFFFFF00)) 
     oe_i_1
-       (.I0(\FSM_onehot_state[8]_i_1_n_0 ),
-        .I1(\dp0[7]_i_3_n_0 ),
+       (.I0(\FSM_onehot_state[7]_i_2_n_0 ),
+        .I1(\FSM_onehot_state_reg_n_0_[7] ),
         .I2(\FSM_onehot_state_reg_n_0_[4] ),
         .I3(\FSM_onehot_state_reg_n_0_[9] ),
         .I4(\FSM_onehot_state_reg_n_0_[8] ),
