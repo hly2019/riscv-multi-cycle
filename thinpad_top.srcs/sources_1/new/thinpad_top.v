@@ -101,8 +101,8 @@ assign ext_ram_be_n = 'b0;
 assign base_ram_be_n = 'b0;
 
 
-reg[15:0] led_bits;
-assign leds = led_bits;
+// reg[15:0] led_bits;
+// assign leds = led_bits;
 
 localparam STATE_GET_ADDRESS = 5'b00000;
 localparam STATE_GET_DATA = 5'b00001;
@@ -154,7 +154,7 @@ always@(posedge clock_btn or posedge reset_btn) begin
         addr <= 'b0;
         data_z <= 'b0;
         data_out <= 'b0;
-        led_bits <= 'b0;
+        // led_bits <= 'b0;
         ext_ram_ce <= 1'b1;
         base_ram_ce <= 1'b1;
     end
@@ -191,7 +191,7 @@ always@(posedge clock_btn or posedge reset_btn) begin
         STATE_READ_BASE_1: begin
             if(count == 4'b0000) begin
                 state <= STATE_WRITE_EXT_1;
-                led_bits <= 'b0;
+                // led_bits <= 'b0;
                 ext_ram_ce <= 1'b0;
                 base_ram_ce <= 1'b1;
                 count <= 4'b1010;
@@ -210,7 +210,7 @@ always@(posedge clock_btn or posedge reset_btn) begin
             oe <= 1'b1;
             count <= count - 1;
             state <= STATE_READ_BASE_1;
-            led_bits <= data_in[15:0];
+            // led_bits <= data_in[15:0];
         end
         STATE_WRITE_EXT_1: begin
             count <= count - 'b1;
@@ -237,6 +237,7 @@ always@(posedge clock_btn or posedge reset_btn) begin
             if(count == 4'b0001) begin
                 count <= 4'b1010;
                 state <= STATE_READ_EXT_1;
+                // led_bits <= 'b0;
                 dp0 <= 8'b00100000;
             end
             else begin
@@ -245,13 +246,14 @@ always@(posedge clock_btn or posedge reset_btn) begin
                 oe <= 1'b0;
                 state <= STATE_READ_EXT_2;
                 addr <= addr + 'b1;
+                // led_bits <= data_in[15:0];
             end
         end
         STATE_READ_EXT_2: begin
             dp0 <= 8'b10000000;
             oe <= 1'b1;
             state <= STATE_READ_EXT_1;
-            led_bits <= data_in[15:0];
+            // led_bits <= data_in[15:0];
         end
         default: begin
             state <= STATE_GET_ADDRESS;
@@ -286,7 +288,9 @@ sram _sram(
     .ext_ram_be_n(ext_ram_be_n),
     .ext_ram_ce_n(ext_ram_ce_n),
     .ext_ram_oe_n(ext_ram_oe_n),
-    .ext_ram_we_n(ext_ram_we_n)
+    .ext_ram_we_n(ext_ram_we_n),
+
+    .leds(leds)
 );
 
 endmodule

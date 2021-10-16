@@ -51,7 +51,9 @@ module sram(
     output wire[3:0] ext_ram_be_n,  //ExtRAM字节使能，低有效。如果不使用字节使能，请保持为0
     output wire ext_ram_ce_n,       //ExtRAM片选，低有效
     output wire ext_ram_oe_n,       //ExtRAM读使能，低有效
-    output wire ext_ram_we_n       //Ext RAM写使能，低有效
+    output wire ext_ram_we_n,      //Ext RAM写使能，低有效
+    
+    output wire[15:0] leds
     );
 
 reg[31:0] base_ram_data, ext_ram_data;
@@ -60,11 +62,15 @@ reg[31:0] base_ram_data, ext_ram_data;
 assign base_ram_data_wire = data_z ? 32'hz :base_ram_data; // 绑定输出信号
 assign ext_ram_data_wire = data_z ? 32'hz :ext_ram_data;
 
+// assign leds = data_z ?  base_ram_ce_n ? ext_ram_data_wire[15:0]: base_ram_data_wire[15:0];
+reg[15:0] led_bits;
+assign leds = led_bits;
 localparam STATE_IDLE = 4'b0000;
 localparam STATE_READ_0 = 4'b0001;
 localparam STATE_READ_1 = 4'b0010;
 localparam STATE_WRITE_0 = 4'b0011;
 localparam STATE_WRITE_1 = 4'b0100;
+
 
 reg[3:0] state;
 
@@ -82,6 +88,8 @@ assign data_in = data_in_reg;
 assign base_ram_addr = addr;
 assign ext_ram_addr = addr;
 
+// assign data_in = ext_ram_ce_n ? base_ram_data_wire: ext_ram_data_wire;
+
 always@(posedge rst or posedge clk) begin
     if(rst) begin
         state <= STATE_IDLE;
@@ -93,6 +101,7 @@ always@(posedge rst or posedge clk) begin
         ext_ram_we <= 1'b1;
         base_ram_data <= 32'b0;
         ext_ram_data <= 32'b0;
+        led_bits <= 'b0;
     end
     
     else case(state)
@@ -135,7 +144,7 @@ always@(posedge rst or posedge clk) begin
             state <= STATE_READ_1;
         end
         STATE_READ_1: begin
-            data_in_reg <= base_ram_ce_n ? ext_ram_data_wire: base_ram_data_wire;
+            led_bits <= data_z ? 'b0: base_ram_ce_n ? ext_ram_data_wire: base_ram_data_wire;
             if(oe == 1'b1) begin
                 state <= STATE_IDLE;
             end
