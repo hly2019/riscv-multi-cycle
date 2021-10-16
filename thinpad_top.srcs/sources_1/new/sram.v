@@ -26,6 +26,8 @@ module sram(
     input wire clk,
     input wire rst,
 
+    input wire data_z,
+
     input wire oe, // 读使能
     input wire we, // 写使能
     input wire[3:0] be, // 字节使能
@@ -54,8 +56,9 @@ module sram(
 
 reg[31:0] base_ram_data, ext_ram_data;
 
-assign base_ram_data_wire = base_ram_data; // 绑定输出信号
-assign ext_ram_data_wire = ext_ram_data;
+
+assign base_ram_data_wire = data_z ? 32'hz :base_ram_data; // 绑定输出信号
+assign ext_ram_data_wire = data_z ? 32'hz :ext_ram_data;
 
 localparam STATE_IDLE = 4'b0000;
 localparam STATE_READ_0 = 4'b0001;
@@ -96,7 +99,7 @@ always@(posedge rst or posedge clk) begin
         STATE_IDLE: begin
             base_ram_data[15:0] <= data_out; // 上层需要处理，如果当前为读，data_out需要是z。
             ext_ram_data[15:0] <= data_out; // 选片交给上层，通过ce选.
-
+    
             base_ram_oe <= 1'b1;
             ext_ram_oe <= 1'b1;
             base_ram_we <= 1'b1;
@@ -132,7 +135,7 @@ always@(posedge rst or posedge clk) begin
             state <= STATE_READ_1;
         end
         STATE_READ_1: begin
-            data_in_reg <= base_ram_ce_n ? base_ram_data_wire: ext_ram_data_wire;
+            data_in_reg <= base_ram_ce_n ? ext_ram_data_wire: base_ram_data_wire;
             if(oe == 1'b1) begin
                 state <= STATE_IDLE;
             end

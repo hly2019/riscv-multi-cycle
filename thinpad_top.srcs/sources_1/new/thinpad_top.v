@@ -104,20 +104,20 @@ assign base_ram_be_n = 'b0;
 reg[15:0] led_bits;
 assign leds = led_bits;
 
-localparam STATE_GET_ADDRESS = 4'b0000;
-localparam STATE_GET_DATA = 4'b0001;
+localparam STATE_GET_ADDRESS = 5'b00000;
+localparam STATE_GET_DATA = 5'b00001;
 
-localparam STATE_WRITE_BASE_1 = 4'b0010;
-localparam STATE_WRITE_BASE_2 = 4'b0011;
+localparam STATE_WRITE_BASE_1 = 5'b00010;
+localparam STATE_WRITE_BASE_2 = 5'b00011;
 
-localparam STATE_READ_BASE_1 = 4'b0100;
-localparam STATE_READ_BASE_2 = 4'b0101;
+localparam STATE_READ_BASE_1 = 5'b00100;
+localparam STATE_READ_BASE_2 = 5'b00101;
 
-localparam STATE_WRITE_EXT_1 = 4'b0110;
-localparam STATE_WRITE_EXT_2 = 4'b0111;
+localparam STATE_WRITE_EXT_1 = 5'b00110;
+localparam STATE_WRITE_EXT_2 = 5'b00111;
 
-localparam STATE_READ_EXT_1 = 4'b1000;
-localparam STATE_READ_EXT_2 = 4'b1001;
+localparam STATE_READ_EXT_1 = 5'b01000;
+localparam STATE_READ_EXT_2 = 5'b01001;
 
 
 reg[7:0] dp0;
@@ -131,7 +131,7 @@ reg oe;
 reg we;
 reg[3:0]be;
 reg[19:0]addr;
-reg[2:0] state;
+reg[4:0] state;
 wire[15:0] data_in;
 reg[15:0] data_out;
 reg[3:0] count;
@@ -142,6 +142,7 @@ assign base_ram_ce_n = base_ram_ce;
 reg ext_ram_ce;
 assign ext_ram_ce_n = ext_ram_ce;
 
+reg data_z;
 
 always@(posedge clock_btn or posedge reset_btn) begin
     if(reset_btn) begin
@@ -151,6 +152,7 @@ always@(posedge clock_btn or posedge reset_btn) begin
         oe <= 1'b1;
         be <= 'b0;
         addr <= 'b0;
+        data_z <= 'b0;
         data_out <= 'b0;
         led_bits <= 'b0;
         ext_ram_ce <= 1'b1;
@@ -158,6 +160,7 @@ always@(posedge clock_btn or posedge reset_btn) begin
     end
     else case(state) 
         STATE_GET_ADDRESS: begin
+            dp0 <= 8'b11111111;
             addr <= dip_sw[19:0];
             state <= STATE_GET_DATA;
             base_ram_ce <= 1'b0;
@@ -167,83 +170,84 @@ always@(posedge clock_btn or posedge reset_btn) begin
             state <= STATE_WRITE_BASE_1;
         end
         STATE_WRITE_BASE_1: begin
-            if(count == 4'b0001) begin
-                state <= STATE_READ_BASE_1;
-                count <= 4'b1010;
-                data_out <= 16'bz;
-                addr <= addr - 'b1001; // 地址恢复
-            end
-            else begin
-                dp0 <= 8'b00000001; 
-                count <= count - 'b1;
                 we <= 1'b0; // 取反
                 state <= STATE_WRITE_BASE_2;
-            end
         end
         STATE_WRITE_BASE_2: begin 
             we <= 1'b1;
-            state <= STATE_WRITE_BASE_1;
+            count <= count - 1;
             data_out <= data_out + 'b1;
-            addr <= addr + 'b1; 
+            addr <= addr + 'b1;
+            if(count == 4'b0001) begin
+                state <= STATE_READ_BASE_1;
+                count <= 4'b1010;
+                data_z <= 'b1;
+                addr <= addr - 'b1010; // 地址恢复
+            end
+            else begin 
+                state <= STATE_WRITE_BASE_1;
+            end
         end
         STATE_READ_BASE_1: begin
-            if(count == 4'b0001) begin
+            if(count == 4'b0000) begin
                 state <= STATE_WRITE_EXT_1;
                 led_bits <= 'b0;
                 ext_ram_ce <= 1'b0;
                 base_ram_ce <= 1'b1;
                 count <= 4'b1010;
                 addr <= addr - 'b1001;
-                data_out <= data_out - 16'b100;
+                data_z <= 'b0;
+                data_out <= data_out - 16'b101;
             end
             else begin
-                dp0 <= 8'b00001100;
-                count <= count - 1;
                 oe <= 1'b0;
-                data_out <= 16'bz;
+                data_z <= 'b1;
                 state <= STATE_READ_BASE_2;
+                addr <= addr + 'b1;
             end
         end
         STATE_READ_BASE_2: begin
             oe <= 1'b1;
+            count <= count - 1;
             state <= STATE_READ_BASE_1;
-            led_bits <= data_in; // ****
+            led_bits <= data_in;
         end
         STATE_WRITE_EXT_1: begin
-            if(count == 4'b0001) begin
-                state <= STATE_READ_EXT_1;
-                count <= 4'b1010;
-                addr <= addr - 'b1001; // 地址恢复
-            end
-            else begin
-                count <= count - 'b1;
-                we <= 1'b0; // 取反
-                state <= STATE_WRITE_EXT_2;
-            end
+            count <= count - 'b1;
+            we <= 1'b0; // 取反
+            state <= STATE_WRITE_EXT_2;
         end
         STATE_WRITE_EXT_2: begin
             we <= 1'b1;
-            state <= STATE_WRITE_EXT_1;
             data_out <= data_out + 'b1;
             addr <= addr + 'b1; // 地址加几位？
+            if(count == 4'b0000) begin
+                dp0 <= 8'b00000000;
+                state <= STATE_READ_EXT_1;
+                count <= 4'b1010;
+                data_z <= 'b1;
+                we <= 1'b1;
+                addr <= addr - 'b1010; // 地址恢复
+            end
+            else begin 
+                state <= STATE_WRITE_EXT_1;
+            end
         end
         STATE_READ_EXT_1: begin
             if(count == 4'b0001) begin
-                // state <= STATE_GET_ADDRESS; // 不确定转移到哪里
                 count <= 4'b1010;
                 state <= STATE_READ_EXT_1;
-                data_out <= 16'bz;
-                // addr <= addr - 'b101000000;
-                // data_out <= data_out - 'b10;
+                dp0 <= 8'b00100000;
             end
             else begin
+                dp0 <= 8'b00001000;
                 count <= count - 1;
                 oe <= 1'b0;
                 state <= STATE_READ_EXT_2;
-                data_out <= 16'hz;
             end
         end
         STATE_READ_EXT_2: begin
+            dp0 <= 8'b10000000;
             oe <= 1'b1;
             state <= STATE_READ_EXT_1;
             led_bits <= data_in;
@@ -258,6 +262,8 @@ end
 sram _sram(
     .clk(clk_50M),
     .rst(reset_btn),
+
+    .data_z(data_z),
 
     .oe(oe),
     .we(we),
