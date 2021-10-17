@@ -87,7 +87,6 @@ module thinpad_top(
 assign ext_ram_ce_n = 1'b1; // 禁掉ext_ram
 
 // 初始状态，即reset状态，初始化寄存器并且获取addr，下一状态为读串口，注意base_ram_data为高阻态等设置。
-localparam STATE_GET_ADDRESS = 5'b00000;
 
 // 读串口状态集合
 localparam STATE_READ_UART_1 = 5'b00001; // rdn置为1，跳转到状态2.
@@ -111,14 +110,14 @@ localparam STATE_WRITE_UART_1 = 5'b01011; // 将数据赋给base_ram_data，讲w
 localparam STATE_WRITE_UART_2 = 5'b01100; // 将wrn置1,
 localparam STATE_WRITE_UART_3 = 5'b01101; // 等待tbre信号变为1，变1时跳转。
 localparam STATE_WRITE_UART_4 = 5'b01110; // 等待tsre信号变为1，变1时跳转到读base_ram
-
+localparam STATE_WRITE_UART_1_5 = 5'b01111;
 assign ext_ram_be_n = 'b0;
 assign base_ram_be_n = 'b0;
 
 reg[19:0] addr; // base_ram 地址
 assign base_ram_addr = addr;
 
-reg[31:0] data; // 每次读写的数据
+reg[7:0] data; // 每次读写的数据
 
 reg [4:0] count;
 
@@ -143,7 +142,13 @@ assign base_ram_we_n = base_ram_we;
 reg base_ram_oe;
 assign base_ram_oe_n = base_ram_oe;
 
-always@(posedge clk_50M or posedge reset_btn) begin
+reg[15:0] led_bits;
+assign leds = led_bits;
+
+reg [7:0]dp;
+assign dpy0 = dp;
+
+always@(posedge clk_11M0592 or posedge reset_btn) begin
     if(reset_btn) begin
         state <= STATE_READ_UART_1;
         addr <= dip_sw[19:0]; // 获取地址
@@ -154,16 +159,20 @@ always@(posedge clk_50M or posedge reset_btn) begin
         base_ram_oe <= 1'b1;
         base_ram_we <= 1'b1;
         count <= 5'b01010;
+        dp <= 8'b0;
     end
-    else case(state)
+    else begin 
+    dp <= state;
+    led_bits <= count;
+    case(state)
         // STATE_GET_ADDRESS: begin // 没啥用
         //     state <= STATE_READ_UART_1;
         // end
         STATE_READ_UART_1: begin
+            
             state <= STATE_READ_UART_2;
             rdn <= 1'b1;
             data_z <= 1'b1;
-            count <= count - 'b1;
         end
         STATE_READ_UART_2: begin
             if(uart_dataready != 1'b1) begin // 串口没有准备好，跳转回状态1
@@ -176,14 +185,15 @@ always@(posedge clk_50M or posedge reset_btn) begin
         end
         STATE_READ_UART_3: begin
             state <= STATE_WRITE_BASE_1; // 下一步写内存
-            data <= base_ram_data; // 读取数据
+            data <= base_ram_data[7:0]; // 读取数据
+            count <= count - 'b1;
             rdn <= 1'b1;
-            // sram使能，使得sram可用
-            data_z <= 1'b0; 
+            // sram使能，使得sram可用 
             base_ram_ce <= 1'b0;
         end
         STATE_WRITE_BASE_1: begin
-            base_ram_data_reg <= data; // 虽然上面读到了base_ram_data上，但是考虑到改了data_z，在这里重新赋值
+            data_z <= 1'b0;
+            base_ram_data_reg[7:0] <= data; // 虽然上面读到了base_ram_data上，但是考虑到改了data_z，在这里重新赋值
             // addr 已经准备好
             state <= STATE_WRITE_BASE_2;
         end
@@ -191,18 +201,21 @@ always@(posedge clk_50M or posedge reset_btn) begin
             base_ram_we <= 1'b0; // 拉低写使能
             state <= STATE_WRITE_BASE_3;
         end
-        STATE_WRITE_BASE_3: begin // 可以考虑和2之间空一个周期
+        STATE_WRITE_BASE_3: begin
+            base_ram_we <= 1'b1; // 拉高写使能，已经写入base_ram.
+            state <= STATE_WRITE_BASE_4;
+        end
+        STATE_WRITE_BASE_4: begin // 可以考虑和2之间空一个周期
             if(count == 5'b00000) begin // 读了10次，TODO: 可以考虑放到读的第一阶段
                 state <= STATE_READ_BASE_1; // 下一阶段，读内存
                 base_ram_we <= 1'b1; // 拉高写使能，已经写入base_ram.
                 base_ram_ce <= 1'b0; // 使能ram
                 data_z <= 1'b1;
                 count <= 5'b01010;
-                addr <= addr - 5'b01010; // 恢复addr。或者从拨码开关获得.****
+                addr <= addr - 5'b01001; // 恢复addr。或者从拨码开关获得.****
             end
             else begin
                 state <= STATE_READ_UART_1; // 不足10次，回到读串口，继续
-                base_ram_we <= 1'b1; // 拉高写使能，已经写入base_ram.
                 base_ram_ce <= 1'b1; // 禁用ram.
                 data_z <= 1'b1; // 修改总线为读状态高阻态.
                 addr <= addr + 1'b1;
@@ -212,22 +225,25 @@ always@(posedge clk_50M or posedge reset_btn) begin
         STATE_READ_BASE_1: begin
             base_ram_oe <= 1'b0;
             state <= STATE_READ_BASE_2;
-            count <= count - 1'b1;
+            count <= count - 'b1;
         end
         STATE_READ_BASE_2: begin // 空一个周期
             state <= STATE_READ_BASE_3;
+            data <= base_ram_data[7:0]; // 读取数据
         end
         STATE_READ_BASE_3: begin
-            data <= base_ram_data; // 读取数据
             base_ram_oe <= 1'b1; // 拉高使能
-            base_ram_ce <= 1'b1; // 禁用ram
             data_z <= 1'b0; // 非高阻态
             state <= STATE_WRITE_UART_1;
-            addr <= addr + 1'b1;
+            
         end
-
         STATE_WRITE_UART_1: begin
-            base_ram_data_reg <= data;
+            base_ram_ce <= 1'b1; // 禁用ram
+            base_ram_data_reg[7:0] <= data[7:0];
+            addr <= addr + 1'b1;
+            state <= STATE_WRITE_UART_1_5;
+        end
+        STATE_WRITE_UART_1_5: begin
             wrn <= 1'b0;
             state <= STATE_WRITE_UART_2;
         end
@@ -244,7 +260,10 @@ always@(posedge clk_50M or posedge reset_btn) begin
             end
         end
         STATE_WRITE_UART_4: begin
-            if(uart_tsre == 1'b1) begin
+            if(count == 'b0) begin
+                state <= STATE_WRITE_UART_4;
+                end
+            else if(uart_tsre == 1'b1) begin
                 state <= STATE_READ_BASE_1;
                 data_z <= 1'b1; // 设置为高阻态
                 base_ram_ce <= 1'b0; // 使能ram
@@ -254,11 +273,12 @@ always@(posedge clk_50M or posedge reset_btn) begin
             end
         end
         default begin
-            state <= STATE_GET_ADDRESS;
+            state <= STATE_READ_UART_1;
         end
 
 
     endcase
+    end
 
 end
 
