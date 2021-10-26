@@ -148,7 +148,7 @@ assign ext_ram_ce_n = ext_ram_ce;
 
 reg data_z;
 
-always@(posedge clk_50M or posedge reset_btn) begin
+always@(posedge clock_btn or posedge reset_btn) begin
     if(reset_btn) begin
         state <= STATE_GET_ADDRESS;
         count <= 4'b1010;
@@ -192,7 +192,6 @@ always@(posedge clk_50M or posedge reset_btn) begin
                 state <= STATE_WRITE_BASE_1;
             end
             else begin
-                we <= 1'b1;
                 state <= STATE_WRITE_BASE_2;
             end
         end

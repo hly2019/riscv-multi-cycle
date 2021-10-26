@@ -138,13 +138,13 @@ always@(posedge rst or posedge clk) begin
         STATE_WRITE_1: begin
             base_ram_we <= 1'b1; // 信号拉高
             ext_ram_we <= 1'b1;
-            sram_done <= 1'b1;
             if(we == 1'b1) begin // 上层第二次点击clock_btn，（上层控制）we跳变为1，响应.如果还没点，保持.
                 state <= STATE_IDLE;
+                sram_done <= 1'b0;
             end
             else begin
                 state <= STATE_WRITE_1;
-                
+                sram_done <= 1'b1;
             end
         end
         STATE_READ_0: begin
