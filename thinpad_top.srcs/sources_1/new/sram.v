@@ -50,9 +50,8 @@ module sram(
     output wire[3:0] ext_ram_be_n,  //ExtRAM字节使能，低有效。如果不使用字节使能，请保持为0
     output wire ext_ram_ce_n,       //ExtRAM片选，低有效
     output wire ext_ram_oe_n,       //ExtRAM读使能，低有效
-    output wire ext_ram_we_n,      //Ext RAM写使能，低有效
+    output wire ext_ram_we_n      //Ext RAM写使能，低有效
     
-    output wire[15:0] leds
     );
 
 reg[31:0] base_ram_data, ext_ram_data;
@@ -62,8 +61,7 @@ assign base_ram_data_wire = data_z ? 32'hz :base_ram_data; // 绑定输出信号
 assign ext_ram_data_wire = data_z ? 32'hz :ext_ram_data;
 
 // assign leds = data_z ?  base_ram_ce_n ? ext_ram_data_wire[15:0]: base_ram_data_wire[15:0];
-reg[15:0] led_bits;
-assign leds = led_bits;
+
 localparam STATE_IDLE = 4'b0000;
 localparam STATE_READ_0 = 4'b0001;
 localparam STATE_READ_1 = 4'b0010;
@@ -100,8 +98,7 @@ always@(posedge rst or posedge clk) begin
         ext_ram_we <= 1'b1;
         base_ram_data <= 32'b0;
         ext_ram_data <= 32'b0;
-        led_bits <= 'b0;
-        data_z <= 1'b0;
+        data_z <= 1'b1;
     end
     
     else case(state)
@@ -114,6 +111,7 @@ always@(posedge rst or posedge clk) begin
             ext_ram_we <= 1'b1;
             if(we == 1'b0) begin // 写。上层点击clock_btn，（上层控制）we跳变为0，响应；如果还没点，保持
                 state <= STATE_WRITE_0;
+                data_z <= 1'b0;
             end
             else if(oe == 1'b0) begin // 读
                 state <= STATE_READ_0;
@@ -121,6 +119,7 @@ always@(posedge rst or posedge clk) begin
             end
             else begin
                 state <= STATE_IDLE;
+                data_z <= 1'b1; // 如果不操作，则设置为高阻态
             end
         end
         STATE_WRITE_0: begin
@@ -146,7 +145,6 @@ always@(posedge rst or posedge clk) begin
         STATE_READ_1: begin
             if(oe == 1'b1) begin
                 state <= STATE_IDLE;
-                data_z <= 1'b0; // 读完成，总线设成低阻态
             end
             else begin
                 state <= STATE_READ_1;
