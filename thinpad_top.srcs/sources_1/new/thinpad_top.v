@@ -104,6 +104,8 @@ assign base_ram_be_n = 'b0;
 // reg[15:0] led_bits;
 // assign leds = led_bits;
 
+assign leds = data_in[15:0];
+
 localparam STATE_GET_ADDRESS = 5'b00000;
 localparam STATE_GET_DATA = 5'b00001;
 
@@ -266,7 +268,6 @@ sram _sram(
     .clk(clk_50M),
     .rst(reset_btn),
 
-    .data_z(data_z),
 
     .oe(oe),
     .we(we),
@@ -288,9 +289,8 @@ sram _sram(
     .ext_ram_be_n(ext_ram_be_n),
     .ext_ram_ce_n(ext_ram_ce_n),
     .ext_ram_oe_n(ext_ram_oe_n),
-    .ext_ram_we_n(ext_ram_we_n),
+    .ext_ram_we_n(ext_ram_we_n)
 
-    .leds(leds)
 );
 
 endmodule

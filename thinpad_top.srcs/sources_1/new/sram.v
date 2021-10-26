@@ -26,7 +26,6 @@ module sram(
     input wire clk,
     input wire rst,
 
-    input wire data_z,
 
     input wire oe, // 读使能
     input wire we, // 写使能
@@ -51,20 +50,18 @@ module sram(
     output wire[3:0] ext_ram_be_n,  //ExtRAM字节使能，低有效。如果不使用字节使能，请保持为0
     output wire ext_ram_ce_n,       //ExtRAM片选，低有效
     output wire ext_ram_oe_n,       //ExtRAM读使能，低有效
-    output wire ext_ram_we_n,      //Ext RAM写使能，低有效
+    output wire ext_ram_we_n      //Ext RAM写使能，低有效
     
-    output wire[15:0] leds
     );
 
 reg[31:0] base_ram_data, ext_ram_data;
-
+reg data_z;
 
 assign base_ram_data_wire = data_z ? 32'hz :base_ram_data; // 绑定输出信号
 assign ext_ram_data_wire = data_z ? 32'hz :ext_ram_data;
 
 // assign leds = data_z ?  base_ram_ce_n ? ext_ram_data_wire[15:0]: base_ram_data_wire[15:0];
-reg[15:0] led_bits;
-assign leds = led_bits;
+
 localparam STATE_IDLE = 4'b0000;
 localparam STATE_READ_0 = 4'b0001;
 localparam STATE_READ_1 = 4'b0010;
@@ -88,7 +85,7 @@ assign data_in = data_in_reg;
 assign base_ram_addr = addr;
 assign ext_ram_addr = addr;
 
-// assign data_in = ext_ram_ce_n ? base_ram_data_wire: ext_ram_data_wire;
+assign data_in = ext_ram_ce_n ? base_ram_data_wire: ext_ram_data_wire;
 
 always@(posedge rst or posedge clk) begin
     if(rst) begin
@@ -101,26 +98,28 @@ always@(posedge rst or posedge clk) begin
         ext_ram_we <= 1'b1;
         base_ram_data <= 32'b0;
         ext_ram_data <= 32'b0;
-        led_bits <= 'b0;
+        data_z <= 1'b1;
     end
     
     else case(state)
         STATE_IDLE: begin
-            base_ram_data <= data_out; // 上层需要处理，如果当前为读，data_out需要是z。
-            ext_ram_data <= data_out; // 选片交给上层，通过ce选.
-    
+            base_ram_data <= data_out;
+            ext_ram_data <= data_out;
             base_ram_oe <= 1'b1;
             ext_ram_oe <= 1'b1;
             base_ram_we <= 1'b1;
             ext_ram_we <= 1'b1;
             if(we == 1'b0) begin // 写。上层点击clock_btn，（上层控制）we跳变为0，响应；如果还没点，保持
                 state <= STATE_WRITE_0;
+                data_z <= 1'b0;
             end
             else if(oe == 1'b0) begin // 读
                 state <= STATE_READ_0;
+                data_z <= 1'b1; // data_z 拉高，总线设为高阻态
             end
             else begin
                 state <= STATE_IDLE;
+                data_z <= 1'b1;
             end
         end
         STATE_WRITE_0: begin
@@ -144,7 +143,6 @@ always@(posedge rst or posedge clk) begin
             state <= STATE_READ_1;
         end
         STATE_READ_1: begin
-            led_bits <=  base_ram_ce_n ? ext_ram_data_wire: base_ram_data_wire;
             if(oe == 1'b1) begin
                 state <= STATE_IDLE;
             end
