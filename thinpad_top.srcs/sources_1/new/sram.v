@@ -19,7 +19,7 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-
+// 控制sram和uart
 module sram(
 
     // 与上层连线
@@ -27,8 +27,8 @@ module sram(
     input wire rst,
 
 
-    input wire oe, // 读使能
-    input wire we, // 写使能
+    input wire oe, // sram读使能，高有效
+    input wire we, // 写使能，高有效
     input wire[3:0] be, // 字节使能
 
     input wire[19:0] addr, // 要写入的地址
@@ -50,7 +50,16 @@ module sram(
     output wire[3:0] ext_ram_be_n,  //ExtRAM字节使能，低有效。如果不使用字节使能，请保持为0
     output wire ext_ram_ce_n,       //ExtRAM片选，低有效
     output wire ext_ram_oe_n,       //ExtRAM读使能，低有效
-    output wire ext_ram_we_n      //Ext RAM写使能，低有效
+    output wire ext_ram_we_n,      //Ext RAM写使能，低有效
+
+    output wire uart_rdn,
+    output wire uart_wrn,
+    input  wire uart_dataready,
+    input  wire uart_tbre,
+    input  wire uart_tsre,
+
+    input wire uart_oe, // 信号拉高表示准备读uart
+    input wire uart_we // 信号拉高表示准备写uart
     
     );
 
@@ -71,6 +80,15 @@ localparam STATE_READ_1 = 4'b0010;
 localparam STATE_WRITE_0 = 4'b0011;
 localparam STATE_WRITE_1 = 4'b0100;
 
+localparam STATE_READ_UART_1 = 4'b0101;
+localparam STATE_READ_UART_2 = 4'b0110;
+localparam STATE_READ_UART_3 = 4'b0111;
+
+localparam STATE_WRITE_UART_1 = 4'b1000;
+localparam STATE_WRITE_UART_2 = 4'b1001;
+localparam STATE_WRITE_UART_3 = 4'b1010;
+localparam STATE_WRITE_UART_4 = 4'b1011;
+localparam STATE_WRITE_UART_5 = 4'b1100;
 
 reg[3:0] state;
 
@@ -121,7 +139,7 @@ always@(posedge rst or posedge clk) begin
                 state <= STATE_WRITE_0;
                 data_z <= 1'b0;
             end
-            else if(oe == 1'b0) begin // 读
+            else if(oe == 1'b1) begin // 读
                 state <= STATE_READ_0;
                 data_z <= 1'b1; // data_z 拉高，总线设为高阻态
             end
@@ -154,7 +172,7 @@ always@(posedge rst or posedge clk) begin
             state <= STATE_READ_1;
         end
         STATE_READ_1: begin
-            if(oe == 1'b1) begin
+            if(oe == 1'b0) begin
                 state <= STATE_IDLE;
                 sram_done <= 1'b0;
                 base_ram_oe <= 1'b1;

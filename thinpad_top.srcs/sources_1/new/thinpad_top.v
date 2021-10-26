@@ -1,6 +1,7 @@
 `default_nettype none
 
 `include "alu.vh"
+`include "ops.vh"
 
 module thinpad_top(
     input wire clk_50M,           //50MHz 时钟输入
@@ -91,11 +92,16 @@ module thinpad_top(
     wire        mem_done;
 
     assign mem_be = 1'b0;
+
+    reg uart_oe; // 用来通知底层准备写、读uart
+    reg uart_we; 
+
+
     sram _sram(
         .clk(clk_50M),
         .rst(reset_btn),
         
-        .oe(mem_oe), // sram层监控这个信号，如果在初始状态为高，则转到下一个状态（否则保持）；若在最后一个状态为低，则转到初始状态，保持
+        .oe(mem_oe),
         .we(mem_we),
         .be(mem_be),
         
@@ -122,7 +128,10 @@ module thinpad_top(
         .uart_wrn(uart_wrn),
         .uart_dataready(uart_dataready),
         .uart_tbre(uart_tbre),
-        .uart_tsre(uart_tsre)
+        .uart_tsre(uart_tsre),
+        
+        .uart_oe(uart_oe),
+        .uart_we(uart_we)
     );
     
     //interface to decoder
