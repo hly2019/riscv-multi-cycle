@@ -63,6 +63,17 @@ module sram(
     
     );
 
+
+
+reg rdn;
+assign uart_rdn = rdn;
+reg wrn;
+assign uart_wrn = wrn;
+
+
+
+
+
 reg[31:0] base_ram_data, ext_ram_data;
 reg data_z;
 
@@ -70,8 +81,8 @@ reg data_z;
 assign base_ram_data_wire = data_z ? 32'hz :base_ram_data; // 绑定输出信号
 assign ext_ram_data_wire = data_z ? 32'hz :ext_ram_data;
 
-reg sram_done;
-assign done = sram_done;
+reg sram_uart_done;
+assign done = sram_uart_done;
 // assign leds = data_z ?  base_ram_ce_n ? ext_ram_data_wire[15:0]: base_ram_data_wire[15:0];
 
 localparam STATE_IDLE = 4'b0000;
@@ -123,7 +134,7 @@ always@(posedge rst or posedge clk) begin
         base_ram_data <= 32'b0;
         ext_ram_data <= 32'b0;
         data_z <= 1'b1;
-        sram_done <= 1'b0;
+        sram_uart_done <= 1'b0;
     end
     
     else case(state)
@@ -134,7 +145,7 @@ always@(posedge rst or posedge clk) begin
             ext_ram_oe <= 1'b1;
             base_ram_we <= 1'b1;
             ext_ram_we <= 1'b1;
-            sram_done <= 1'b0;
+            sram_uart_done <= 1'b0;
             if(we == 1'b0) begin // 写。上层点击clock_btn，（上层控制）we跳变为0，响应；如果还没点，保持
                 state <= STATE_WRITE_0;
                 data_z <= 1'b0;
@@ -158,12 +169,12 @@ always@(posedge rst or posedge clk) begin
             ext_ram_we <= 1'b1;
             if(we == 1'b1) begin // 上层第二次点击clock_btn，（上层控制）we跳变为1，响应.如果还没点，保持.
                 state <= STATE_IDLE;
-                sram_done <= 1'b0;
+                sram_uart_done <= 1'b0;
                 data_z <= 1'b1;
             end
             else begin
                 state <= STATE_WRITE_1;
-                sram_done <= 1'b1;
+                sram_uart_done <= 1'b1;
             end
         end
         STATE_READ_0: begin
@@ -174,13 +185,13 @@ always@(posedge rst or posedge clk) begin
         STATE_READ_1: begin
             if(oe == 1'b0) begin
                 state <= STATE_IDLE;
-                sram_done <= 1'b0;
+                sram_uart_done <= 1'b0;
                 base_ram_oe <= 1'b1;
                 ext_ram_oe <= 1'b1;
             end
             else begin
                 state <=STATE_READ_1;
-                sram_done <= 1'b1;
+                sram_uart_done <= 1'b1;
             end
         end
         default: begin
