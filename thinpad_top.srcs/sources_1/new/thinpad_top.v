@@ -99,7 +99,7 @@ module thinpad_top(
         .we(mem_we),
         .be(mem_be),
         
-        .address(mem_address),
+        .addr(mem_address),
         .data_in(mem_data_in),
         .data_out(mem_data_out),
         .done(mem_done),

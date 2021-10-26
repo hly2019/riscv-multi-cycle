@@ -34,7 +34,7 @@ module sram(
     input wire[19:0] addr, // 要写入的地址
     output wire[31:0] data_in, // 读出的数据，送到上层
     input wire[31:0] data_out, // 要写入的数据
-
+    output wire done,
 
     // 与下层连线
     //BaseRAM信号
