@@ -121,6 +121,7 @@ localparam STATE_WRITE_EXT_2 = 5'b00111;
 localparam STATE_READ_EXT_1 = 5'b01000;
 localparam STATE_READ_EXT_2 = 5'b01001;
 
+localparam STATE_TMP = 5'b01010;
 
 
 
@@ -148,7 +149,7 @@ assign ext_ram_ce_n = ext_ram_ce;
 
 reg data_z;
 
-always@(posedge clock_btn or posedge reset_btn) begin
+always@(posedge clk_50M or posedge reset_btn) begin
     if(reset_btn) begin
         state <= STATE_GET_ADDRESS;
         count <= 4'b1010;
@@ -177,8 +178,8 @@ always@(posedge clock_btn or posedge reset_btn) begin
                 state <= STATE_WRITE_BASE_2;
         end
         STATE_WRITE_BASE_2: begin
-            if(count == 4'b0001) begin
-                state <= STATE_READ_BASE_1;
+            if(count == 4'b0000) begin
+                state <= STATE_TMP;
                 count <= 4'b1010;
                 data_z <= 'b1;
                 addr <= addr - 'b1010; // 地址恢复
@@ -195,6 +196,9 @@ always@(posedge clock_btn or posedge reset_btn) begin
                 state <= STATE_WRITE_BASE_2;
             end
         end
+        STATE_TMP: begin
+            state <= STATE_READ_BASE_1;
+        end
         STATE_READ_BASE_1: begin
             if(count == 4'b0000) begin
                 state <= STATE_WRITE_EXT_1;
@@ -202,7 +206,7 @@ always@(posedge clock_btn or posedge reset_btn) begin
                 ext_ram_ce <= 1'b0;
                 base_ram_ce <= 1'b1;
                 count <= 4'b1010;
-                addr <= addr - 'b1001;
+                addr <= addr - 'b1010;
                 data_z <= 'b0;
                 data_out <= data_out - 32'b101;
             end
@@ -218,6 +222,7 @@ always@(posedge clock_btn or posedge reset_btn) begin
                 oe <= 1'b1;
                 count <= count - 1;
                 state <= STATE_READ_BASE_1;
+                // addr <= addr + 'b1;
             end
             else
                 state <= STATE_READ_BASE_2;
