@@ -104,7 +104,7 @@ assign base_ram_be_n = 'b0;
 // reg[15:0] led_bits;
 // assign leds = led_bits;
 
-assign leds = data_in[15:0];
+
 
 localparam STATE_GET_ADDRESS = 5'b00000;
 localparam STATE_GET_DATA = 5'b00001;
@@ -122,11 +122,7 @@ localparam STATE_READ_EXT_1 = 5'b01000;
 localparam STATE_READ_EXT_2 = 5'b01001;
 
 
-reg[7:0] dp0;
-assign dpy0 = dp0;
 
-reg[7:0] dp1;
-assign dpy1 = dp0;
 
 
 reg oe;
@@ -138,6 +134,12 @@ wire[31:0] data_in;
 reg[31:0] data_out;
 reg[3:0] count;
 
+assign dpy0 = data_out[7:0];
+assign dpy1[4:0] = state;
+assign leds = data_in[15:0];
+
+wire sram_done;
+
 reg base_ram_ce;
 assign base_ram_ce_n = base_ram_ce;
 
@@ -146,7 +148,7 @@ assign ext_ram_ce_n = ext_ram_ce;
 
 reg data_z;
 
-always@(posedge clock_btn or posedge reset_btn) begin
+always@(posedge clk_50M or posedge reset_btn) begin
     if(reset_btn) begin
         state <= STATE_GET_ADDRESS;
         count <= 4'b1010;
@@ -162,7 +164,6 @@ always@(posedge clock_btn or posedge reset_btn) begin
     end
     else case(state) 
         STATE_GET_ADDRESS: begin
-            dp0 <= 8'b11111111;
             addr <= dip_sw[19:0];
             state <= STATE_GET_DATA;
             base_ram_ce <= 1'b0;
@@ -175,19 +176,24 @@ always@(posedge clock_btn or posedge reset_btn) begin
                 we <= 1'b0; // 取反
                 state <= STATE_WRITE_BASE_2;
         end
-        STATE_WRITE_BASE_2: begin 
-            we <= 1'b1;
-            count <= count - 1;
-            data_out <= data_out + 'b1;
-            addr <= addr + 'b1;
+        STATE_WRITE_BASE_2: begin
             if(count == 4'b0001) begin
                 state <= STATE_READ_BASE_1;
                 count <= 4'b1010;
                 data_z <= 'b1;
                 addr <= addr - 'b1010; // 地址恢复
+                we <= 1'b1;
             end
-            else begin 
+            else if(sram_done == 1'b1)begin 
+                we <= 1'b1;
+                count <= count - 1;
+                data_out <= data_out + 'b1;
+                addr <= addr + 'b1;
                 state <= STATE_WRITE_BASE_1;
+            end
+            else begin
+                we <= 1'b1;
+                state <= STATE_WRITE_BASE_2;
             end
         end
         STATE_READ_BASE_1: begin
@@ -209,9 +215,13 @@ always@(posedge clock_btn or posedge reset_btn) begin
             end
         end
         STATE_READ_BASE_2: begin
-            oe <= 1'b1;
-            count <= count - 1;
-            state <= STATE_READ_BASE_1;
+            if(sram_done == 1'b1) begin
+                oe <= 1'b1;
+                count <= count - 1;
+                state <= STATE_READ_BASE_1;
+            end
+            else
+                state <= STATE_READ_BASE_2;
             // led_bits <= data_in[15:0];
         end
         STATE_WRITE_EXT_1: begin
@@ -224,7 +234,7 @@ always@(posedge clock_btn or posedge reset_btn) begin
             data_out <= data_out + 'b1;
             addr <= addr + 'b1; // 地址加几位？
             if(count == 4'b0000) begin
-                dp0 <= 8'b00000000;
+
                 state <= STATE_READ_EXT_1;
                 count <= 4'b1010;
                 data_z <= 'b1;
@@ -240,10 +250,8 @@ always@(posedge clock_btn or posedge reset_btn) begin
                 count <= 4'b1010;
                 state <= STATE_READ_EXT_1;
                 // led_bits <= 'b0;
-                dp0 <= 8'b00100000;
             end
             else begin
-                dp0 <= 8'b00001000;
                 count <= count - 1;
                 oe <= 1'b0;
                 state <= STATE_READ_EXT_2;
@@ -252,9 +260,12 @@ always@(posedge clock_btn or posedge reset_btn) begin
             end
         end
         STATE_READ_EXT_2: begin
-            dp0 <= 8'b10000000;
-            oe <= 1'b1;
-            state <= STATE_READ_EXT_1;
+            if(sram_done == 1'b1) begin
+                oe <= 1'b1;
+                state <= STATE_READ_EXT_1;
+            end
+            else
+                state <=STATE_READ_EXT_2;
             // led_bits <= data_in[15:0];
         end
         default: begin
@@ -272,6 +283,7 @@ sram _sram(
     .oe(oe),
     .we(we),
     .be(be),
+    .done(sram_done),
 
     .addr(addr),
     .data_in(data_in),

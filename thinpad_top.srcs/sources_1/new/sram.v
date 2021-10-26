@@ -34,7 +34,7 @@ module sram(
     input wire[19:0] addr, // 要写入的地址
     output wire[31:0] data_in, // 读出的数据，送到上层
     input wire[31:0] data_out, // 要写入的数据
-
+    output wire done,
 
     // 与下层连线
     //BaseRAM信号
@@ -57,9 +57,12 @@ module sram(
 reg[31:0] base_ram_data, ext_ram_data;
 reg data_z;
 
+
 assign base_ram_data_wire = data_z ? 32'hz :base_ram_data; // 绑定输出信号
 assign ext_ram_data_wire = data_z ? 32'hz :ext_ram_data;
 
+reg sram_done;
+assign done = sram_done;
 // assign leds = data_z ?  base_ram_ce_n ? ext_ram_data_wire[15:0]: base_ram_data_wire[15:0];
 
 localparam STATE_IDLE = 4'b0000;
@@ -70,6 +73,7 @@ localparam STATE_WRITE_1 = 4'b0100;
 
 
 reg[3:0] state;
+
 
 reg base_ram_we, base_ram_oe;
 assign base_ram_we_n = base_ram_we;
@@ -85,6 +89,8 @@ assign data_in = data_in_reg;
 assign base_ram_addr = addr;
 assign ext_ram_addr = addr;
 
+
+
 assign data_in = ext_ram_ce_n ? base_ram_data_wire: ext_ram_data_wire;
 
 always@(posedge rst or posedge clk) begin
@@ -99,6 +105,7 @@ always@(posedge rst or posedge clk) begin
         base_ram_data <= 32'b0;
         ext_ram_data <= 32'b0;
         data_z <= 1'b1;
+        sram_done <= 1'b0;
     end
     
     else case(state)
@@ -109,6 +116,7 @@ always@(posedge rst or posedge clk) begin
             ext_ram_oe <= 1'b1;
             base_ram_we <= 1'b1;
             ext_ram_we <= 1'b1;
+            sram_done <= 1'b0;
             if(we == 1'b0) begin // 写。上层点击clock_btn，（上层控制）we跳变为0，响应；如果还没点，保持
                 state <= STATE_WRITE_0;
                 data_z <= 1'b0;
@@ -130,11 +138,13 @@ always@(posedge rst or posedge clk) begin
         STATE_WRITE_1: begin
             base_ram_we <= 1'b1; // 信号拉高
             ext_ram_we <= 1'b1;
+            sram_done <= 1'b1;
             if(we == 1'b1) begin // 上层第二次点击clock_btn，（上层控制）we跳变为1，响应.如果还没点，保持.
                 state <= STATE_IDLE;
             end
             else begin
                 state <= STATE_WRITE_1;
+                
             end
         end
         STATE_READ_0: begin
@@ -143,12 +153,11 @@ always@(posedge rst or posedge clk) begin
             state <= STATE_READ_1;
         end
         STATE_READ_1: begin
-            if(oe == 1'b1) begin
+            sram_done <= 1'b1;
+            if(oe == 1'b1)
                 state <= STATE_IDLE;
-            end
-            else begin
-                state <= STATE_READ_1;
-            end
+            else
+                state <=STATE_READ_1;
         end
         default: begin
             state <= STATE_IDLE;
