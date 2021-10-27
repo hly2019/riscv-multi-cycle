@@ -70,8 +70,8 @@ assign uart_rdn = rdn;
 reg wrn;
 assign uart_wrn = wrn;
 
-
-
+reg [31:0] uart_data_in;
+reg [31:0] uart_data_out;
 
 
 reg[31:0] base_ram_data, ext_ram_data;
@@ -119,8 +119,7 @@ assign base_ram_addr = addr;
 assign ext_ram_addr = addr;
 
 
-
-assign data_in = ext_ram_ce_n ? base_ram_data_wire: ext_ram_data_wire;
+assign data_in = ext_ram_ce_n ? base_ram_ce_n ? uart_data_in : base_ram_data_wire: ext_ram_data_wire;
 
 always@(posedge rst or posedge clk) begin
     if(rst) begin
@@ -135,12 +134,15 @@ always@(posedge rst or posedge clk) begin
         ext_ram_data <= 32'b0;
         data_z <= 1'b1;
         sram_uart_done <= 1'b0;
+        wrn <= 1'b1;
+        rdn <= 1'b1;
     end
     
     else case(state)
         STATE_IDLE: begin
             base_ram_data <= data_out;
             ext_ram_data <= data_out;
+            uart_data_out <= data_out;
             base_ram_oe <= 1'b1;
             ext_ram_oe <= 1'b1;
             base_ram_we <= 1'b1;
@@ -154,11 +156,51 @@ always@(posedge rst or posedge clk) begin
                 state <= STATE_READ_0;
                 data_z <= 1'b1; // data_z 拉高，总线设为高阻态
             end
+            else if(uart_oe == 1'b1) begin // 读串口
+                state <= STATE_READ_UART_1;
+                data_z <= 1'b1; // 准备读串口，总线设置成高阻态.
+            end
+            else if(uart_we == 1'b1) begin // 写串口
+                state <= STATE_WRITE_UART_1;
+                data_z <= 1'b0; // 输入数据
+            end
             else begin
                 state <= STATE_IDLE;
                 data_z <= 1'b1;
             end
         end
+        STATE_READ_UART_1: begin 
+            state <= STATE_READ_UART_2;
+            rdn <= 1'b1;
+        end
+        STATE_READ_UART_2: begin
+            if(uart_dataready != 1'b1) begin
+                state <=STATE_READ_UART_2; // 或者跳转回状态1？
+            end
+            else begin
+                state <= STATE_READ_UART_3;
+                rdn <= 1'b0;
+                sram_uart_done <= 1'b1;
+            end
+        end
+        STATE_READ_UART_3: begin
+            uart_data_out <= base_ram_data[7:0];
+            if(uart_oe == 1'b0) begin
+                rdn <= 1'b1;
+                state <= STATE_IDLE;
+                sram_uart_done <= 1'b0;
+            end
+            else begin
+                rdn <= 1'b0;
+                state <= STATE_READ_UART_3;
+            end
+        end
+
+
+
+
+
+
         STATE_WRITE_0: begin
             base_ram_we <= 1'b0; // 信号拉低，写。
             ext_ram_we <= 1'b0;
