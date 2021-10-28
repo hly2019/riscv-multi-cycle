@@ -191,6 +191,9 @@ module thinpad_top(
             `OP_LUI: begin
                 alu_op <= `LUI;
             end
+            `OP_ANDI: begin
+                alu_op <= `AND;
+            end
             default: begin
                 alu_op <= `ZERO;
             end

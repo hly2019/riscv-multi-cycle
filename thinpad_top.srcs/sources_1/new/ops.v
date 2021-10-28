@@ -4,4 +4,5 @@
 `define OP_OR 3'h3
 `define OP_ADD 3'h4
 `define OP_BEQ 3'h5
+`define OP_ANDI 3'h6
 

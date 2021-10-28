@@ -42,11 +42,12 @@ module decoder(
                 endcase
             end
             
-            7'b0010011: begin //ORI
+            7'b0010011: begin
                 imm = {sign_ext, inst[31:20]};
                 imm_select = 1'b1;
                 case(inst[14:12])
-                    3'b110: op = `OP_OR;
+                    3'b110: op = `OP_OR; // ORI
+                    3'b111: op = `OP_ANDI; // ANDI
                 endcase
             end
             
@@ -71,6 +72,7 @@ module decoder(
                 imm[19:0] = inst[31:12]; // 应该不需要符号位扩展
                 op = `OP_LUI;
             end
+
         endcase 
     end
 endmodule
