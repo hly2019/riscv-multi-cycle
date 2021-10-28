@@ -96,6 +96,8 @@ module thinpad_top(
     reg uart_oe; // 用来通知底层准备写、读uart
     reg uart_we; 
 
+    wire uart_state; // 串口状态位
+
 
     sram _sram(
         .clk(clk_50M),
@@ -129,9 +131,10 @@ module thinpad_top(
         .uart_dataready(uart_dataready),
         .uart_tbre(uart_tbre),
         .uart_tsre(uart_tsre),
-        
+
         .uart_oe(uart_oe),
-        .uart_we(uart_we)
+        .uart_we(uart_we),
+        .uart_state(uart_state)
     );
     
     //interface to decoder

@@ -59,8 +59,9 @@ module sram(
     input  wire uart_tsre,
 
     input wire uart_oe, // 信号拉高表示准备读uart
-    input wire uart_we // 信号拉高表示准备写uart
+    input wire uart_we, // 信号拉高表示准备写uart
     
+    output wire uart_state // 串口状态位
     );
 
 
@@ -118,6 +119,7 @@ assign data_in = data_in_reg;
 assign base_ram_addr = addr;
 assign ext_ram_addr = addr;
 
+assign uart_state = uart_tbre & uart_tsre; // 串口状态位，都为1时可写.TODO: 可能需要加上wrn.
 
 assign data_in = ext_ram_ce_n ? base_ram_ce_n ? uart_data_in : base_ram_data_wire: ext_ram_data_wire;
 
@@ -136,6 +138,8 @@ always@(posedge rst or posedge clk) begin
         sram_uart_done <= 1'b0;
         wrn <= 1'b1;
         rdn <= 1'b1;
+        uart_data_in <= 'b0;
+        uart_data_out <= 'b0;
     end
     
     else case(state)
@@ -162,20 +166,36 @@ always@(posedge rst or posedge clk) begin
             end
             else if(uart_we == 1'b1) begin // 写串口
                 state <= STATE_WRITE_UART_1;
-                data_z <= 1'b0; // 输入数据
+                data_z <= 1'b0; // 总线准备输入数据
             end
             else begin
                 state <= STATE_IDLE;
                 data_z <= 1'b1;
             end
         end
+        STATE_WRITE_UART_1: begin // data&&addr ready
+            state <= STATE_WRITE_UART_2;
+            wrn <= 1'b0; // 拉低信号
+        end
+        STATE_WRITE_UART_2: begin // 直接回
+            wrn <= 1'b1;
+            sram_uart_done <= 1'b1; // TODO: 是否需要多等一个周期
+            state <= STATE_IDLE;
+        end
+
+
+
+
+
+
+
         STATE_READ_UART_1: begin 
             state <= STATE_READ_UART_2;
             rdn <= 1'b1;
         end
         STATE_READ_UART_2: begin
             if(uart_dataready != 1'b1) begin
-                state <=STATE_READ_UART_2; // 或者跳转回状态1？
+                state <=STATE_READ_UART_2; // 或者跳转回状态1?目前不需要考虑，没有读串口
             end
             else begin
                 state <= STATE_READ_UART_3;
@@ -184,7 +204,7 @@ always@(posedge rst or posedge clk) begin
             end
         end
         STATE_READ_UART_3: begin
-            uart_data_out <= base_ram_data[7:0];
+            uart_data_in <= base_ram_data[7:0];
             if(uart_oe == 1'b0) begin
                 rdn <= 1'b1;
                 state <= STATE_IDLE;
