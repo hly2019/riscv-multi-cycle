@@ -188,6 +188,9 @@ module thinpad_top(
             `OP_OR: begin
                 alu_op <= `OR;
             end
+            `OP_LUI: begin
+                alu_op <= `LUI;
+            end
             default: begin
                 alu_op <= `ZERO;
             end
@@ -271,6 +274,11 @@ module thinpad_top(
                             pc <= exe_result;
                         else
                             pc <= pc + 32'h4;
+                    end
+                    `OP_LUI: begin
+                        cpu_stage <= STAGE_WB;
+                        reg_waddr <= reg_d;
+                        reg_wdata <= exe_result;
                     end
                     default : begin
                         cpu_stage <= STAGE_EXE; //stop

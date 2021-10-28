@@ -9,3 +9,4 @@
 `define SRL     4'b1000
 `define SRA     4'b1001
 `define ROL     4'b1010
+`define LUI     4'b1011

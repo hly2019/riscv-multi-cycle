@@ -66,6 +66,11 @@ module decoder(
                     3'b000: op = `OP_BEQ;
                 endcase
             end
+            7'b0110111: begin // LUI
+                imm_select = 1'b1; // 使用立即数
+                imm[19:0] = inst[31:12]; // 应该不需要符号位扩展
+                op = `OP_LUI;
+            end
         endcase 
     end
 endmodule
