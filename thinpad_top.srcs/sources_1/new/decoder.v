@@ -48,6 +48,7 @@ module decoder(
                 case(inst[14:12])
                     3'b110: op = `OP_OR; // ORI
                     3'b111: op = `OP_ANDI; // ANDI
+                    3'b000: op = `OP_ADDI; // ADDI
                 endcase
             end
             

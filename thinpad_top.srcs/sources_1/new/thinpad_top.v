@@ -182,7 +182,7 @@ module thinpad_top(
     wire[3:0]   exe_flags;
     always @(*) begin
         case(exe_op)
-            `OP_LW, `OP_SW, `OP_ADD, `OP_BEQ:begin
+            `OP_LW, `OP_SW, `OP_ADD, `OP_BEQ, `OP_ADDI:begin
                 alu_op <= `ADD;
             end
             `OP_OR: begin
