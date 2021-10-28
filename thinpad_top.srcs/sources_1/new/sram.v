@@ -31,7 +31,7 @@ module sram(
     input wire we, // 写使能，高有效
     input wire[3:0] be, // 字节使能
 
-    input wire[19:0] addr, // 要写入的地址
+    input wire[31:0] addr, // 要写入的地址
     output wire[31:0] data_in, // 读出的数据，送到上层
     input wire[31:0] data_out, // 要写入的数据
     output wire done,
@@ -114,8 +114,8 @@ assign ext_ram_oe_n = ext_ram_oe;
 reg[31:0] data_in_reg;
 assign data_in = data_in_reg;
 
-assign base_ram_addr = addr;
-assign ext_ram_addr = addr;
+assign base_ram_addr = addr[19:0];
+assign ext_ram_addr = addr[19:0];
 
 wire uart_state; // 串口状态位
 assign uart_state = uart_tbre & uart_tsre; // 串口状态位，都为1时可写.TODO: 可能需要加上wrn.
@@ -126,6 +126,7 @@ assign ext_ram_ce_n = 1'b1; // 实验五暂时不需要ext_ram
 
 wire uart_oe; // 信号拉高表示准备读uart
 wire uart_we; // 信号拉高表示准备写uart
+
 // 准备读写且地址为串口地址，则写串口
 assign uart_oe = (oe & (addr[31:24] == 8'b00000001 && addr[7:0] == 8'b00000000)) ? 1'b1: 1'b0;
 assign uart_we = (we & (addr[31:24] == 8'b00000001 && addr[7:0] == 8'b00000000)) ? 1'b1: 1'b0;
