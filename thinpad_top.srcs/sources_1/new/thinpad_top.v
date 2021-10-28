@@ -130,11 +130,7 @@ module thinpad_top(
         .uart_wrn(uart_wrn),
         .uart_dataready(uart_dataready),
         .uart_tbre(uart_tbre),
-        .uart_tsre(uart_tsre),
-
-        .uart_oe(uart_oe),
-        .uart_we(uart_we),
-        .uart_state(uart_state)
+        .uart_tsre(uart_tsre)
     );
     
     //interface to decoder
