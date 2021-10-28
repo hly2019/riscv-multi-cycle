@@ -87,8 +87,8 @@ module thinpad_top(
     reg         mem_oe, mem_we;
     wire        mem_be;
     reg[31:0]   mem_address;
-    reg[31:0]   mem_data_in;
-    wire[31:0]  mem_data_out;
+    reg[31:0]   mem_data_out; // 送到sram的数据
+    wire[31:0]  mem_data_in; // 从sram、uart读出的数据
     wire        mem_done;
 
     assign mem_be = 1'b0;
@@ -227,7 +227,7 @@ module thinpad_top(
             STAGE_IF: begin
                 if (mem_done) begin // 成功读出指令
                     cpu_stage <= STAGE_ID;
-                    reg_instruction <= mem_data_out; // 从内存中取出指令，送到下一阶段译码
+                    reg_instruction <= mem_data_in; // 从内存中取出指令，送到下一阶段译码
                     mem_oe <= 1'b0;
                 end
                 else begin // 等在取指阶段，等待从内存读出指令
@@ -257,7 +257,7 @@ module thinpad_top(
                         mem_write <= 1'b1;
                         mem_we <= 1'b1;
                         mem_address <= exe_result;
-                        mem_data_in <= exe_reg_t_val;
+                        mem_data_out <= exe_reg_t_val;
                     end
                     `OP_OR, `OP_ADD : begin
                         cpu_stage <= STAGE_WB;
@@ -284,7 +284,7 @@ module thinpad_top(
                     cpu_stage <= STAGE_WB;
                     if (~mem_write) begin //for memory read
                         reg_waddr <= reg_d; // 目标寄存器的编号
-                        reg_wdata <= mem_data_out; // 读出来的值
+                        reg_wdata <= mem_data_in; // 读出来的值
                         reg_we <= 1'b1; // 拉高寄存器文件写使能，将数据写入寄存器
                     end
                     else begin //for memory write
