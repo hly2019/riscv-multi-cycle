@@ -114,8 +114,8 @@ assign ext_ram_oe_n = ext_ram_oe;
 reg[31:0] data_in_reg;
 assign data_in = data_in_reg;
 
-assign base_ram_addr = addr[19:0];
-assign ext_ram_addr = addr[19:0];
+assign base_ram_addr = addr[21:2];
+assign ext_ram_addr = addr[21:2];
 
 wire uart_state; // 串口状态位
 assign uart_state = uart_tbre & uart_tsre; // 串口状态位，都为1时可写.TODO: 可能需要加上wrn.

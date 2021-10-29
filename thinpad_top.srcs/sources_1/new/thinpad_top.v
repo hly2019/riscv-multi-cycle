@@ -221,7 +221,7 @@ module thinpad_top(
     
     reg             mem_write;
     assign dpy0 = cpu_stage;
-    // assign dpy1 = exe_result;
+    assign dpy1 = exe_result;
 
     
     always @(posedge clk_50M or posedge reset_btn) begin
@@ -335,7 +335,7 @@ module thinpad_top(
             STAGE_WB: begin
                 cpu_stage <= STAGE_IF;
                 reg_we <= 1'b0; // 拉低寄存器文件写使能。在当前周期上升沿，reg_we为1，regfile检测到，写入，当前周期结束，reg_we拉低。
-                pc <= pc + 32'h1;
+                pc <= pc + 32'h4;
             end
             endcase
         end
