@@ -214,7 +214,7 @@ module thinpad_top(
     localparam STAGE_MEM        = 3'b011;
     localparam STAGE_WB         = 3'b100;
 
-    reg[2:0]        cpu_stage;
+    reg[3:0]        cpu_stage;
     reg[31:0]       pc;
     
     reg             mem_write;
@@ -265,7 +265,7 @@ module thinpad_top(
                         mem_address <= exe_result;
                         mem_data_out <= exe_reg_t_val;
                     end
-                    `OP_OR, `OP_ADD : begin
+                    `OP_OR, `OP_ADD, `OP_ANDI, `OP_ADDI: begin
                         cpu_stage <= STAGE_WB;
                         reg_waddr <= reg_d;
                         reg_wdata <= exe_result;
