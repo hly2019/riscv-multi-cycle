@@ -136,7 +136,7 @@ module thinpad_top(
     //interface to decoder
     reg[31:0]       reg_instruction; // 原版指令
     wire[5:0]       reg_s, reg_t, reg_d;
-    wire[2:0]       op;
+    wire[3:0]       op;
     wire[31:0]      imm;
     wire            imm_select;
     
@@ -147,6 +147,8 @@ module thinpad_top(
         .reg_d          (reg_d),
         .op             (op),
         .imm            (imm),
+        .leds           (leds),
+        .dpy(dpy1),
         .imm_select     (imm_select)
     );
     
@@ -171,7 +173,7 @@ module thinpad_top(
     );
     
     reg[4:0]    exe_reg_d;
-    reg[2:0]    exe_op;
+    reg[3:0]    exe_op;
     reg[31:0]   exe_imm;
     reg         exe_imm_select;
     
@@ -218,6 +220,9 @@ module thinpad_top(
     reg[31:0]       pc;
     
     reg             mem_write;
+    assign dpy0 = cpu_stage;
+    // assign dpy1 = exe_result;
+
     
     always @(posedge clk_50M or posedge reset_btn) begin
         if (reset_btn) begin
@@ -330,7 +335,7 @@ module thinpad_top(
             STAGE_WB: begin
                 cpu_stage <= STAGE_IF;
                 reg_we <= 1'b0; // 拉低寄存器文件写使能。在当前周期上升沿，reg_we为1，regfile检测到，写入，当前周期结束，reg_we拉低。
-                pc <= pc + 32'h4;
+                pc <= pc + 32'h1;
             end
             endcase
         end
