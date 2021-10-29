@@ -52,6 +52,7 @@ module sram(
     output wire ext_ram_oe_n,       //ExtRAM读使能，低有效
     output wire ext_ram_we_n,      //Ext RAM写使能，低有效
 
+    output wire[15:0] leds, 
     output wire uart_rdn,
     output wire uart_wrn,
     input  wire uart_dataready,
@@ -131,7 +132,7 @@ wire uart_we; // 信号拉高表示准备写uart
 assign uart_oe = (oe & (addr[31:28] == 4'b0001 && addr[3:0] == 4'b0000)) ? 1'b1: 1'b0;
 assign uart_we = (we & (addr[31:28] == 4'b0001 && addr[3:0] == 4'b0000)) ? 1'b1: 1'b0;
 wire uart_state_oe; // 读串口状态位
-assign uart_state_oe = (oe & (addr[31:28] == 4'b0001 && addr[7:0] == 4'b0101)) ? 1'b1: 1'b0;
+assign uart_state_oe = (oe & (addr[31:28] == 4'b0001 && addr[3:0] == 4'b0101)) ? 1'b1: 1'b0;
 
 wire sram_oe;
 wire sram_we;
@@ -140,7 +141,9 @@ assign sram_oe = oe & (addr[31:28] != 4'b0001);
 assign sram_we = we & (addr[31:28] != 4'b0001); 
 
 // 读串口时也直接从base_ram_data上拿数据，读状态位时从uart_state_oe上拿数据
-assign data_in = ext_ram_ce_n ? (uart_state_oe ? uart_state_oe : base_ram_data_wire): ext_ram_data_wire;
+assign data_in = ext_ram_ce_n ? (uart_state_oe ? uart_state : base_ram_data_wire): ext_ram_data_wire;
+
+// assign leds = addr[31:16];
 always@(posedge rst or posedge clk) begin
     if(rst) begin
         state <= STATE_IDLE;

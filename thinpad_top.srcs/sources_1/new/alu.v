@@ -78,7 +78,7 @@ module alu(
                 result = (a << b) | (a >> (32-b)); 
             end 
             `LUI: begin
-                result = b << 12; // b为立即数，赋给高16位，低16位清零。
+                result = b; // b为立即数，赋给高16位，低16位清零。
             end
             
             default :

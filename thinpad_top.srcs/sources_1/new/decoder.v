@@ -9,8 +9,7 @@ module decoder(
     output wire[4:0]        reg_d,
     output reg[3:0]         op,
     output reg[31:0]        imm,
-    output wire [15:0]      leds, 
-    output wire [7:0]       dpy,
+    output wire [15:0]       leds,
     output reg              imm_select
     );
     
@@ -21,8 +20,8 @@ module decoder(
     assign reg_d = inst[11:7];
     assign reg_s = inst[19:15];
     assign reg_t = inst[24:20];
+    // assign leds = inst[31:16];
 
-    assign leds = imm;
     always @(*) begin
         op = `OP_INVALID;
         imm = 32'h0;
@@ -75,7 +74,7 @@ module decoder(
             end
             7'b0110111: begin // LUI
                 imm_select = 1'b1; // 使用立即数
-                imm[19:0] = inst[31:12]; // 应该不需要符号位扩展
+                imm[31:12] = inst[31:12]; // 应该不需要符号位扩展
                 op = `OP_LUI;
             end
 
