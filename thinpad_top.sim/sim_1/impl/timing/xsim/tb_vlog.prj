@@ -10,5 +10,8 @@ verilog xil_defaultlib  --include "../../../../../thinpad_top.srcs/sim_1/new/inc
 sv xil_defaultlib  --include "../../../../../thinpad_top.srcs/sim_1/new/include" \
 "../../../../../thinpad_top.srcs/sim_1/new/tb.sv" \
 
+verilog xil_defaultlib  --include "../../../../../thinpad_top.srcs/sim_1/new/include" \
+"../../../../../thinpad_top.srcs/sim_1/new/test_sram.v" \
+
 # Do not sort compile order
 nosort

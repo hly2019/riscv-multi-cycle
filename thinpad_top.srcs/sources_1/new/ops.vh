@@ -8,3 +8,4 @@
 `define OP_ANDI 4'h7
 `define OP_ADDI 4'h8
 `define OP_LB 4'h9
+`define OP_SB 4'ha

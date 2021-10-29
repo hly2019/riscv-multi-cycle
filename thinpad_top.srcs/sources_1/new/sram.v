@@ -170,7 +170,7 @@ always@(posedge rst or posedge clk) begin
             sram_uart_done <= 1'b0;
             rdn <= 1'b1;
             wrn <= 1'b1;
-            if(sram_we == 1'b0) begin // 写。上层点击clock_btn，（上层控制）we跳变为0，响应；如果还没点，保持
+            if(sram_we == 1'b1) begin // 写。上层点击clock_btn，（上层控制）we跳变为0，响应；如果还没点，保持
                 state <= STATE_WRITE_0;
                 data_z <= 1'b0;
             end
@@ -243,7 +243,7 @@ always@(posedge rst or posedge clk) begin
             end
         end
         STATE_READ_UART_2: begin
-            if(uart_oe == 1'b0) begin
+            if(uart_oe == 1'b1) begin
                 rdn <= 1'b1;
                 state <= STATE_IDLE;
                 sram_uart_done <= 1'b0;
@@ -284,7 +284,7 @@ always@(posedge rst or posedge clk) begin
             state <= STATE_READ_1;
         end
         STATE_READ_1: begin
-            if(sram_oe == 1'b0) begin
+            if(sram_oe == 1'b1) begin
                 state <= STATE_IDLE;
                 sram_uart_done <= 1'b0;
                 base_ram_oe <= 1'b1;

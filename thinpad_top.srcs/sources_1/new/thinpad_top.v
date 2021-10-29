@@ -182,7 +182,7 @@ module thinpad_top(
     wire[3:0]   exe_flags;
     always @(*) begin
         case(exe_op)
-            `OP_LW, `OP_SW, `OP_ADD, `OP_BEQ, `OP_ADDI:begin
+            `OP_LW, `OP_SW, `OP_ADD, `OP_BEQ, `OP_ADDI, `OP_LB, `OP_SB:begin
                 alu_op <= `ADD;
             end
             `OP_OR: begin
@@ -252,18 +252,25 @@ module thinpad_top(
             end
             STAGE_EXE: begin
                 case (exe_op)
-                    `OP_LW: begin
+                    `OP_LW, `OP_LB: begin
                         cpu_stage <= STAGE_MEM;
                         mem_write <= 1'b0; // mem_write用于告诉下一状态该指令为读或者写
                         mem_oe <= 1'b1; // 拉高读使能，让sram读，下一周期拉低
                         mem_address <= exe_result; // 此时alu被用来寻址
                     end
-                    `OP_SW : begin
+                    `OP_SW: begin
                         cpu_stage <= STAGE_MEM;
                         mem_write <= 1'b1;
                         mem_we <= 1'b1;
                         mem_address <= exe_result;
                         mem_data_out <= exe_reg_t_val;
+                    end
+                    `OP_SB: begin
+                        cpu_stage <= STAGE_MEM;
+                        mem_write <= 1'b1;
+                        mem_we <= 1'b1;
+                        mem_address <= exe_result;
+                        mem_data_out[7:0] <= exe_reg_t_val[7:0];
                     end
                     `OP_OR, `OP_ADD, `OP_ANDI, `OP_ADDI: begin
                         cpu_stage <= STAGE_WB;
@@ -293,9 +300,14 @@ module thinpad_top(
                     mem_oe <= 1'b0; 
                     mem_we <= 1'b0;
                     cpu_stage <= STAGE_WB;
-                    if (~mem_write) begin //for memory read
+                    if (~mem_write) begin //for memory read, TODO: 区分lb，lw
                         reg_waddr <= reg_d; // 目标寄存器的编号
-                        reg_wdata <= mem_data_in; // 读出来的值
+                        if(op == `OP_LW) begin
+                            reg_wdata <= mem_data_in; // 读出来的值
+                        end
+                        else begin
+                            reg_wdata[7:0] <= mem_data_in[7:0]; // 读出来的值，取低8位
+                        end
                         reg_we <= 1'b1; // 拉高寄存器文件写使能，将数据写入寄存器
                     end
                     else begin //for memory write
