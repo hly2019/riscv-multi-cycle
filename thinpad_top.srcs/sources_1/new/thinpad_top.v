@@ -207,6 +207,8 @@ module thinpad_top(
         .a              (exe_op == `OP_BEQ ? pc : exe_reg_s_val),
         .b              (exe_imm_select? exe_imm: exe_reg_t_val),
         .r              (exe_result),
+        .ext_ram_data(ext_ram_data),
+        .dpy1(dpy1),
         .flags          (exe_flags)
     );
     
@@ -221,7 +223,8 @@ module thinpad_top(
     
     reg             mem_write;
     assign dpy0 = cpu_stage;
-    assign leds = exe_result[31:16];
+    // assign leds = exe_result[31:16];
+    assign ext_ram_data = exe_result;
 
     always @(posedge clk_50M or posedge reset_btn) begin
         if (reset_btn) begin
@@ -253,7 +256,7 @@ module thinpad_top(
                 exe_imm <= imm;
                 exe_imm_select <= imm_select;
                 exe_op <= op;
-            end
+            end     
             STAGE_EXE: begin
                 case (exe_op)
                     `OP_LW, `OP_LB: begin
@@ -274,7 +277,7 @@ module thinpad_top(
                         mem_write <= 1'b1;
                         mem_we <= 1'b1;
                         mem_address <= exe_result;
-                        mem_data_out <= exe_reg_t_val;
+                        mem_data_out[7:0] <= exe_reg_t_val[7:0];
                     end
                     `OP_OR, `OP_ADD, `OP_ANDI, `OP_ADDI: begin
                         cpu_stage <= STAGE_WB;
@@ -293,6 +296,7 @@ module thinpad_top(
                         cpu_stage <= STAGE_WB;
                         reg_waddr <= reg_d;
                         reg_wdata <= exe_result;
+                        reg_we <= 1'b1;
                     end
                     default : begin
                         cpu_stage <= STAGE_EXE; //stop

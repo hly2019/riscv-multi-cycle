@@ -75,7 +75,7 @@ reg data_z;
 
 
 assign base_ram_data_wire = data_z ? 32'hz :base_ram_data; // 绑定输出信号
-assign ext_ram_data_wire = data_z ? 32'hz :ext_ram_data;
+// assign ext_ram_data_wire = data_z ? 32'hz :ext_ram_data;
 
 reg sram_uart_done;
 assign done = sram_uart_done;

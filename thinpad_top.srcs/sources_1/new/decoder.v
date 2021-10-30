@@ -20,7 +20,7 @@ module decoder(
     assign reg_d = inst[11:7];
     assign reg_s = inst[19:15];
     assign reg_t = inst[24:20];
-    // assign leds = inst[31:16];
+    assign leds = imm;
 
     always @(*) begin
         op = `OP_INVALID;

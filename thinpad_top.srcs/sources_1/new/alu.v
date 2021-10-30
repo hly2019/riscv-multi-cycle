@@ -7,6 +7,8 @@ module alu(
     input wire[31:0]       a,
     input wire[31:0]       b,
     output wire[31:0]       r,
+    output wire[31:0] ext_ram_data,
+    output wire[7:0] dpy1, 
     output wire[3:0]       flags
     );
         
@@ -15,6 +17,8 @@ module alu(
     
     assign flags = {zf,cf,sf,vf};
     assign r = result;
+    // assign ext_ram_data = a;
+    assign dpy1 = b;
     
     always @(*) begin
         zf = 0;
