@@ -52,7 +52,6 @@ module sram(
     output wire ext_ram_oe_n,       //ExtRAM读使能，低有效
     output wire ext_ram_we_n,      //Ext RAM写使能，低有效
 
-    output wire[15:0] leds, 
     output wire uart_rdn,
     output wire uart_wrn,
     input  wire uart_dataready,
@@ -75,7 +74,7 @@ reg data_z;
 
 
 assign base_ram_data_wire = data_z ? 32'hz :base_ram_data; // 绑定输出信号
-// assign ext_ram_data_wire = data_z ? 32'hz :ext_ram_data;
+assign ext_ram_data_wire = data_z ? 32'hz :ext_ram_data;
 
 reg sram_uart_done;
 assign done = sram_uart_done;
