@@ -111,8 +111,7 @@ reg ext_ram_we, ext_ram_oe;
 assign ext_ram_we_n = ext_ram_we;
 assign ext_ram_oe_n = ext_ram_oe;
 
-reg[31:0] data_in_reg;
-assign data_in = data_in_reg;
+
 
 assign base_ram_addr = addr[21:2];
 assign ext_ram_addr = addr[21:2];
