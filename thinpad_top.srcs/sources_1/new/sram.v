@@ -139,7 +139,7 @@ assign sram_oe = oe & (addr[31:28] != 4'b0001);
 assign sram_we = we & (addr[31:28] != 4'b0001); 
 
 // 读串口时也直接从base_ram_data上拿数据，读状态位时从uart_state_oe上拿数据
-assign data_in = ext_ram_ce_n ? (uart_state_oe ? uart_state : base_ram_data_wire): ext_ram_data_wire;
+assign data_in = ext_ram_ce_n ? (uart_state_oe ? uart_state << 5 : base_ram_data_wire): ext_ram_data_wire;
 
 // assign leds = addr[31:16];
 always@(posedge rst or posedge clk) begin
