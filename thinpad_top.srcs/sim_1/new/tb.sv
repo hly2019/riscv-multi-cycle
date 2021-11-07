@@ -47,7 +47,7 @@ wire uart_tsre;          //数据发送完毕标志
 
 //Windows需要注意路径分隔符的转义，例如"D:\\foo\\bar.bin" C:\Users\22850\Desktop\rv\asmcode 
 parameter BASE_RAM_INIT_FILE = "C:\\Users\\22850\\Desktop\\rv\\asmcode\\five.bin"; //BaseRAM初始化文件，请修改为实际的绝对路径
-parameter EXT_RAM_INIT_FILE = "/tmp/eram.bin";    //ExtRAM初始化文件，请修改为实际的绝对路径
+parameter EXT_RAM_INIT_FILE = "C:\\Users\\22850\\Desktop\\rv\\asmcode\\five.bin";    //ExtRAM初始化文件，请修改为实际的绝对路径
 parameter FLASH_INIT_FILE = "/tmp/kernel.elf";    //Flash初始化文件，请修改为实际的绝对路径
 
 assign rxd = 1'b1; //idle state

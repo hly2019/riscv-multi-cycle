@@ -220,6 +220,7 @@ module thinpad_top(
     
     reg             mem_write;
     assign dpy0 = cpu_stage;
+    assign dpy1 = pc[23:20];
     // assign leds = exe_result[31:16];
 
     always @(posedge clk_50M or posedge reset_btn) begin

@@ -78,7 +78,6 @@ assign ext_ram_data_wire = data_z ? 32'hz :ext_ram_data;
 
 reg sram_uart_done;
 assign done = sram_uart_done;
-// assign leds = data_z ?  base_ram_ce_n ? ext_ram_data_wire[15:0]: base_ram_data_wire[15:0];
 
 localparam STATE_IDLE = 4'b0000;
 localparam STATE_READ_0 = 4'b0001;
@@ -102,6 +101,7 @@ localparam STATE_READ_UART_STATE_3 = 4'b1111;
 reg[3:0] state;
 
 assign base_ram_be_n = 'b0;
+assign ext_ram_be_n = 'b0;
 
 reg base_ram_we, base_ram_oe;
 assign base_ram_we_n = base_ram_we;
@@ -116,12 +116,16 @@ assign ext_ram_oe_n = ext_ram_oe;
 assign base_ram_addr = addr[21:2];
 assign ext_ram_addr = addr[21:2];
 
-wire uart_state; // 串口状态位
-assign uart_state = uart_tbre & uart_tsre; // 串口状态位，都为1时可写.TODO: 可能需要加上wrn.
+wire uart_we_state; // 串口写状态位
+assign uart_we_state = uart_tbre & uart_tsre;
 
+wire uart_oe_state; // 串口读状态位
+assign uart_oe_state = uart_dataready;
 
-assign base_ram_ce_n = (addr[31:28] != 4'b0001) ? 1'b0: 1'b1; // 若addr最高位是8.则说明要写base_ram
-assign ext_ram_ce_n = 1'b1; // 实验五暂时不需要ext_ram
+assign base_ram_ce_n = (addr[31:28] != 4'b0001 && addr[23:20] >= 4'b0100) ? 1'b0: 1'b1;
+ // 若addr最高位是8（不为1），且第三位大于等于4，则说明要操作base_ram。
+assign ext_ram_ce_n =  (addr[31:28] != 4'b0001 && addr[23:20] < 4'b0100) ? 1'b0: 1'b1; 
+// 若最高位是8（不为1），且第三位小于4，则说明要操作ext_ram。
 
 wire uart_oe; // 信号拉高表示准备读uart
 wire uart_we; // 信号拉高表示准备写uart
@@ -139,9 +143,8 @@ assign sram_oe = oe & (addr[31:28] != 4'b0001);
 assign sram_we = we & (addr[31:28] != 4'b0001); 
 
 // 读串口时也直接从base_ram_data上拿数据，读状态位时从uart_state_oe上拿数据
-assign data_in = ext_ram_ce_n ? (uart_state_oe ? uart_state << 5 : base_ram_data_wire): ext_ram_data_wire;
+assign data_in = ext_ram_ce_n ? (uart_state_oe ? uart_we_state << 5 + uart_oe_state: base_ram_data_wire): ext_ram_data_wire;
 
-// assign leds = addr[31:16];
 always@(posedge rst or posedge clk) begin
     if(rst) begin
         state <= STATE_IDLE;
@@ -208,8 +211,6 @@ always@(posedge rst or posedge clk) begin
                 state <= STATE_READ_UART_STATE_2;
             end
         end
-
-
         STATE_WRITE_UART_1: begin // data&&addr ready
             state <= STATE_WRITE_UART_2;
             wrn <= 1'b0; // 拉低信号
@@ -226,21 +227,9 @@ always@(posedge rst or posedge clk) begin
                 state <= STATE_WRITE_UART_2;
             end
         end
-
-
-
-
-
-
-
         STATE_READ_UART_1: begin
-            if(uart_dataready != 1'b1) begin
-                state <=STATE_READ_UART_2; // 或者跳转回状态1?目前不需要考虑，没有读串口
-            end
-            else begin
-                state <= STATE_READ_UART_3;
-                rdn <= 1'b0;
-            end
+            state <= STATE_READ_UART_2;
+            rdn <= 1'b0;
         end
         STATE_READ_UART_2: begin
             if(uart_oe == 1'b0) begin
@@ -250,16 +239,10 @@ always@(posedge rst or posedge clk) begin
             end
             else begin
                 rdn <= 1'b0;
-                state <= STATE_READ_UART_3;
+                state <= STATE_READ_UART_2;
                 sram_uart_done <= 1'b1;
             end
         end
-
-
-
-
-
-
         STATE_WRITE_0: begin
             base_ram_we <= 1'b0; // 信号拉低，写。
             ext_ram_we <= 1'b0;
