@@ -9,7 +9,6 @@ module decoder(
     output wire[4:0]        reg_d,
     output reg[3:0]         op,
     output reg[31:0]        imm,
-    output wire [15:0]       leds,
     output reg              imm_select
     );
     
@@ -20,7 +19,6 @@ module decoder(
     assign reg_d = inst[11:7];
     assign reg_s = inst[19:15];
     assign reg_t = inst[24:20];
-    assign leds = imm;
 
     always @(*) begin
         op = `OP_INVALID;

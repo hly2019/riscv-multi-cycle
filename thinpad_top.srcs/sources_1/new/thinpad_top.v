@@ -147,7 +147,6 @@ module thinpad_top(
         .reg_d          (reg_d),
         .op             (op),
         .imm            (imm),
-        .leds(leds),
         .imm_select     (imm_select)
     );
     
@@ -221,7 +220,7 @@ module thinpad_top(
     reg             mem_write;
     assign dpy0 = cpu_stage;
     assign dpy1 = pc[23:20];
-    // assign leds = exe_result[31:16];
+    assign leds = mem_data_in[15:0];
 
     always @(posedge clk_50M or posedge reset_btn) begin
         if (reset_btn) begin
@@ -233,7 +232,7 @@ module thinpad_top(
             mem_write <= 1'b0;
         end
         else begin
-            case (cpu_stage)
+            case (cpu_stage)    
             STAGE_IF: begin
                 if (mem_done) begin // 成功读出指令
                     cpu_stage <= STAGE_ID;

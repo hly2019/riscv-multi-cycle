@@ -69,8 +69,13 @@ assign uart_wrn = wrn;
 
 
 
-reg[31:0] base_ram_data, ext_ram_data;
-reg data_z;
+wire[31:0] base_ram_data, ext_ram_data;
+wire data_z;
+
+assign data_z = we ? 1'b0: 1'b1;
+
+assign base_ram_data = data_out;
+assign ext_ram_data = data_out;
 
 
 assign base_ram_data_wire = data_z ? 32'hz :base_ram_data; // 绑定输出信号
@@ -148,15 +153,13 @@ assign data_in = ext_ram_ce_n ? (uart_state_oe ? uart_we_state << 5 + uart_oe_st
 always@(posedge rst or posedge clk) begin
     if(rst) begin
         state <= STATE_IDLE;
-        base_ram_data <= 32'b0;
-        ext_ram_data <= 32'b0;
+        // base_ram_data <= 32'b0;
+        // ext_ram_data <= 32'b0;
         base_ram_we <= 1'b1;
         base_ram_oe <= 1'b1;
         ext_ram_oe <= 1'b1;
         ext_ram_we <= 1'b1;
-        base_ram_data <= 32'b0;
-        ext_ram_data <= 32'b0;
-        data_z <= 1'b1;
+        // data_z <= 1'b1;
         sram_uart_done <= 1'b0;
         wrn <= 1'b1;
         rdn <= 1'b1;
@@ -164,38 +167,42 @@ always@(posedge rst or posedge clk) begin
     
     else case(state)
         STATE_IDLE: begin
-            base_ram_data <= data_out;
-            ext_ram_data <= data_out;
-            base_ram_oe <= 1'b1;
-            ext_ram_oe <= 1'b1;
-            base_ram_we <= 1'b1;
-            ext_ram_we <= 1'b1;
+            // base_ram_data <= data_out;
+            // ext_ram_data <= data_out;
+            // base_ram_oe <= 1'b1;
+            // ext_ram_oe <= 1'b1;
+            // base_ram_we <= 1'b1;
+            // ext_ram_we <= 1'b1;
             sram_uart_done <= 1'b0;
-            rdn <= 1'b1;
-            wrn <= 1'b1;
+            // rdn <= 1'b1;
+            // wrn <= 1'b1;
             if(sram_we == 1'b1) begin // 写。上层点击clock_btn，（上层控制）we跳变为0，响应；如果还没点，保持
-                state <= STATE_WRITE_0;
-                data_z <= 1'b0;
+                state <= STATE_WRITE_1;
+                base_ram_we <= 1'b0; // 信号拉低，写。
+                ext_ram_we <= 1'b0;
+                // data_z <= 1'b0;
             end
             else if(sram_oe == 1'b1) begin // 读
-                state <= STATE_READ_0;
-                data_z <= 1'b1; // data_z 拉高，总线设为高阻态
+                state <= STATE_READ_1;
+                base_ram_oe <= 1'b0;
+                ext_ram_oe <= 1'b0;
+                // data_z <= 1'b1; // data_z 拉高，总线设为高阻态
             end
             else if(uart_oe == 1'b1) begin // 读串口
                 state <= STATE_READ_UART_1;
-                data_z <= 1'b1; // 准备读串口，总线设置成高阻态.
+                // data_z <= 1'b1; // 准备读串口，总线设置成高阻态.
             end
             else if(uart_we == 1'b1) begin // 写串口
                 state <= STATE_WRITE_UART_1;
-                data_z <= 1'b0; // 总线准备输入数据
+                // data_z <= 1'b0; // 总线准备输入数据
             end
             else if(uart_state_oe == 1'b1) begin // 读串口状态位
                 state <= STATE_READ_UART_STATE_1;
-                data_z <= 1'b1;
+                // data_z <= 1'b1;
             end
             else begin
                 state <= STATE_IDLE;
-                data_z <= 1'b1;
+                // data_z <= 1'b1;
             end
         end
         STATE_READ_UART_STATE_1: begin // 读串口状态位
@@ -219,7 +226,7 @@ always@(posedge rst or posedge clk) begin
             wrn <= 1'b1;
             if(uart_we == 1'b0) begin
                 state <= STATE_IDLE;
-                data_z <= 1'b1;
+                // data_z <= 1'b1;
                 sram_uart_done <= 1'b0;
             end
             else begin
@@ -243,29 +250,29 @@ always@(posedge rst or posedge clk) begin
                 sram_uart_done <= 1'b1;
             end
         end
-        STATE_WRITE_0: begin
-            base_ram_we <= 1'b0; // 信号拉低，写。
-            ext_ram_we <= 1'b0;
-            state <= STATE_WRITE_1; 
-        end
+        // STATE_WRITE_0: begin
+        //     base_ram_we <= 1'b0; // 信号拉低，写。
+        //     ext_ram_we <= 1'b0;
+        //     state <= STATE_WRITE_1; 
+        // end
         STATE_WRITE_1: begin
             base_ram_we <= 1'b1; // 信号拉高
             ext_ram_we <= 1'b1;
             if(sram_we == 1'b0) begin // 上层第二次点击clock_btn，（上层控制）we跳变为1，响应.如果还没点，保持.
                 state <= STATE_IDLE;
                 sram_uart_done <= 1'b0;
-                data_z <= 1'b1;
+                // data_z <= 1'b1;
             end
             else begin
                 state <= STATE_WRITE_1;
                 sram_uart_done <= 1'b1;
             end
         end
-        STATE_READ_0: begin
-            base_ram_oe <= 1'b0;
-            ext_ram_oe <= 1'b0;
-            state <= STATE_READ_1;
-        end
+        // STATE_READ_0: begin
+        //     base_ram_oe <= 1'b0;
+        //     ext_ram_oe <= 1'b0;
+        //     state <= STATE_READ_1;
+        // end
         STATE_READ_1: begin
             if(sram_oe == 1'b0) begin
                 state <= STATE_IDLE;
