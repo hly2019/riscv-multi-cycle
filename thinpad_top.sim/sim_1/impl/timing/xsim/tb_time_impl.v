@@ -1,7 +1,7 @@
 // Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-// Date        : Sat Oct 30 17:21:15 2021
+// Date        : Sat Oct 30 23:02:53 2021
 // Host        : DESKTOP-LOG1PQ3 running 64-bit major release  (build 9200)
 // Command     : write_verilog -mode timesim -nolib -sdf_anno true -force -file
 //               C:/Users/22850/Desktop/temp/cod21-hly19/thinpad_top.sim/sim_1/impl/timing/xsim/tb_time_impl.v
@@ -37,7 +37,7 @@ module IOBUF_UNIQ_BASE_
         .T(T));
 endmodule
 
-module IOBUF_HD1365
+module IOBUF_HD1
    (IO,
     O,
     I,
@@ -61,7 +61,7 @@ module IOBUF_HD1365
         .T(T));
 endmodule
 
-module IOBUF_HD1366
+module IOBUF_HD10
    (IO,
     O,
     I,
@@ -85,7 +85,7 @@ module IOBUF_HD1366
         .T(T));
 endmodule
 
-module IOBUF_HD1367
+module IOBUF_HD11
    (IO,
     O,
     I,
@@ -109,7 +109,7 @@ module IOBUF_HD1367
         .T(T));
 endmodule
 
-module IOBUF_HD1368
+module IOBUF_HD12
    (IO,
     O,
     I,
@@ -133,7 +133,7 @@ module IOBUF_HD1368
         .T(T));
 endmodule
 
-module IOBUF_HD1369
+module IOBUF_HD13
    (IO,
     O,
     I,
@@ -157,7 +157,7 @@ module IOBUF_HD1369
         .T(T));
 endmodule
 
-module IOBUF_HD1370
+module IOBUF_HD14
    (IO,
     O,
     I,
@@ -181,7 +181,7 @@ module IOBUF_HD1370
         .T(T));
 endmodule
 
-module IOBUF_HD1371
+module IOBUF_HD15
    (IO,
     O,
     I,
@@ -205,7 +205,7 @@ module IOBUF_HD1371
         .T(T));
 endmodule
 
-module IOBUF_HD1372
+module IOBUF_HD16
    (IO,
     O,
     I,
@@ -229,7 +229,7 @@ module IOBUF_HD1372
         .T(T));
 endmodule
 
-module IOBUF_HD1373
+module IOBUF_HD17
    (IO,
     O,
     I,
@@ -253,7 +253,7 @@ module IOBUF_HD1373
         .T(T));
 endmodule
 
-module IOBUF_HD1374
+module IOBUF_HD18
    (IO,
     O,
     I,
@@ -277,7 +277,7 @@ module IOBUF_HD1374
         .T(T));
 endmodule
 
-module IOBUF_HD1375
+module IOBUF_HD19
    (IO,
     O,
     I,
@@ -301,7 +301,7 @@ module IOBUF_HD1375
         .T(T));
 endmodule
 
-module IOBUF_HD1376
+module IOBUF_HD2
    (IO,
     O,
     I,
@@ -325,7 +325,7 @@ module IOBUF_HD1376
         .T(T));
 endmodule
 
-module IOBUF_HD1377
+module IOBUF_HD20
    (IO,
     O,
     I,
@@ -349,7 +349,7 @@ module IOBUF_HD1377
         .T(T));
 endmodule
 
-module IOBUF_HD1378
+module IOBUF_HD21
    (IO,
     O,
     I,
@@ -373,7 +373,7 @@ module IOBUF_HD1378
         .T(T));
 endmodule
 
-module IOBUF_HD1379
+module IOBUF_HD22
    (IO,
     O,
     I,
@@ -397,7 +397,7 @@ module IOBUF_HD1379
         .T(T));
 endmodule
 
-module IOBUF_HD1380
+module IOBUF_HD23
    (IO,
     O,
     I,
@@ -421,7 +421,7 @@ module IOBUF_HD1380
         .T(T));
 endmodule
 
-module IOBUF_HD1381
+module IOBUF_HD24
    (IO,
     O,
     I,
@@ -445,7 +445,7 @@ module IOBUF_HD1381
         .T(T));
 endmodule
 
-module IOBUF_HD1382
+module IOBUF_HD25
    (IO,
     O,
     I,
@@ -469,7 +469,7 @@ module IOBUF_HD1382
         .T(T));
 endmodule
 
-module IOBUF_HD1383
+module IOBUF_HD26
    (IO,
     O,
     I,
@@ -493,7 +493,7 @@ module IOBUF_HD1383
         .T(T));
 endmodule
 
-module IOBUF_HD1384
+module IOBUF_HD27
    (IO,
     O,
     I,
@@ -517,7 +517,7 @@ module IOBUF_HD1384
         .T(T));
 endmodule
 
-module IOBUF_HD1385
+module IOBUF_HD28
    (IO,
     O,
     I,
@@ -541,7 +541,7 @@ module IOBUF_HD1385
         .T(T));
 endmodule
 
-module IOBUF_HD1386
+module IOBUF_HD29
    (IO,
     O,
     I,
@@ -565,7 +565,7 @@ module IOBUF_HD1386
         .T(T));
 endmodule
 
-module IOBUF_HD1387
+module IOBUF_HD3
    (IO,
     O,
     I,
@@ -589,7 +589,7 @@ module IOBUF_HD1387
         .T(T));
 endmodule
 
-module IOBUF_HD1388
+module IOBUF_HD30
    (IO,
     O,
     I,
@@ -613,7 +613,7 @@ module IOBUF_HD1388
         .T(T));
 endmodule
 
-module IOBUF_HD1389
+module IOBUF_HD31
    (IO,
     O,
     I,
@@ -637,7 +637,7 @@ module IOBUF_HD1389
         .T(T));
 endmodule
 
-module IOBUF_HD1390
+module IOBUF_HD4
    (IO,
     O,
     I,
@@ -661,7 +661,7 @@ module IOBUF_HD1390
         .T(T));
 endmodule
 
-module IOBUF_HD1391
+module IOBUF_HD5
    (IO,
     O,
     I,
@@ -685,7 +685,7 @@ module IOBUF_HD1391
         .T(T));
 endmodule
 
-module IOBUF_HD1392
+module IOBUF_HD6
    (IO,
     O,
     I,
@@ -709,7 +709,7 @@ module IOBUF_HD1392
         .T(T));
 endmodule
 
-module IOBUF_HD1393
+module IOBUF_HD7
    (IO,
     O,
     I,
@@ -733,7 +733,7 @@ module IOBUF_HD1393
         .T(T));
 endmodule
 
-module IOBUF_HD1394
+module IOBUF_HD8
    (IO,
     O,
     I,
@@ -757,7 +757,7 @@ module IOBUF_HD1394
         .T(T));
 endmodule
 
-module IOBUF_HD1395
+module IOBUF_HD9
    (IO,
     O,
     I,
@@ -785,11 +785,11 @@ module alu
    (D,
     \FSM_onehot_cpu_stage_reg[1] ,
     \exe_reg_s_val_reg[31] ,
-    \reg_wdata_reg[0] ,
-    \reg_wdata_reg[0]_0 ,
-    \reg_wdata_reg[0]_1 ,
-    \reg_wdata_reg[0]_2 ,
-    \reg_wdata_reg[0]_3 ,
+    \reg_wdata_reg[5] ,
+    \reg_wdata_reg[5]_0 ,
+    \reg_wdata_reg[5]_1 ,
+    \reg_wdata_reg[5]_2 ,
+    \reg_wdata_reg[5]_3 ,
     Q,
     i__carry_i_8_0,
     \mem_address_reg[31] ,
@@ -798,7 +798,7 @@ module alu
     exe_imm,
     \mem_address_reg[0] ,
     \mem_address_reg[0]_0 ,
-    \reg_wdata_reg[1] ,
+    \reg_wdata_reg[0] ,
     \mem_address_reg[1] ,
     \mem_address_reg[1]_0 ,
     \mem_address_reg[1]_1 ,
@@ -893,13 +893,13 @@ module alu
     \pc_reg[30]_0 ,
     \pc_reg[31] ,
     \pc_reg[31]_0 ,
-    \reg_wdata_reg[1]_0 ,
+    \reg_wdata_reg[0]_0 ,
     base_ram_data_IBUF,
-    \reg_wdata_reg[1]_1 ,
+    \reg_wdata_reg[0]_1 ,
+    \reg_wdata_reg[1] ,
     \reg_wdata_reg[2] ,
     \reg_wdata_reg[3] ,
     \reg_wdata_reg[4] ,
-    \reg_wdata_reg[5] ,
     \reg_wdata_reg[6] ,
     \reg_wdata_reg[7] ,
     \reg_wdata_reg[8] ,
@@ -929,11 +929,11 @@ module alu
   output [31:0]D;
   output [25:0]\FSM_onehot_cpu_stage_reg[1] ;
   output [31:0]\exe_reg_s_val_reg[31] ;
-  input \reg_wdata_reg[0] ;
-  input \reg_wdata_reg[0]_0 ;
-  input \reg_wdata_reg[0]_1 ;
-  input \reg_wdata_reg[0]_2 ;
-  input \reg_wdata_reg[0]_3 ;
+  input \reg_wdata_reg[5] ;
+  input \reg_wdata_reg[5]_0 ;
+  input \reg_wdata_reg[5]_1 ;
+  input \reg_wdata_reg[5]_2 ;
+  input \reg_wdata_reg[5]_3 ;
   input [31:0]Q;
   input [3:0]i__carry_i_8_0;
   input [31:0]\mem_address_reg[31] ;
@@ -942,7 +942,7 @@ module alu
   input [31:0]exe_imm;
   input \mem_address_reg[0] ;
   input \mem_address_reg[0]_0 ;
-  input [2:0]\reg_wdata_reg[1] ;
+  input [2:0]\reg_wdata_reg[0] ;
   input \mem_address_reg[1] ;
   input \mem_address_reg[1]_0 ;
   input \mem_address_reg[1]_1 ;
@@ -1037,13 +1037,13 @@ module alu
   input \pc_reg[30]_0 ;
   input \pc_reg[31] ;
   input \pc_reg[31]_0 ;
-  input \reg_wdata_reg[1]_0 ;
+  input \reg_wdata_reg[0]_0 ;
   input [30:0]base_ram_data_IBUF;
-  input \reg_wdata_reg[1]_1 ;
+  input \reg_wdata_reg[0]_1 ;
+  input \reg_wdata_reg[1] ;
   input \reg_wdata_reg[2] ;
   input \reg_wdata_reg[3] ;
   input \reg_wdata_reg[4] ;
-  input \reg_wdata_reg[5] ;
   input \reg_wdata_reg[6] ;
   input \reg_wdata_reg[7] ;
   input \reg_wdata_reg[8] ;
@@ -1265,11 +1265,9 @@ module alu
   wire \pc_reg[8]_0 ;
   wire \pc_reg[9] ;
   wire \pc_reg[9]_0 ;
-  wire \reg_wdata_reg[0] ;
+  wire [2:0]\reg_wdata_reg[0] ;
   wire \reg_wdata_reg[0]_0 ;
   wire \reg_wdata_reg[0]_1 ;
-  wire \reg_wdata_reg[0]_2 ;
-  wire \reg_wdata_reg[0]_3 ;
   wire \reg_wdata_reg[10] ;
   wire \reg_wdata_reg[11] ;
   wire \reg_wdata_reg[12] ;
@@ -1280,9 +1278,7 @@ module alu
   wire \reg_wdata_reg[17] ;
   wire \reg_wdata_reg[18] ;
   wire \reg_wdata_reg[19] ;
-  wire [2:0]\reg_wdata_reg[1] ;
-  wire \reg_wdata_reg[1]_0 ;
-  wire \reg_wdata_reg[1]_1 ;
+  wire \reg_wdata_reg[1] ;
   wire \reg_wdata_reg[20] ;
   wire \reg_wdata_reg[21] ;
   wire \reg_wdata_reg[22] ;
@@ -1299,6 +1295,10 @@ module alu
   wire \reg_wdata_reg[3] ;
   wire \reg_wdata_reg[4] ;
   wire \reg_wdata_reg[5] ;
+  wire \reg_wdata_reg[5]_0 ;
+  wire \reg_wdata_reg[5]_1 ;
+  wire \reg_wdata_reg[5]_2 ;
+  wire \reg_wdata_reg[5]_3 ;
   wire \reg_wdata_reg[6] ;
   wire \reg_wdata_reg[7] ;
   wire \reg_wdata_reg[8] ;
@@ -1912,9 +1912,9 @@ module alu
        (.I0(\mem_address_reg[0] ),
         .I1(\mem_address_reg[0]_0 ),
         .I2(\result0_inferred__0/i__carry_n_7 ),
-        .I3(\reg_wdata_reg[1] [1]),
+        .I3(\reg_wdata_reg[0] [1]),
         .I4(\mem_address_reg[31] [0]),
-        .I5(\reg_wdata_reg[1] [0]),
+        .I5(\reg_wdata_reg[0] [0]),
         .O(\FSM_onehot_cpu_stage_reg[1] [0]));
   LUT6 #(
     .INIT(64'hFFFFFFAEFFAEFFAE)) 
@@ -1922,9 +1922,9 @@ module alu
        (.I0(\mem_address[10]_i_2_n_0 ),
         .I1(\mem_address_reg[1] ),
         .I2(\mem_address_reg[10] ),
-        .I3(\reg_wdata_reg[1] [1]),
+        .I3(\reg_wdata_reg[0] [1]),
         .I4(\mem_address_reg[31] [10]),
-        .I5(\reg_wdata_reg[1] [0]),
+        .I5(\reg_wdata_reg[0] [0]),
         .O(\FSM_onehot_cpu_stage_reg[1] [10]));
   LUT6 #(
     .INIT(64'hFFFF40C040C040C0)) 
@@ -1942,9 +1942,9 @@ module alu
        (.I0(\mem_address[11]_i_2_n_0 ),
         .I1(\mem_address_reg[1] ),
         .I2(\mem_address_reg[11] ),
-        .I3(\reg_wdata_reg[1] [1]),
+        .I3(\reg_wdata_reg[0] [1]),
         .I4(\mem_address_reg[31] [11]),
-        .I5(\reg_wdata_reg[1] [0]),
+        .I5(\reg_wdata_reg[0] [0]),
         .O(\FSM_onehot_cpu_stage_reg[1] [11]));
   LUT6 #(
     .INIT(64'hFFFF40C040C040C0)) 
@@ -1962,9 +1962,9 @@ module alu
        (.I0(\mem_address[12]_i_2_n_0 ),
         .I1(\mem_address_reg[1] ),
         .I2(\mem_address_reg[12] ),
-        .I3(\reg_wdata_reg[1] [1]),
+        .I3(\reg_wdata_reg[0] [1]),
         .I4(\mem_address_reg[31] [12]),
-        .I5(\reg_wdata_reg[1] [0]),
+        .I5(\reg_wdata_reg[0] [0]),
         .O(\FSM_onehot_cpu_stage_reg[1] [12]));
   LUT6 #(
     .INIT(64'hFFFF40C040C040C0)) 
@@ -1982,9 +1982,9 @@ module alu
        (.I0(\mem_address[13]_i_2_n_0 ),
         .I1(\mem_address_reg[1] ),
         .I2(\mem_address_reg[13] ),
-        .I3(\reg_wdata_reg[1] [1]),
+        .I3(\reg_wdata_reg[0] [1]),
         .I4(\mem_address_reg[31] [13]),
-        .I5(\reg_wdata_reg[1] [0]),
+        .I5(\reg_wdata_reg[0] [0]),
         .O(\FSM_onehot_cpu_stage_reg[1] [13]));
   LUT6 #(
     .INIT(64'hFFFF40C040C040C0)) 
@@ -2002,9 +2002,9 @@ module alu
        (.I0(\mem_address[14]_i_2_n_0 ),
         .I1(\mem_address_reg[1] ),
         .I2(\mem_address_reg[14] ),
-        .I3(\reg_wdata_reg[1] [1]),
+        .I3(\reg_wdata_reg[0] [1]),
         .I4(\mem_address_reg[31] [14]),
-        .I5(\reg_wdata_reg[1] [0]),
+        .I5(\reg_wdata_reg[0] [0]),
         .O(\FSM_onehot_cpu_stage_reg[1] [14]));
   LUT6 #(
     .INIT(64'hFFFF40C040C040C0)) 
@@ -2022,9 +2022,9 @@ module alu
        (.I0(\mem_address[15]_i_2_n_0 ),
         .I1(\mem_address_reg[1] ),
         .I2(\mem_address_reg[15] ),
-        .I3(\reg_wdata_reg[1] [1]),
+        .I3(\reg_wdata_reg[0] [1]),
         .I4(\mem_address_reg[31] [15]),
-        .I5(\reg_wdata_reg[1] [0]),
+        .I5(\reg_wdata_reg[0] [0]),
         .O(\FSM_onehot_cpu_stage_reg[1] [15]));
   LUT6 #(
     .INIT(64'hFFFF40C040C040C0)) 
@@ -2042,9 +2042,9 @@ module alu
        (.I0(\mem_address[16]_i_2_n_0 ),
         .I1(\mem_address_reg[1] ),
         .I2(\mem_address_reg[16] ),
-        .I3(\reg_wdata_reg[1] [1]),
+        .I3(\reg_wdata_reg[0] [1]),
         .I4(\mem_address_reg[31] [16]),
-        .I5(\reg_wdata_reg[1] [0]),
+        .I5(\reg_wdata_reg[0] [0]),
         .O(\FSM_onehot_cpu_stage_reg[1] [16]));
   LUT6 #(
     .INIT(64'hFFFF40C040C040C0)) 
@@ -2062,9 +2062,9 @@ module alu
        (.I0(\mem_address[17]_i_2_n_0 ),
         .I1(\mem_address_reg[1] ),
         .I2(\mem_address_reg[17] ),
-        .I3(\reg_wdata_reg[1] [1]),
+        .I3(\reg_wdata_reg[0] [1]),
         .I4(\mem_address_reg[31] [17]),
-        .I5(\reg_wdata_reg[1] [0]),
+        .I5(\reg_wdata_reg[0] [0]),
         .O(\FSM_onehot_cpu_stage_reg[1] [17]));
   LUT6 #(
     .INIT(64'hFFFF40C040C040C0)) 
@@ -2082,9 +2082,9 @@ module alu
        (.I0(\mem_address[18]_i_2_n_0 ),
         .I1(\mem_address_reg[1] ),
         .I2(\mem_address_reg[18] ),
-        .I3(\reg_wdata_reg[1] [1]),
+        .I3(\reg_wdata_reg[0] [1]),
         .I4(\mem_address_reg[31] [18]),
-        .I5(\reg_wdata_reg[1] [0]),
+        .I5(\reg_wdata_reg[0] [0]),
         .O(\FSM_onehot_cpu_stage_reg[1] [18]));
   LUT6 #(
     .INIT(64'hFFFF40C040C040C0)) 
@@ -2102,9 +2102,9 @@ module alu
        (.I0(\mem_address[19]_i_2_n_0 ),
         .I1(\mem_address_reg[1] ),
         .I2(\mem_address_reg[19] ),
-        .I3(\reg_wdata_reg[1] [1]),
+        .I3(\reg_wdata_reg[0] [1]),
         .I4(\mem_address_reg[31] [19]),
-        .I5(\reg_wdata_reg[1] [0]),
+        .I5(\reg_wdata_reg[0] [0]),
         .O(\FSM_onehot_cpu_stage_reg[1] [19]));
   LUT6 #(
     .INIT(64'hFFFF40C040C040C0)) 
@@ -2122,9 +2122,9 @@ module alu
        (.I0(\mem_address[1]_i_2_n_0 ),
         .I1(\mem_address_reg[1] ),
         .I2(\mem_address_reg[1]_0 ),
-        .I3(\reg_wdata_reg[1] [1]),
+        .I3(\reg_wdata_reg[0] [1]),
         .I4(\mem_address_reg[31] [1]),
-        .I5(\reg_wdata_reg[1] [0]),
+        .I5(\reg_wdata_reg[0] [0]),
         .O(\FSM_onehot_cpu_stage_reg[1] [1]));
   LUT6 #(
     .INIT(64'hFFFF40C040C040C0)) 
@@ -2142,9 +2142,9 @@ module alu
        (.I0(\mem_address[20]_i_2_n_0 ),
         .I1(\mem_address_reg[1] ),
         .I2(\mem_address_reg[20] ),
-        .I3(\reg_wdata_reg[1] [1]),
+        .I3(\reg_wdata_reg[0] [1]),
         .I4(\mem_address_reg[31] [20]),
-        .I5(\reg_wdata_reg[1] [0]),
+        .I5(\reg_wdata_reg[0] [0]),
         .O(\FSM_onehot_cpu_stage_reg[1] [20]));
   LUT6 #(
     .INIT(64'hFFFF40C040C040C0)) 
@@ -2162,9 +2162,9 @@ module alu
        (.I0(\mem_address[21]_i_2_n_0 ),
         .I1(\mem_address_reg[1] ),
         .I2(\mem_address_reg[21] ),
-        .I3(\reg_wdata_reg[1] [1]),
+        .I3(\reg_wdata_reg[0] [1]),
         .I4(\mem_address_reg[31] [21]),
-        .I5(\reg_wdata_reg[1] [0]),
+        .I5(\reg_wdata_reg[0] [0]),
         .O(\FSM_onehot_cpu_stage_reg[1] [21]));
   LUT6 #(
     .INIT(64'hFFFF40C040C040C0)) 
@@ -2182,9 +2182,9 @@ module alu
        (.I0(\mem_address[28]_i_2_n_0 ),
         .I1(\mem_address_reg[1] ),
         .I2(\mem_address_reg[28] ),
-        .I3(\reg_wdata_reg[1] [1]),
+        .I3(\reg_wdata_reg[0] [1]),
         .I4(\mem_address_reg[31] [28]),
-        .I5(\reg_wdata_reg[1] [0]),
+        .I5(\reg_wdata_reg[0] [0]),
         .O(\FSM_onehot_cpu_stage_reg[1] [22]));
   LUT6 #(
     .INIT(64'hFFFF40C040C040C0)) 
@@ -2202,9 +2202,9 @@ module alu
        (.I0(\mem_address[29]_i_2_n_0 ),
         .I1(\mem_address_reg[1] ),
         .I2(\mem_address_reg[29] ),
-        .I3(\reg_wdata_reg[1] [1]),
+        .I3(\reg_wdata_reg[0] [1]),
         .I4(\mem_address_reg[31] [29]),
-        .I5(\reg_wdata_reg[1] [0]),
+        .I5(\reg_wdata_reg[0] [0]),
         .O(\FSM_onehot_cpu_stage_reg[1] [23]));
   LUT6 #(
     .INIT(64'hFFFF40C040C040C0)) 
@@ -2222,9 +2222,9 @@ module alu
        (.I0(\mem_address[2]_i_2_n_0 ),
         .I1(\mem_address_reg[1] ),
         .I2(\mem_address_reg[2] ),
-        .I3(\reg_wdata_reg[1] [1]),
+        .I3(\reg_wdata_reg[0] [1]),
         .I4(\mem_address_reg[31] [2]),
-        .I5(\reg_wdata_reg[1] [0]),
+        .I5(\reg_wdata_reg[0] [0]),
         .O(\FSM_onehot_cpu_stage_reg[1] [2]));
   LUT6 #(
     .INIT(64'hFFFF40C040C040C0)) 
@@ -2242,9 +2242,9 @@ module alu
        (.I0(\mem_address[30]_i_2_n_0 ),
         .I1(\mem_address_reg[1] ),
         .I2(\mem_address_reg[30] ),
-        .I3(\reg_wdata_reg[1] [1]),
+        .I3(\reg_wdata_reg[0] [1]),
         .I4(\mem_address_reg[31] [30]),
-        .I5(\reg_wdata_reg[1] [0]),
+        .I5(\reg_wdata_reg[0] [0]),
         .O(\FSM_onehot_cpu_stage_reg[1] [24]));
   LUT6 #(
     .INIT(64'hFFFF40C040C040C0)) 
@@ -2262,9 +2262,9 @@ module alu
        (.I0(\mem_address[31]_i_4_n_0 ),
         .I1(\mem_address_reg[1] ),
         .I2(\mem_address_reg[31]_0 ),
-        .I3(\reg_wdata_reg[1] [1]),
+        .I3(\reg_wdata_reg[0] [1]),
         .I4(\mem_address_reg[31] [31]),
-        .I5(\reg_wdata_reg[1] [0]),
+        .I5(\reg_wdata_reg[0] [0]),
         .O(\FSM_onehot_cpu_stage_reg[1] [25]));
   LUT6 #(
     .INIT(64'hFFFF40C040C040C0)) 
@@ -2282,9 +2282,9 @@ module alu
        (.I0(\mem_address[3]_i_2_n_0 ),
         .I1(\mem_address_reg[1] ),
         .I2(\mem_address_reg[3] ),
-        .I3(\reg_wdata_reg[1] [1]),
+        .I3(\reg_wdata_reg[0] [1]),
         .I4(\mem_address_reg[31] [3]),
-        .I5(\reg_wdata_reg[1] [0]),
+        .I5(\reg_wdata_reg[0] [0]),
         .O(\FSM_onehot_cpu_stage_reg[1] [3]));
   LUT6 #(
     .INIT(64'hFFFF40C040C040C0)) 
@@ -2302,9 +2302,9 @@ module alu
        (.I0(\mem_address[4]_i_2_n_0 ),
         .I1(\mem_address_reg[1] ),
         .I2(\mem_address_reg[4] ),
-        .I3(\reg_wdata_reg[1] [1]),
+        .I3(\reg_wdata_reg[0] [1]),
         .I4(\mem_address_reg[31] [4]),
-        .I5(\reg_wdata_reg[1] [0]),
+        .I5(\reg_wdata_reg[0] [0]),
         .O(\FSM_onehot_cpu_stage_reg[1] [4]));
   LUT6 #(
     .INIT(64'hFFFF40C040C040C0)) 
@@ -2322,9 +2322,9 @@ module alu
        (.I0(\mem_address[5]_i_2_n_0 ),
         .I1(\mem_address_reg[1] ),
         .I2(\mem_address_reg[5] ),
-        .I3(\reg_wdata_reg[1] [1]),
+        .I3(\reg_wdata_reg[0] [1]),
         .I4(\mem_address_reg[31] [5]),
-        .I5(\reg_wdata_reg[1] [0]),
+        .I5(\reg_wdata_reg[0] [0]),
         .O(\FSM_onehot_cpu_stage_reg[1] [5]));
   LUT6 #(
     .INIT(64'hFFFF40C040C040C0)) 
@@ -2342,9 +2342,9 @@ module alu
        (.I0(\mem_address[6]_i_2_n_0 ),
         .I1(\mem_address_reg[1] ),
         .I2(\mem_address_reg[6] ),
-        .I3(\reg_wdata_reg[1] [1]),
+        .I3(\reg_wdata_reg[0] [1]),
         .I4(\mem_address_reg[31] [6]),
-        .I5(\reg_wdata_reg[1] [0]),
+        .I5(\reg_wdata_reg[0] [0]),
         .O(\FSM_onehot_cpu_stage_reg[1] [6]));
   LUT6 #(
     .INIT(64'hFFFF40C040C040C0)) 
@@ -2362,9 +2362,9 @@ module alu
        (.I0(\mem_address[7]_i_2_n_0 ),
         .I1(\mem_address_reg[1] ),
         .I2(\mem_address_reg[7] ),
-        .I3(\reg_wdata_reg[1] [1]),
+        .I3(\reg_wdata_reg[0] [1]),
         .I4(\mem_address_reg[31] [7]),
-        .I5(\reg_wdata_reg[1] [0]),
+        .I5(\reg_wdata_reg[0] [0]),
         .O(\FSM_onehot_cpu_stage_reg[1] [7]));
   LUT6 #(
     .INIT(64'hFFFF40C040C040C0)) 
@@ -2382,9 +2382,9 @@ module alu
        (.I0(\mem_address[8]_i_2_n_0 ),
         .I1(\mem_address_reg[1] ),
         .I2(\mem_address_reg[8] ),
-        .I3(\reg_wdata_reg[1] [1]),
+        .I3(\reg_wdata_reg[0] [1]),
         .I4(\mem_address_reg[31] [8]),
-        .I5(\reg_wdata_reg[1] [0]),
+        .I5(\reg_wdata_reg[0] [0]),
         .O(\FSM_onehot_cpu_stage_reg[1] [8]));
   LUT6 #(
     .INIT(64'hFFFF40C040C040C0)) 
@@ -2402,9 +2402,9 @@ module alu
        (.I0(\mem_address[9]_i_2_n_0 ),
         .I1(\mem_address_reg[1] ),
         .I2(\mem_address_reg[9] ),
-        .I3(\reg_wdata_reg[1] [1]),
+        .I3(\reg_wdata_reg[0] [1]),
         .I4(\mem_address_reg[31] [9]),
-        .I5(\reg_wdata_reg[1] [0]),
+        .I5(\reg_wdata_reg[0] [0]),
         .O(\FSM_onehot_cpu_stage_reg[1] [9]));
   LUT6 #(
     .INIT(64'hFFFF40C040C040C0)) 
@@ -2737,323 +2737,323 @@ module alu
         .I5(\pc_reg[0]_2 ),
         .O(\exe_reg_s_val_reg[31] [9]));
   LUT6 #(
-    .INIT(64'hFFFFFFFEFFFEFFFE)) 
+    .INIT(64'hFFFFFF80FF80FF80)) 
     \reg_wdata[0]_i_1 
-       (.I0(\reg_wdata_reg[0] ),
-        .I1(\reg_wdata_reg[0]_0 ),
-        .I2(\reg_wdata_reg[0]_1 ),
-        .I3(\reg_wdata_reg[0]_2 ),
-        .I4(\result0_inferred__0/i__carry_n_7 ),
-        .I5(\reg_wdata_reg[0]_3 ),
+       (.I0(\reg_wdata_reg[0]_0 ),
+        .I1(\reg_wdata_reg[0] [2]),
+        .I2(base_ram_data_IBUF[0]),
+        .I3(\reg_wdata_reg[0]_1 ),
+        .I4(\reg_wdata_reg[5]_3 ),
+        .I5(\result0_inferred__0/i__carry_n_7 ),
         .O(D[0]));
   LUT6 #(
     .INIT(64'hFFFFFF80FF80FF80)) 
     \reg_wdata[10]_i_1 
-       (.I0(\reg_wdata_reg[1]_0 ),
-        .I1(\reg_wdata_reg[1] [2]),
+       (.I0(\reg_wdata_reg[0]_0 ),
+        .I1(\reg_wdata_reg[0] [2]),
         .I2(base_ram_data_IBUF[9]),
         .I3(\reg_wdata_reg[10] ),
-        .I4(\reg_wdata_reg[0]_3 ),
+        .I4(\reg_wdata_reg[5]_3 ),
         .I5(\result0_inferred__0/i__carry__1_n_5 ),
         .O(D[10]));
   LUT6 #(
     .INIT(64'hFFFFFF80FF80FF80)) 
     \reg_wdata[11]_i_1 
-       (.I0(\reg_wdata_reg[1]_0 ),
-        .I1(\reg_wdata_reg[1] [2]),
+       (.I0(\reg_wdata_reg[0]_0 ),
+        .I1(\reg_wdata_reg[0] [2]),
         .I2(base_ram_data_IBUF[10]),
         .I3(\reg_wdata_reg[11] ),
-        .I4(\reg_wdata_reg[0]_3 ),
+        .I4(\reg_wdata_reg[5]_3 ),
         .I5(\result0_inferred__0/i__carry__1_n_4 ),
         .O(D[11]));
   LUT6 #(
     .INIT(64'hFFFFFF80FF80FF80)) 
     \reg_wdata[12]_i_1 
-       (.I0(\reg_wdata_reg[1]_0 ),
-        .I1(\reg_wdata_reg[1] [2]),
+       (.I0(\reg_wdata_reg[0]_0 ),
+        .I1(\reg_wdata_reg[0] [2]),
         .I2(base_ram_data_IBUF[11]),
         .I3(\reg_wdata_reg[12] ),
-        .I4(\reg_wdata_reg[0]_3 ),
+        .I4(\reg_wdata_reg[5]_3 ),
         .I5(\result0_inferred__0/i__carry__2_n_7 ),
         .O(D[12]));
   LUT6 #(
     .INIT(64'hFFFFFF80FF80FF80)) 
     \reg_wdata[13]_i_1 
-       (.I0(\reg_wdata_reg[1]_0 ),
-        .I1(\reg_wdata_reg[1] [2]),
+       (.I0(\reg_wdata_reg[0]_0 ),
+        .I1(\reg_wdata_reg[0] [2]),
         .I2(base_ram_data_IBUF[12]),
         .I3(\reg_wdata_reg[13] ),
-        .I4(\reg_wdata_reg[0]_3 ),
+        .I4(\reg_wdata_reg[5]_3 ),
         .I5(\result0_inferred__0/i__carry__2_n_6 ),
         .O(D[13]));
   LUT6 #(
     .INIT(64'hFFFFFF80FF80FF80)) 
     \reg_wdata[14]_i_1 
-       (.I0(\reg_wdata_reg[1]_0 ),
-        .I1(\reg_wdata_reg[1] [2]),
+       (.I0(\reg_wdata_reg[0]_0 ),
+        .I1(\reg_wdata_reg[0] [2]),
         .I2(base_ram_data_IBUF[13]),
         .I3(\reg_wdata_reg[14] ),
-        .I4(\reg_wdata_reg[0]_3 ),
+        .I4(\reg_wdata_reg[5]_3 ),
         .I5(\result0_inferred__0/i__carry__2_n_5 ),
         .O(D[14]));
   LUT6 #(
     .INIT(64'hFFFFFF80FF80FF80)) 
     \reg_wdata[15]_i_1 
-       (.I0(\reg_wdata_reg[1]_0 ),
-        .I1(\reg_wdata_reg[1] [2]),
+       (.I0(\reg_wdata_reg[0]_0 ),
+        .I1(\reg_wdata_reg[0] [2]),
         .I2(base_ram_data_IBUF[14]),
         .I3(\reg_wdata_reg[15] ),
-        .I4(\reg_wdata_reg[0]_3 ),
+        .I4(\reg_wdata_reg[5]_3 ),
         .I5(\result0_inferred__0/i__carry__2_n_4 ),
         .O(D[15]));
   LUT6 #(
     .INIT(64'hFFFFFF80FF80FF80)) 
     \reg_wdata[16]_i_1 
-       (.I0(\reg_wdata_reg[1]_0 ),
-        .I1(\reg_wdata_reg[1] [2]),
+       (.I0(\reg_wdata_reg[0]_0 ),
+        .I1(\reg_wdata_reg[0] [2]),
         .I2(base_ram_data_IBUF[15]),
         .I3(\reg_wdata_reg[16] ),
-        .I4(\reg_wdata_reg[0]_3 ),
+        .I4(\reg_wdata_reg[5]_3 ),
         .I5(\result0_inferred__0/i__carry__3_n_7 ),
         .O(D[16]));
   LUT6 #(
     .INIT(64'hFFFFFF80FF80FF80)) 
     \reg_wdata[17]_i_1 
-       (.I0(\reg_wdata_reg[1]_0 ),
-        .I1(\reg_wdata_reg[1] [2]),
+       (.I0(\reg_wdata_reg[0]_0 ),
+        .I1(\reg_wdata_reg[0] [2]),
         .I2(base_ram_data_IBUF[16]),
         .I3(\reg_wdata_reg[17] ),
-        .I4(\reg_wdata_reg[0]_3 ),
+        .I4(\reg_wdata_reg[5]_3 ),
         .I5(\result0_inferred__0/i__carry__3_n_6 ),
         .O(D[17]));
   LUT6 #(
     .INIT(64'hFFFFFF80FF80FF80)) 
     \reg_wdata[18]_i_1 
-       (.I0(\reg_wdata_reg[1]_0 ),
-        .I1(\reg_wdata_reg[1] [2]),
+       (.I0(\reg_wdata_reg[0]_0 ),
+        .I1(\reg_wdata_reg[0] [2]),
         .I2(base_ram_data_IBUF[17]),
         .I3(\reg_wdata_reg[18] ),
-        .I4(\reg_wdata_reg[0]_3 ),
+        .I4(\reg_wdata_reg[5]_3 ),
         .I5(\result0_inferred__0/i__carry__3_n_5 ),
         .O(D[18]));
   LUT6 #(
     .INIT(64'hFFFFFF80FF80FF80)) 
     \reg_wdata[19]_i_1 
-       (.I0(\reg_wdata_reg[1]_0 ),
-        .I1(\reg_wdata_reg[1] [2]),
+       (.I0(\reg_wdata_reg[0]_0 ),
+        .I1(\reg_wdata_reg[0] [2]),
         .I2(base_ram_data_IBUF[18]),
         .I3(\reg_wdata_reg[19] ),
-        .I4(\reg_wdata_reg[0]_3 ),
+        .I4(\reg_wdata_reg[5]_3 ),
         .I5(\result0_inferred__0/i__carry__3_n_4 ),
         .O(D[19]));
   LUT6 #(
     .INIT(64'hFFFFFF80FF80FF80)) 
     \reg_wdata[1]_i_1 
-       (.I0(\reg_wdata_reg[1]_0 ),
-        .I1(\reg_wdata_reg[1] [2]),
-        .I2(base_ram_data_IBUF[0]),
-        .I3(\reg_wdata_reg[1]_1 ),
-        .I4(\reg_wdata_reg[0]_3 ),
+       (.I0(\reg_wdata_reg[0]_0 ),
+        .I1(\reg_wdata_reg[0] [2]),
+        .I2(base_ram_data_IBUF[1]),
+        .I3(\reg_wdata_reg[1] ),
+        .I4(\reg_wdata_reg[5]_3 ),
         .I5(\result0_inferred__0/i__carry_n_6 ),
         .O(D[1]));
   LUT6 #(
     .INIT(64'hFFFFFF80FF80FF80)) 
     \reg_wdata[20]_i_1 
-       (.I0(\reg_wdata_reg[1]_0 ),
-        .I1(\reg_wdata_reg[1] [2]),
+       (.I0(\reg_wdata_reg[0]_0 ),
+        .I1(\reg_wdata_reg[0] [2]),
         .I2(base_ram_data_IBUF[19]),
         .I3(\reg_wdata_reg[20] ),
-        .I4(\reg_wdata_reg[0]_3 ),
+        .I4(\reg_wdata_reg[5]_3 ),
         .I5(\result0_inferred__0/i__carry__4_n_7 ),
         .O(D[20]));
   LUT6 #(
     .INIT(64'hFFFFFF80FF80FF80)) 
     \reg_wdata[21]_i_1 
-       (.I0(\reg_wdata_reg[1]_0 ),
-        .I1(\reg_wdata_reg[1] [2]),
+       (.I0(\reg_wdata_reg[0]_0 ),
+        .I1(\reg_wdata_reg[0] [2]),
         .I2(base_ram_data_IBUF[20]),
         .I3(\reg_wdata_reg[21] ),
-        .I4(\reg_wdata_reg[0]_3 ),
+        .I4(\reg_wdata_reg[5]_3 ),
         .I5(\result0_inferred__0/i__carry__4_n_6 ),
         .O(D[21]));
   LUT6 #(
     .INIT(64'hFFFFFF80FF80FF80)) 
     \reg_wdata[22]_i_1 
-       (.I0(\reg_wdata_reg[1]_0 ),
-        .I1(\reg_wdata_reg[1] [2]),
+       (.I0(\reg_wdata_reg[0]_0 ),
+        .I1(\reg_wdata_reg[0] [2]),
         .I2(base_ram_data_IBUF[21]),
         .I3(\reg_wdata_reg[22] ),
-        .I4(\reg_wdata_reg[0]_3 ),
+        .I4(\reg_wdata_reg[5]_3 ),
         .I5(\result0_inferred__0/i__carry__4_n_5 ),
         .O(D[22]));
   LUT6 #(
     .INIT(64'hFFFFFF80FF80FF80)) 
     \reg_wdata[23]_i_1 
-       (.I0(\reg_wdata_reg[1]_0 ),
-        .I1(\reg_wdata_reg[1] [2]),
+       (.I0(\reg_wdata_reg[0]_0 ),
+        .I1(\reg_wdata_reg[0] [2]),
         .I2(base_ram_data_IBUF[22]),
         .I3(\reg_wdata_reg[23] ),
-        .I4(\reg_wdata_reg[0]_3 ),
+        .I4(\reg_wdata_reg[5]_3 ),
         .I5(\result0_inferred__0/i__carry__4_n_4 ),
         .O(D[23]));
   LUT6 #(
     .INIT(64'hFFFFFF80FF80FF80)) 
     \reg_wdata[24]_i_1 
-       (.I0(\reg_wdata_reg[1]_0 ),
-        .I1(\reg_wdata_reg[1] [2]),
+       (.I0(\reg_wdata_reg[0]_0 ),
+        .I1(\reg_wdata_reg[0] [2]),
         .I2(base_ram_data_IBUF[23]),
         .I3(\reg_wdata_reg[24] ),
-        .I4(\reg_wdata_reg[0]_3 ),
+        .I4(\reg_wdata_reg[5]_3 ),
         .I5(\result0_inferred__0/i__carry__5_n_7 ),
         .O(D[24]));
   LUT6 #(
     .INIT(64'hFFFFFF80FF80FF80)) 
     \reg_wdata[25]_i_1 
-       (.I0(\reg_wdata_reg[1]_0 ),
-        .I1(\reg_wdata_reg[1] [2]),
+       (.I0(\reg_wdata_reg[0]_0 ),
+        .I1(\reg_wdata_reg[0] [2]),
         .I2(base_ram_data_IBUF[24]),
         .I3(\reg_wdata_reg[25] ),
-        .I4(\reg_wdata_reg[0]_3 ),
+        .I4(\reg_wdata_reg[5]_3 ),
         .I5(\result0_inferred__0/i__carry__5_n_6 ),
         .O(D[25]));
   LUT6 #(
     .INIT(64'hFFFFFF80FF80FF80)) 
     \reg_wdata[26]_i_1 
-       (.I0(\reg_wdata_reg[1]_0 ),
-        .I1(\reg_wdata_reg[1] [2]),
+       (.I0(\reg_wdata_reg[0]_0 ),
+        .I1(\reg_wdata_reg[0] [2]),
         .I2(base_ram_data_IBUF[25]),
         .I3(\reg_wdata_reg[26] ),
-        .I4(\reg_wdata_reg[0]_3 ),
+        .I4(\reg_wdata_reg[5]_3 ),
         .I5(\result0_inferred__0/i__carry__5_n_5 ),
         .O(D[26]));
   LUT6 #(
     .INIT(64'hFFFFFF80FF80FF80)) 
     \reg_wdata[27]_i_1 
-       (.I0(\reg_wdata_reg[1]_0 ),
-        .I1(\reg_wdata_reg[1] [2]),
+       (.I0(\reg_wdata_reg[0]_0 ),
+        .I1(\reg_wdata_reg[0] [2]),
         .I2(base_ram_data_IBUF[26]),
         .I3(\reg_wdata_reg[27] ),
-        .I4(\reg_wdata_reg[0]_3 ),
+        .I4(\reg_wdata_reg[5]_3 ),
         .I5(\result0_inferred__0/i__carry__5_n_4 ),
         .O(D[27]));
   LUT6 #(
     .INIT(64'hFFFFFF80FF80FF80)) 
     \reg_wdata[28]_i_1 
-       (.I0(\reg_wdata_reg[1]_0 ),
-        .I1(\reg_wdata_reg[1] [2]),
+       (.I0(\reg_wdata_reg[0]_0 ),
+        .I1(\reg_wdata_reg[0] [2]),
         .I2(base_ram_data_IBUF[27]),
         .I3(\reg_wdata_reg[28] ),
-        .I4(\reg_wdata_reg[0]_3 ),
+        .I4(\reg_wdata_reg[5]_3 ),
         .I5(\result0_inferred__0/i__carry__6_n_7 ),
         .O(D[28]));
   LUT6 #(
     .INIT(64'hFFFFFF80FF80FF80)) 
     \reg_wdata[29]_i_1 
-       (.I0(\reg_wdata_reg[1]_0 ),
-        .I1(\reg_wdata_reg[1] [2]),
+       (.I0(\reg_wdata_reg[0]_0 ),
+        .I1(\reg_wdata_reg[0] [2]),
         .I2(base_ram_data_IBUF[28]),
         .I3(\reg_wdata_reg[29] ),
-        .I4(\reg_wdata_reg[0]_3 ),
+        .I4(\reg_wdata_reg[5]_3 ),
         .I5(\result0_inferred__0/i__carry__6_n_6 ),
         .O(D[29]));
   LUT6 #(
     .INIT(64'hFFFFFF80FF80FF80)) 
     \reg_wdata[2]_i_1 
-       (.I0(\reg_wdata_reg[1]_0 ),
-        .I1(\reg_wdata_reg[1] [2]),
-        .I2(base_ram_data_IBUF[1]),
+       (.I0(\reg_wdata_reg[0]_0 ),
+        .I1(\reg_wdata_reg[0] [2]),
+        .I2(base_ram_data_IBUF[2]),
         .I3(\reg_wdata_reg[2] ),
-        .I4(\reg_wdata_reg[0]_3 ),
+        .I4(\reg_wdata_reg[5]_3 ),
         .I5(\result0_inferred__0/i__carry_n_5 ),
         .O(D[2]));
   LUT6 #(
     .INIT(64'hFFFFFF80FF80FF80)) 
     \reg_wdata[30]_i_1 
-       (.I0(\reg_wdata_reg[1]_0 ),
-        .I1(\reg_wdata_reg[1] [2]),
+       (.I0(\reg_wdata_reg[0]_0 ),
+        .I1(\reg_wdata_reg[0] [2]),
         .I2(base_ram_data_IBUF[29]),
         .I3(\reg_wdata_reg[30] ),
-        .I4(\reg_wdata_reg[0]_3 ),
+        .I4(\reg_wdata_reg[5]_3 ),
         .I5(\result0_inferred__0/i__carry__6_n_5 ),
         .O(D[30]));
   LUT6 #(
     .INIT(64'hFFFFFF80FF80FF80)) 
     \reg_wdata[31]_i_2 
-       (.I0(\reg_wdata_reg[1]_0 ),
-        .I1(\reg_wdata_reg[1] [2]),
+       (.I0(\reg_wdata_reg[0]_0 ),
+        .I1(\reg_wdata_reg[0] [2]),
         .I2(base_ram_data_IBUF[30]),
         .I3(\reg_wdata_reg[31] ),
-        .I4(\reg_wdata_reg[0]_3 ),
+        .I4(\reg_wdata_reg[5]_3 ),
         .I5(p_1_in0_in),
         .O(D[31]));
   LUT6 #(
     .INIT(64'hFFFFFF80FF80FF80)) 
     \reg_wdata[3]_i_1 
-       (.I0(\reg_wdata_reg[1]_0 ),
-        .I1(\reg_wdata_reg[1] [2]),
-        .I2(base_ram_data_IBUF[2]),
+       (.I0(\reg_wdata_reg[0]_0 ),
+        .I1(\reg_wdata_reg[0] [2]),
+        .I2(base_ram_data_IBUF[3]),
         .I3(\reg_wdata_reg[3] ),
-        .I4(\reg_wdata_reg[0]_3 ),
+        .I4(\reg_wdata_reg[5]_3 ),
         .I5(\result0_inferred__0/i__carry_n_4 ),
         .O(D[3]));
   LUT6 #(
     .INIT(64'hFFFFFF80FF80FF80)) 
     \reg_wdata[4]_i_1 
-       (.I0(\reg_wdata_reg[1]_0 ),
-        .I1(\reg_wdata_reg[1] [2]),
-        .I2(base_ram_data_IBUF[3]),
+       (.I0(\reg_wdata_reg[0]_0 ),
+        .I1(\reg_wdata_reg[0] [2]),
+        .I2(base_ram_data_IBUF[4]),
         .I3(\reg_wdata_reg[4] ),
-        .I4(\reg_wdata_reg[0]_3 ),
+        .I4(\reg_wdata_reg[5]_3 ),
         .I5(\result0_inferred__0/i__carry__0_n_7 ),
         .O(D[4]));
   LUT6 #(
-    .INIT(64'hFFFFFF80FF80FF80)) 
+    .INIT(64'hFFFFFFFEFFFEFFFE)) 
     \reg_wdata[5]_i_1 
-       (.I0(\reg_wdata_reg[1]_0 ),
-        .I1(\reg_wdata_reg[1] [2]),
-        .I2(base_ram_data_IBUF[4]),
-        .I3(\reg_wdata_reg[5] ),
-        .I4(\reg_wdata_reg[0]_3 ),
-        .I5(\result0_inferred__0/i__carry__0_n_6 ),
+       (.I0(\reg_wdata_reg[5] ),
+        .I1(\reg_wdata_reg[5]_0 ),
+        .I2(\reg_wdata_reg[5]_1 ),
+        .I3(\reg_wdata_reg[5]_2 ),
+        .I4(\result0_inferred__0/i__carry__0_n_6 ),
+        .I5(\reg_wdata_reg[5]_3 ),
         .O(D[5]));
   LUT6 #(
     .INIT(64'hFFFFFF80FF80FF80)) 
     \reg_wdata[6]_i_1 
-       (.I0(\reg_wdata_reg[1]_0 ),
-        .I1(\reg_wdata_reg[1] [2]),
+       (.I0(\reg_wdata_reg[0]_0 ),
+        .I1(\reg_wdata_reg[0] [2]),
         .I2(base_ram_data_IBUF[5]),
         .I3(\reg_wdata_reg[6] ),
-        .I4(\reg_wdata_reg[0]_3 ),
+        .I4(\reg_wdata_reg[5]_3 ),
         .I5(\result0_inferred__0/i__carry__0_n_5 ),
         .O(D[6]));
   LUT6 #(
     .INIT(64'hFFFFFF80FF80FF80)) 
     \reg_wdata[7]_i_1 
-       (.I0(\reg_wdata_reg[1]_0 ),
-        .I1(\reg_wdata_reg[1] [2]),
+       (.I0(\reg_wdata_reg[0]_0 ),
+        .I1(\reg_wdata_reg[0] [2]),
         .I2(base_ram_data_IBUF[6]),
         .I3(\reg_wdata_reg[7] ),
-        .I4(\reg_wdata_reg[0]_3 ),
+        .I4(\reg_wdata_reg[5]_3 ),
         .I5(\result0_inferred__0/i__carry__0_n_4 ),
         .O(D[7]));
   LUT6 #(
     .INIT(64'hFFFFFF80FF80FF80)) 
     \reg_wdata[8]_i_1 
-       (.I0(\reg_wdata_reg[1]_0 ),
-        .I1(\reg_wdata_reg[1] [2]),
+       (.I0(\reg_wdata_reg[0]_0 ),
+        .I1(\reg_wdata_reg[0] [2]),
         .I2(base_ram_data_IBUF[7]),
         .I3(\reg_wdata_reg[8] ),
-        .I4(\reg_wdata_reg[0]_3 ),
+        .I4(\reg_wdata_reg[5]_3 ),
         .I5(\result0_inferred__0/i__carry__1_n_7 ),
         .O(D[8]));
   LUT6 #(
     .INIT(64'hFFFFFF80FF80FF80)) 
     \reg_wdata[9]_i_1 
-       (.I0(\reg_wdata_reg[1]_0 ),
-        .I1(\reg_wdata_reg[1] [2]),
+       (.I0(\reg_wdata_reg[0]_0 ),
+        .I1(\reg_wdata_reg[0] [2]),
         .I2(base_ram_data_IBUF[8]),
         .I3(\reg_wdata_reg[9] ),
-        .I4(\reg_wdata_reg[0]_3 ),
+        .I4(\reg_wdata_reg[5]_3 ),
         .I5(\result0_inferred__0/i__carry__1_n_6 ),
         .O(D[9]));
   (* OPT_MODIFIED = "SWEEP" *) 
@@ -3135,7 +3135,7 @@ module regfile
     Q,
     \registers_reg[16][12]_0 ,
     \registers_reg[2][0]_0 ,
-    clk_11M0592_IBUF_BUFG,
+    clk_50M_IBUF_BUFG,
     reset_btn_IBUF,
     reg_s,
     \exe_reg_s_val_reg[0]_i_2_0 ,
@@ -3155,7 +3155,7 @@ module regfile
   input [31:0]Q;
   input \registers_reg[16][12]_0 ;
   input \registers_reg[2][0]_0 ;
-  input clk_11M0592_IBUF_BUFG;
+  input clk_50M_IBUF_BUFG;
   input reset_btn_IBUF;
   input [4:0]reg_s;
   input \exe_reg_s_val_reg[0]_i_2_0 ;
@@ -3166,7 +3166,7 @@ module regfile
 
   wire [31:0]D;
   wire [31:0]Q;
-  wire clk_11M0592_IBUF_BUFG;
+  wire clk_50M_IBUF_BUFG;
   wire \exe_reg_s_val[0]_i_10_n_0 ;
   wire \exe_reg_s_val[0]_i_11_n_0 ;
   wire \exe_reg_s_val[0]_i_12_n_0 ;
@@ -13352,7 +13352,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[10][0] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[10][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][0]_i_1_n_0 ),
@@ -13360,7 +13360,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[10][10] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[10][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][10]_i_1_n_0 ),
@@ -13368,7 +13368,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[10][11] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[10][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][11]_i_1_n_0 ),
@@ -13376,7 +13376,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[10][12] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[10][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][12]_i_1_n_0 ),
@@ -13384,7 +13384,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[10][13] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[10][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][13]_i_1_n_0 ),
@@ -13392,7 +13392,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[10][14] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[10][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][14]_i_1_n_0 ),
@@ -13400,7 +13400,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[10][15] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[10][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][15]_i_1_n_0 ),
@@ -13408,7 +13408,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[10][16] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[10][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][16]_i_1_n_0 ),
@@ -13416,7 +13416,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[10][17] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[10][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][17]_i_1_n_0 ),
@@ -13424,7 +13424,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[10][18] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[10][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][18]_i_1_n_0 ),
@@ -13432,7 +13432,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[10][19] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[10][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][19]_i_1_n_0 ),
@@ -13440,7 +13440,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[10][1] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[10][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][1]_i_1_n_0 ),
@@ -13448,7 +13448,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[10][20] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[10][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][20]_i_1_n_0 ),
@@ -13456,7 +13456,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[10][21] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[10][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][21]_i_1_n_0 ),
@@ -13464,7 +13464,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[10][22] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[10][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][22]_i_1_n_0 ),
@@ -13472,7 +13472,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[10][23] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[10][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][23]_i_1_n_0 ),
@@ -13480,7 +13480,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[10][24] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[10][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][24]_i_1_n_0 ),
@@ -13488,7 +13488,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[10][25] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[10][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][25]_i_1_n_0 ),
@@ -13496,7 +13496,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[10][26] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[10][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][26]_i_1_n_0 ),
@@ -13504,7 +13504,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[10][27] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[10][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][27]_i_1_n_0 ),
@@ -13512,7 +13512,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[10][28] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[10][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][28]_i_1_n_0 ),
@@ -13520,7 +13520,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[10][29] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[10][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][29]_i_1_n_0 ),
@@ -13528,7 +13528,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[10][2] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[10][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][2]_i_1_n_0 ),
@@ -13536,7 +13536,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[10][30] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[10][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][30]_i_1_n_0 ),
@@ -13544,7 +13544,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[10][31] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[10][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][31]_i_2_n_0 ),
@@ -13552,7 +13552,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[10][3] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[10][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][3]_i_1_n_0 ),
@@ -13560,7 +13560,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[10][4] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[10][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][4]_i_1_n_0 ),
@@ -13568,7 +13568,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[10][5] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[10][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][5]_i_1_n_0 ),
@@ -13576,7 +13576,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[10][6] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[10][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][6]_i_1_n_0 ),
@@ -13584,7 +13584,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[10][7] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[10][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][7]_i_1_n_0 ),
@@ -13592,7 +13592,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[10][8] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[10][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][8]_i_1_n_0 ),
@@ -13600,7 +13600,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[10][9] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[10][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][9]_i_1_n_0 ),
@@ -13608,7 +13608,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[11][0] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[11][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][0]_i_1_n_0 ),
@@ -13616,7 +13616,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[11][10] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[11][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][10]_i_1_n_0 ),
@@ -13624,7 +13624,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[11][11] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[11][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][11]_i_1_n_0 ),
@@ -13632,7 +13632,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[11][12] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[11][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][12]_i_1_n_0 ),
@@ -13640,7 +13640,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[11][13] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[11][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][13]_i_1_n_0 ),
@@ -13648,7 +13648,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[11][14] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[11][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][14]_i_1_n_0 ),
@@ -13656,7 +13656,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[11][15] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[11][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][15]_i_1_n_0 ),
@@ -13664,7 +13664,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[11][16] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[11][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][16]_i_1_n_0 ),
@@ -13672,7 +13672,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[11][17] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[11][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][17]_i_1_n_0 ),
@@ -13680,7 +13680,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[11][18] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[11][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][18]_i_1_n_0 ),
@@ -13688,7 +13688,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[11][19] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[11][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][19]_i_1_n_0 ),
@@ -13696,7 +13696,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[11][1] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[11][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][1]_i_1_n_0 ),
@@ -13704,7 +13704,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[11][20] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[11][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][20]_i_1_n_0 ),
@@ -13712,7 +13712,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[11][21] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[11][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][21]_i_1_n_0 ),
@@ -13720,7 +13720,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[11][22] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[11][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][22]_i_1_n_0 ),
@@ -13728,7 +13728,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[11][23] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[11][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][23]_i_1_n_0 ),
@@ -13736,7 +13736,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[11][24] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[11][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][24]_i_1_n_0 ),
@@ -13744,7 +13744,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[11][25] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[11][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][25]_i_1_n_0 ),
@@ -13752,7 +13752,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[11][26] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[11][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][26]_i_1_n_0 ),
@@ -13760,7 +13760,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[11][27] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[11][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][27]_i_1_n_0 ),
@@ -13768,7 +13768,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[11][28] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[11][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][28]_i_1_n_0 ),
@@ -13776,7 +13776,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[11][29] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[11][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][29]_i_1_n_0 ),
@@ -13784,7 +13784,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[11][2] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[11][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][2]_i_1_n_0 ),
@@ -13792,7 +13792,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[11][30] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[11][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][30]_i_1_n_0 ),
@@ -13800,7 +13800,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[11][31] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[11][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][31]_i_2_n_0 ),
@@ -13808,7 +13808,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[11][3] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[11][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][3]_i_1_n_0 ),
@@ -13816,7 +13816,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[11][4] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[11][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][4]_i_1_n_0 ),
@@ -13824,7 +13824,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[11][5] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[11][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][5]_i_1_n_0 ),
@@ -13832,7 +13832,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[11][6] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[11][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][6]_i_1_n_0 ),
@@ -13840,7 +13840,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[11][7] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[11][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][7]_i_1_n_0 ),
@@ -13848,7 +13848,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[11][8] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[11][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][8]_i_1_n_0 ),
@@ -13856,7 +13856,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[11][9] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[11][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][9]_i_1_n_0 ),
@@ -13864,7 +13864,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[12][0] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[12][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][0]_i_1_n_0 ),
@@ -13872,7 +13872,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[12][10] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[12][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][10]_i_1_n_0 ),
@@ -13880,7 +13880,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[12][11] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[12][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][11]_i_1_n_0 ),
@@ -13888,7 +13888,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[12][12] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[12][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][12]_i_1_n_0 ),
@@ -13896,7 +13896,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[12][13] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[12][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][13]_i_1_n_0 ),
@@ -13904,7 +13904,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[12][14] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[12][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][14]_i_1_n_0 ),
@@ -13912,7 +13912,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[12][15] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[12][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][15]_i_1_n_0 ),
@@ -13920,7 +13920,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[12][16] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[12][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][16]_i_1_n_0 ),
@@ -13928,7 +13928,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[12][17] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[12][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][17]_i_1_n_0 ),
@@ -13936,7 +13936,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[12][18] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[12][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][18]_i_1_n_0 ),
@@ -13944,7 +13944,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[12][19] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[12][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][19]_i_1_n_0 ),
@@ -13952,7 +13952,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[12][1] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[12][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][1]_i_1_n_0 ),
@@ -13960,7 +13960,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[12][20] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[12][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][20]_i_1_n_0 ),
@@ -13968,7 +13968,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[12][21] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[12][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][21]_i_1_n_0 ),
@@ -13976,7 +13976,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[12][22] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[12][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][22]_i_1_n_0 ),
@@ -13984,7 +13984,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[12][23] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[12][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][23]_i_1_n_0 ),
@@ -13992,7 +13992,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[12][24] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[12][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][24]_i_1_n_0 ),
@@ -14000,7 +14000,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[12][25] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[12][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][25]_i_1_n_0 ),
@@ -14008,7 +14008,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[12][26] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[12][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][26]_i_1_n_0 ),
@@ -14016,7 +14016,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[12][27] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[12][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][27]_i_1_n_0 ),
@@ -14024,7 +14024,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[12][28] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[12][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][28]_i_1_n_0 ),
@@ -14032,7 +14032,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[12][29] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[12][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][29]_i_1_n_0 ),
@@ -14040,7 +14040,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[12][2] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[12][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][2]_i_1_n_0 ),
@@ -14048,7 +14048,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[12][30] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[12][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][30]_i_1_n_0 ),
@@ -14056,7 +14056,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[12][31] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[12][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][31]_i_2_n_0 ),
@@ -14064,7 +14064,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[12][3] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[12][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][3]_i_1_n_0 ),
@@ -14072,7 +14072,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[12][4] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[12][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][4]_i_1_n_0 ),
@@ -14080,7 +14080,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[12][5] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[12][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][5]_i_1_n_0 ),
@@ -14088,7 +14088,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[12][6] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[12][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][6]_i_1_n_0 ),
@@ -14096,7 +14096,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[12][7] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[12][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][7]_i_1_n_0 ),
@@ -14104,7 +14104,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[12][8] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[12][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][8]_i_1_n_0 ),
@@ -14112,7 +14112,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[12][9] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[12][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[10][9]_i_1_n_0 ),
@@ -14120,7 +14120,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[13][0] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[13][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][0]_i_1_n_0 ),
@@ -14128,7 +14128,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[13][10] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[13][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][10]_i_1_n_0 ),
@@ -14136,7 +14136,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[13][11] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[13][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][11]_i_1_n_0 ),
@@ -14144,7 +14144,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[13][12] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[13][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][12]_i_1_n_0 ),
@@ -14152,7 +14152,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[13][13] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[13][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][13]_i_1_n_0 ),
@@ -14160,7 +14160,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[13][14] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[13][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][14]_i_1_n_0 ),
@@ -14168,7 +14168,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[13][15] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[13][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][15]_i_1_n_0 ),
@@ -14176,7 +14176,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[13][16] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[13][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][16]_i_1_n_0 ),
@@ -14184,7 +14184,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[13][17] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[13][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][17]_i_1_n_0 ),
@@ -14192,7 +14192,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[13][18] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[13][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][18]_i_1_n_0 ),
@@ -14200,7 +14200,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[13][19] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[13][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][19]_i_1_n_0 ),
@@ -14208,7 +14208,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[13][1] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[13][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][1]_i_1_n_0 ),
@@ -14216,7 +14216,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[13][20] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[13][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][20]_i_1_n_0 ),
@@ -14224,7 +14224,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[13][21] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[13][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][21]_i_1_n_0 ),
@@ -14232,7 +14232,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[13][22] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[13][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][22]_i_1_n_0 ),
@@ -14240,7 +14240,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[13][23] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[13][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][23]_i_1_n_0 ),
@@ -14248,7 +14248,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[13][24] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[13][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][24]_i_1_n_0 ),
@@ -14256,7 +14256,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[13][25] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[13][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][25]_i_1_n_0 ),
@@ -14264,7 +14264,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[13][26] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[13][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][26]_i_1_n_0 ),
@@ -14272,7 +14272,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[13][27] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[13][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][27]_i_1_n_0 ),
@@ -14280,7 +14280,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[13][28] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[13][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][28]_i_1_n_0 ),
@@ -14288,7 +14288,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[13][29] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[13][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][29]_i_1_n_0 ),
@@ -14296,7 +14296,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[13][2] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[13][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][2]_i_1_n_0 ),
@@ -14304,7 +14304,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[13][30] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[13][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][30]_i_1_n_0 ),
@@ -14312,7 +14312,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[13][31] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[13][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][31]_i_2_n_0 ),
@@ -14320,7 +14320,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[13][3] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[13][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][3]_i_1_n_0 ),
@@ -14328,7 +14328,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[13][4] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[13][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][4]_i_1_n_0 ),
@@ -14336,7 +14336,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[13][5] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[13][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][5]_i_1_n_0 ),
@@ -14344,7 +14344,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[13][6] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[13][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][6]_i_1_n_0 ),
@@ -14352,7 +14352,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[13][7] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[13][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][7]_i_1_n_0 ),
@@ -14360,7 +14360,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[13][8] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[13][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][8]_i_1_n_0 ),
@@ -14368,7 +14368,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[13][9] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[13][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][9]_i_1_n_0 ),
@@ -14376,7 +14376,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[14][0] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[14][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][0]_i_1_n_0 ),
@@ -14384,7 +14384,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[14][10] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[14][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][10]_i_1_n_0 ),
@@ -14392,7 +14392,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[14][11] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[14][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][11]_i_1_n_0 ),
@@ -14400,7 +14400,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[14][12] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[14][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][12]_i_1_n_0 ),
@@ -14408,7 +14408,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[14][13] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[14][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][13]_i_1_n_0 ),
@@ -14416,7 +14416,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[14][14] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[14][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][14]_i_1_n_0 ),
@@ -14424,7 +14424,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[14][15] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[14][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][15]_i_1_n_0 ),
@@ -14432,7 +14432,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[14][16] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[14][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][16]_i_1_n_0 ),
@@ -14440,7 +14440,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[14][17] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[14][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][17]_i_1_n_0 ),
@@ -14448,7 +14448,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[14][18] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[14][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][18]_i_1_n_0 ),
@@ -14456,7 +14456,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[14][19] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[14][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][19]_i_1_n_0 ),
@@ -14464,7 +14464,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[14][1] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[14][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][1]_i_1_n_0 ),
@@ -14472,7 +14472,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[14][20] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[14][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][20]_i_1_n_0 ),
@@ -14480,7 +14480,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[14][21] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[14][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][21]_i_1_n_0 ),
@@ -14488,7 +14488,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[14][22] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[14][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][22]_i_1_n_0 ),
@@ -14496,7 +14496,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[14][23] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[14][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][23]_i_1_n_0 ),
@@ -14504,7 +14504,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[14][24] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[14][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][24]_i_1_n_0 ),
@@ -14512,7 +14512,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[14][25] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[14][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][25]_i_1_n_0 ),
@@ -14520,7 +14520,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[14][26] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[14][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][26]_i_1_n_0 ),
@@ -14528,7 +14528,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[14][27] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[14][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][27]_i_1_n_0 ),
@@ -14536,7 +14536,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[14][28] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[14][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][28]_i_1_n_0 ),
@@ -14544,7 +14544,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[14][29] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[14][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][29]_i_1_n_0 ),
@@ -14552,7 +14552,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[14][2] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[14][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][2]_i_1_n_0 ),
@@ -14560,7 +14560,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[14][30] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[14][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][30]_i_1_n_0 ),
@@ -14568,7 +14568,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[14][31] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[14][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][31]_i_2_n_0 ),
@@ -14576,7 +14576,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[14][3] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[14][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][3]_i_1_n_0 ),
@@ -14584,7 +14584,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[14][4] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[14][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][4]_i_1_n_0 ),
@@ -14592,7 +14592,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[14][5] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[14][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][5]_i_1_n_0 ),
@@ -14600,7 +14600,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[14][6] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[14][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][6]_i_1_n_0 ),
@@ -14608,7 +14608,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[14][7] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[14][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][7]_i_1_n_0 ),
@@ -14616,7 +14616,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[14][8] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[14][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][8]_i_1_n_0 ),
@@ -14624,7 +14624,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[14][9] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[14][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][9]_i_1_n_0 ),
@@ -14632,7 +14632,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[15][0] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[15][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][0]_i_1_n_0 ),
@@ -14640,7 +14640,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[15][10] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[15][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][10]_i_1_n_0 ),
@@ -14648,7 +14648,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[15][11] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[15][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][11]_i_1_n_0 ),
@@ -14656,7 +14656,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[15][12] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[15][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][12]_i_1_n_0 ),
@@ -14664,7 +14664,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[15][13] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[15][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][13]_i_1_n_0 ),
@@ -14672,7 +14672,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[15][14] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[15][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][14]_i_1_n_0 ),
@@ -14680,7 +14680,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[15][15] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[15][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][15]_i_1_n_0 ),
@@ -14688,7 +14688,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[15][16] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[15][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][16]_i_1_n_0 ),
@@ -14696,7 +14696,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[15][17] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[15][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][17]_i_1_n_0 ),
@@ -14704,7 +14704,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[15][18] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[15][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][18]_i_1_n_0 ),
@@ -14712,7 +14712,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[15][19] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[15][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][19]_i_1_n_0 ),
@@ -14720,7 +14720,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[15][1] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[15][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][1]_i_1_n_0 ),
@@ -14728,7 +14728,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[15][20] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[15][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][20]_i_1_n_0 ),
@@ -14736,7 +14736,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[15][21] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[15][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][21]_i_1_n_0 ),
@@ -14744,7 +14744,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[15][22] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[15][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][22]_i_1_n_0 ),
@@ -14752,7 +14752,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[15][23] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[15][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][23]_i_1_n_0 ),
@@ -14760,7 +14760,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[15][24] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[15][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][24]_i_1_n_0 ),
@@ -14768,7 +14768,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[15][25] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[15][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][25]_i_1_n_0 ),
@@ -14776,7 +14776,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[15][26] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[15][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][26]_i_1_n_0 ),
@@ -14784,7 +14784,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[15][27] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[15][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][27]_i_1_n_0 ),
@@ -14792,7 +14792,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[15][28] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[15][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][28]_i_1_n_0 ),
@@ -14800,7 +14800,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[15][29] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[15][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][29]_i_1_n_0 ),
@@ -14808,7 +14808,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[15][2] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[15][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][2]_i_1_n_0 ),
@@ -14816,7 +14816,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[15][30] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[15][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][30]_i_1_n_0 ),
@@ -14824,7 +14824,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[15][31] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[15][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][31]_i_2_n_0 ),
@@ -14832,7 +14832,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[15][3] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[15][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][3]_i_1_n_0 ),
@@ -14840,7 +14840,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[15][4] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[15][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][4]_i_1_n_0 ),
@@ -14848,7 +14848,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[15][5] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[15][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][5]_i_1_n_0 ),
@@ -14856,7 +14856,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[15][6] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[15][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][6]_i_1_n_0 ),
@@ -14864,7 +14864,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[15][7] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[15][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][7]_i_1_n_0 ),
@@ -14872,7 +14872,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[15][8] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[15][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][8]_i_1_n_0 ),
@@ -14880,7 +14880,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[15][9] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[15][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][9]_i_1_n_0 ),
@@ -14888,7 +14888,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[16][0] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[16][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][0]_i_1_n_0 ),
@@ -14896,7 +14896,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[16][10] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[16][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][10]_i_1_n_0 ),
@@ -14904,7 +14904,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[16][11] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[16][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][11]_i_1_n_0 ),
@@ -14912,7 +14912,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[16][12] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[16][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][12]_i_1_n_0 ),
@@ -14920,7 +14920,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[16][13] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[16][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][13]_i_1_n_0 ),
@@ -14928,7 +14928,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[16][14] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[16][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][14]_i_1_n_0 ),
@@ -14936,7 +14936,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[16][15] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[16][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][15]_i_1_n_0 ),
@@ -14944,7 +14944,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[16][16] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[16][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][16]_i_1_n_0 ),
@@ -14952,7 +14952,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[16][17] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[16][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][17]_i_1_n_0 ),
@@ -14960,7 +14960,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[16][18] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[16][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][18]_i_1_n_0 ),
@@ -14968,7 +14968,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[16][19] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[16][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][19]_i_1_n_0 ),
@@ -14976,7 +14976,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[16][1] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[16][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][1]_i_1_n_0 ),
@@ -14984,7 +14984,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[16][20] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[16][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][20]_i_1_n_0 ),
@@ -14992,7 +14992,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[16][21] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[16][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][21]_i_1_n_0 ),
@@ -15000,7 +15000,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[16][22] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[16][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][22]_i_1_n_0 ),
@@ -15008,7 +15008,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[16][23] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[16][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][23]_i_1_n_0 ),
@@ -15016,7 +15016,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[16][24] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[16][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][24]_i_1_n_0 ),
@@ -15024,7 +15024,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[16][25] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[16][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][25]_i_1_n_0 ),
@@ -15032,7 +15032,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[16][26] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[16][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][26]_i_1_n_0 ),
@@ -15040,7 +15040,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[16][27] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[16][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][27]_i_1_n_0 ),
@@ -15048,7 +15048,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[16][28] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[16][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][28]_i_1_n_0 ),
@@ -15056,7 +15056,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[16][29] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[16][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][29]_i_1_n_0 ),
@@ -15064,7 +15064,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[16][2] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[16][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][2]_i_1_n_0 ),
@@ -15072,7 +15072,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[16][30] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[16][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][30]_i_1_n_0 ),
@@ -15080,7 +15080,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[16][31] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[16][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][31]_i_2_n_0 ),
@@ -15088,7 +15088,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[16][3] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[16][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][3]_i_1_n_0 ),
@@ -15096,7 +15096,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[16][4] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[16][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][4]_i_1_n_0 ),
@@ -15104,7 +15104,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[16][5] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[16][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][5]_i_1_n_0 ),
@@ -15112,7 +15112,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[16][6] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[16][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][6]_i_1_n_0 ),
@@ -15120,7 +15120,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[16][7] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[16][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][7]_i_1_n_0 ),
@@ -15128,7 +15128,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[16][8] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[16][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][8]_i_1_n_0 ),
@@ -15136,7 +15136,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[16][9] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[16][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][9]_i_1_n_0 ),
@@ -15144,7 +15144,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[17][0] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[17][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][0]_i_1_n_0 ),
@@ -15152,7 +15152,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[17][10] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[17][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][10]_i_1_n_0 ),
@@ -15160,7 +15160,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[17][11] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[17][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][11]_i_1_n_0 ),
@@ -15168,7 +15168,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[17][12] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[17][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][12]_i_1_n_0 ),
@@ -15176,7 +15176,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[17][13] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[17][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][13]_i_1_n_0 ),
@@ -15184,7 +15184,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[17][14] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[17][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][14]_i_1_n_0 ),
@@ -15192,7 +15192,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[17][15] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[17][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][15]_i_1_n_0 ),
@@ -15200,7 +15200,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[17][16] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[17][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][16]_i_1_n_0 ),
@@ -15208,7 +15208,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[17][17] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[17][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][17]_i_1_n_0 ),
@@ -15216,7 +15216,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[17][18] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[17][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][18]_i_1_n_0 ),
@@ -15224,7 +15224,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[17][19] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[17][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][19]_i_1_n_0 ),
@@ -15232,7 +15232,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[17][1] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[17][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][1]_i_1_n_0 ),
@@ -15240,7 +15240,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[17][20] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[17][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][20]_i_1_n_0 ),
@@ -15248,7 +15248,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[17][21] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[17][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][21]_i_1_n_0 ),
@@ -15256,7 +15256,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[17][22] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[17][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][22]_i_1_n_0 ),
@@ -15264,7 +15264,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[17][23] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[17][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][23]_i_1_n_0 ),
@@ -15272,7 +15272,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[17][24] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[17][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][24]_i_1_n_0 ),
@@ -15280,7 +15280,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[17][25] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[17][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][25]_i_1_n_0 ),
@@ -15288,7 +15288,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[17][26] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[17][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][26]_i_1_n_0 ),
@@ -15296,7 +15296,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[17][27] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[17][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][27]_i_1_n_0 ),
@@ -15304,7 +15304,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[17][28] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[17][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][28]_i_1_n_0 ),
@@ -15312,7 +15312,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[17][29] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[17][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][29]_i_1_n_0 ),
@@ -15320,7 +15320,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[17][2] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[17][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][2]_i_1_n_0 ),
@@ -15328,7 +15328,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[17][30] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[17][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][30]_i_1_n_0 ),
@@ -15336,7 +15336,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[17][31] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[17][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][31]_i_2_n_0 ),
@@ -15344,7 +15344,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[17][3] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[17][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][3]_i_1_n_0 ),
@@ -15352,7 +15352,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[17][4] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[17][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][4]_i_1_n_0 ),
@@ -15360,7 +15360,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[17][5] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[17][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][5]_i_1_n_0 ),
@@ -15368,7 +15368,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[17][6] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[17][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][6]_i_1_n_0 ),
@@ -15376,7 +15376,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[17][7] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[17][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][7]_i_1_n_0 ),
@@ -15384,7 +15384,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[17][8] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[17][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][8]_i_1_n_0 ),
@@ -15392,7 +15392,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[17][9] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[17][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][9]_i_1_n_0 ),
@@ -15400,7 +15400,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[18][0] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[18][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][0]_i_1_n_0 ),
@@ -15408,7 +15408,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[18][10] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[18][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][10]_i_1_n_0 ),
@@ -15416,7 +15416,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[18][11] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[18][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][11]_i_1_n_0 ),
@@ -15424,7 +15424,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[18][12] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[18][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][12]_i_1_n_0 ),
@@ -15432,7 +15432,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[18][13] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[18][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][13]_i_1_n_0 ),
@@ -15440,7 +15440,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[18][14] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[18][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][14]_i_1_n_0 ),
@@ -15448,7 +15448,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[18][15] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[18][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][15]_i_1_n_0 ),
@@ -15456,7 +15456,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[18][16] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[18][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][16]_i_1_n_0 ),
@@ -15464,7 +15464,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[18][17] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[18][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][17]_i_1_n_0 ),
@@ -15472,7 +15472,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[18][18] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[18][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][18]_i_1_n_0 ),
@@ -15480,7 +15480,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[18][19] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[18][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][19]_i_1_n_0 ),
@@ -15488,7 +15488,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[18][1] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[18][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][1]_i_1_n_0 ),
@@ -15496,7 +15496,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[18][20] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[18][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][20]_i_1_n_0 ),
@@ -15504,7 +15504,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[18][21] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[18][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][21]_i_1_n_0 ),
@@ -15512,7 +15512,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[18][22] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[18][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][22]_i_1_n_0 ),
@@ -15520,7 +15520,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[18][23] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[18][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][23]_i_1_n_0 ),
@@ -15528,7 +15528,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[18][24] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[18][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][24]_i_1_n_0 ),
@@ -15536,7 +15536,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[18][25] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[18][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][25]_i_1_n_0 ),
@@ -15544,7 +15544,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[18][26] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[18][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][26]_i_1_n_0 ),
@@ -15552,7 +15552,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[18][27] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[18][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][27]_i_1_n_0 ),
@@ -15560,7 +15560,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[18][28] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[18][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][28]_i_1_n_0 ),
@@ -15568,7 +15568,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[18][29] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[18][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][29]_i_1_n_0 ),
@@ -15576,7 +15576,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[18][2] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[18][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][2]_i_1_n_0 ),
@@ -15584,7 +15584,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[18][30] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[18][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][30]_i_1_n_0 ),
@@ -15592,7 +15592,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[18][31] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[18][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][31]_i_2_n_0 ),
@@ -15600,7 +15600,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[18][3] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[18][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][3]_i_1_n_0 ),
@@ -15608,7 +15608,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[18][4] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[18][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][4]_i_1_n_0 ),
@@ -15616,7 +15616,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[18][5] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[18][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][5]_i_1_n_0 ),
@@ -15624,7 +15624,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[18][6] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[18][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][6]_i_1_n_0 ),
@@ -15632,7 +15632,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[18][7] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[18][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][7]_i_1_n_0 ),
@@ -15640,7 +15640,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[18][8] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[18][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][8]_i_1_n_0 ),
@@ -15648,7 +15648,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[18][9] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[18][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][9]_i_1_n_0 ),
@@ -15656,7 +15656,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[19][0] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[19][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][0]_i_1_n_0 ),
@@ -15664,7 +15664,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[19][10] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[19][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][10]_i_1_n_0 ),
@@ -15672,7 +15672,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[19][11] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[19][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][11]_i_1_n_0 ),
@@ -15680,7 +15680,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[19][12] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[19][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][12]_i_1_n_0 ),
@@ -15688,7 +15688,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[19][13] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[19][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][13]_i_1_n_0 ),
@@ -15696,7 +15696,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[19][14] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[19][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][14]_i_1_n_0 ),
@@ -15704,7 +15704,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[19][15] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[19][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][15]_i_1_n_0 ),
@@ -15712,7 +15712,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[19][16] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[19][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][16]_i_1_n_0 ),
@@ -15720,7 +15720,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[19][17] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[19][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][17]_i_1_n_0 ),
@@ -15728,7 +15728,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[19][18] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[19][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][18]_i_1_n_0 ),
@@ -15736,7 +15736,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[19][19] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[19][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][19]_i_1_n_0 ),
@@ -15744,7 +15744,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[19][1] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[19][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][1]_i_1_n_0 ),
@@ -15752,7 +15752,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[19][20] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[19][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][20]_i_1_n_0 ),
@@ -15760,7 +15760,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[19][21] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[19][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][21]_i_1_n_0 ),
@@ -15768,7 +15768,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[19][22] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[19][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][22]_i_1_n_0 ),
@@ -15776,7 +15776,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[19][23] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[19][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][23]_i_1_n_0 ),
@@ -15784,7 +15784,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[19][24] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[19][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][24]_i_1_n_0 ),
@@ -15792,7 +15792,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[19][25] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[19][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][25]_i_1_n_0 ),
@@ -15800,7 +15800,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[19][26] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[19][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][26]_i_1_n_0 ),
@@ -15808,7 +15808,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[19][27] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[19][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][27]_i_1_n_0 ),
@@ -15816,7 +15816,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[19][28] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[19][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][28]_i_1_n_0 ),
@@ -15824,7 +15824,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[19][29] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[19][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][29]_i_1_n_0 ),
@@ -15832,7 +15832,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[19][2] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[19][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][2]_i_1_n_0 ),
@@ -15840,7 +15840,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[19][30] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[19][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][30]_i_1_n_0 ),
@@ -15848,7 +15848,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[19][31] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[19][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][31]_i_2_n_0 ),
@@ -15856,7 +15856,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[19][3] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[19][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][3]_i_1_n_0 ),
@@ -15864,7 +15864,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[19][4] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[19][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][4]_i_1_n_0 ),
@@ -15872,7 +15872,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[19][5] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[19][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][5]_i_1_n_0 ),
@@ -15880,7 +15880,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[19][6] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[19][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][6]_i_1_n_0 ),
@@ -15888,7 +15888,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[19][7] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[19][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][7]_i_1_n_0 ),
@@ -15896,7 +15896,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[19][8] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[19][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][8]_i_1_n_0 ),
@@ -15904,7 +15904,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[19][9] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[19][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][9]_i_1_n_0 ),
@@ -15912,7 +15912,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[1][0] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[1][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][0]_i_1_n_0 ),
@@ -15920,7 +15920,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[1][10] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[1][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][10]_i_1_n_0 ),
@@ -15928,7 +15928,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[1][11] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[1][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][11]_i_1_n_0 ),
@@ -15936,7 +15936,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[1][12] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[1][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][12]_i_1_n_0 ),
@@ -15944,7 +15944,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[1][13] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[1][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][13]_i_1_n_0 ),
@@ -15952,7 +15952,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[1][14] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[1][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][14]_i_1_n_0 ),
@@ -15960,7 +15960,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[1][15] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[1][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][15]_i_1_n_0 ),
@@ -15968,7 +15968,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[1][16] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[1][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][16]_i_1_n_0 ),
@@ -15976,7 +15976,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[1][17] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[1][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][17]_i_1_n_0 ),
@@ -15984,7 +15984,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[1][18] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[1][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][18]_i_1_n_0 ),
@@ -15992,7 +15992,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[1][19] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[1][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][19]_i_1_n_0 ),
@@ -16000,7 +16000,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[1][1] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[1][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][1]_i_1_n_0 ),
@@ -16008,7 +16008,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[1][20] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[1][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][20]_i_1_n_0 ),
@@ -16016,7 +16016,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[1][21] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[1][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][21]_i_1_n_0 ),
@@ -16024,7 +16024,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[1][22] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[1][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][22]_i_1_n_0 ),
@@ -16032,7 +16032,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[1][23] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[1][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][23]_i_1_n_0 ),
@@ -16040,7 +16040,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[1][24] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[1][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][24]_i_1_n_0 ),
@@ -16048,7 +16048,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[1][25] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[1][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][25]_i_1_n_0 ),
@@ -16056,7 +16056,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[1][26] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[1][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][26]_i_1_n_0 ),
@@ -16064,7 +16064,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[1][27] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[1][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][27]_i_1_n_0 ),
@@ -16072,7 +16072,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[1][28] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[1][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][28]_i_1_n_0 ),
@@ -16080,7 +16080,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[1][29] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[1][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][29]_i_1_n_0 ),
@@ -16088,7 +16088,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[1][2] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[1][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][2]_i_1_n_0 ),
@@ -16096,7 +16096,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[1][30] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[1][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][30]_i_1_n_0 ),
@@ -16104,7 +16104,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[1][31] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[1][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][31]_i_2_n_0 ),
@@ -16112,7 +16112,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[1][3] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[1][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][3]_i_1_n_0 ),
@@ -16120,7 +16120,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[1][4] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[1][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][4]_i_1_n_0 ),
@@ -16128,7 +16128,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[1][5] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[1][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][5]_i_1_n_0 ),
@@ -16136,7 +16136,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[1][6] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[1][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][6]_i_1_n_0 ),
@@ -16144,7 +16144,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[1][7] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[1][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][7]_i_1_n_0 ),
@@ -16152,7 +16152,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[1][8] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[1][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][8]_i_1_n_0 ),
@@ -16160,7 +16160,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[1][9] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[1][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][9]_i_1_n_0 ),
@@ -16168,7 +16168,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[20][0] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[20][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][0]_i_1_n_0 ),
@@ -16176,7 +16176,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[20][10] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[20][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][10]_i_1_n_0 ),
@@ -16184,7 +16184,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[20][11] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[20][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][11]_i_1_n_0 ),
@@ -16192,7 +16192,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[20][12] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[20][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][12]_i_1_n_0 ),
@@ -16200,7 +16200,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[20][13] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[20][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][13]_i_1_n_0 ),
@@ -16208,7 +16208,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[20][14] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[20][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][14]_i_1_n_0 ),
@@ -16216,7 +16216,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[20][15] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[20][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][15]_i_1_n_0 ),
@@ -16224,7 +16224,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[20][16] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[20][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][16]_i_1_n_0 ),
@@ -16232,7 +16232,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[20][17] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[20][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][17]_i_1_n_0 ),
@@ -16240,7 +16240,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[20][18] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[20][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][18]_i_1_n_0 ),
@@ -16248,7 +16248,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[20][19] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[20][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][19]_i_1_n_0 ),
@@ -16256,7 +16256,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[20][1] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[20][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][1]_i_1_n_0 ),
@@ -16264,7 +16264,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[20][20] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[20][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][20]_i_1_n_0 ),
@@ -16272,7 +16272,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[20][21] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[20][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][21]_i_1_n_0 ),
@@ -16280,7 +16280,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[20][22] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[20][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][22]_i_1_n_0 ),
@@ -16288,7 +16288,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[20][23] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[20][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][23]_i_1_n_0 ),
@@ -16296,7 +16296,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[20][24] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[20][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][24]_i_1_n_0 ),
@@ -16304,7 +16304,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[20][25] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[20][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][25]_i_1_n_0 ),
@@ -16312,7 +16312,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[20][26] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[20][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][26]_i_1_n_0 ),
@@ -16320,7 +16320,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[20][27] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[20][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][27]_i_1_n_0 ),
@@ -16328,7 +16328,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[20][28] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[20][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][28]_i_1_n_0 ),
@@ -16336,7 +16336,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[20][29] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[20][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][29]_i_1_n_0 ),
@@ -16344,7 +16344,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[20][2] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[20][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][2]_i_1_n_0 ),
@@ -16352,7 +16352,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[20][30] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[20][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][30]_i_1_n_0 ),
@@ -16360,7 +16360,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[20][31] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[20][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][31]_i_2_n_0 ),
@@ -16368,7 +16368,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[20][3] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[20][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][3]_i_1_n_0 ),
@@ -16376,7 +16376,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[20][4] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[20][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][4]_i_1_n_0 ),
@@ -16384,7 +16384,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[20][5] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[20][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][5]_i_1_n_0 ),
@@ -16392,7 +16392,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[20][6] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[20][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][6]_i_1_n_0 ),
@@ -16400,7 +16400,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[20][7] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[20][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][7]_i_1_n_0 ),
@@ -16408,7 +16408,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[20][8] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[20][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][8]_i_1_n_0 ),
@@ -16416,7 +16416,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[20][9] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[20][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[19][9]_i_1_n_0 ),
@@ -16424,7 +16424,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[21][0] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[21][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][0]_i_1_n_0 ),
@@ -16432,7 +16432,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[21][10] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[21][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][10]_i_1_n_0 ),
@@ -16440,7 +16440,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[21][11] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[21][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][11]_i_1_n_0 ),
@@ -16448,7 +16448,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[21][12] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[21][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][12]_i_1_n_0 ),
@@ -16456,7 +16456,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[21][13] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[21][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][13]_i_1_n_0 ),
@@ -16464,7 +16464,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[21][14] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[21][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][14]_i_1_n_0 ),
@@ -16472,7 +16472,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[21][15] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[21][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][15]_i_1_n_0 ),
@@ -16480,7 +16480,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[21][16] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[21][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][16]_i_1_n_0 ),
@@ -16488,7 +16488,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[21][17] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[21][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][17]_i_1_n_0 ),
@@ -16496,7 +16496,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[21][18] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[21][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][18]_i_1_n_0 ),
@@ -16504,7 +16504,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[21][19] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[21][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][19]_i_1_n_0 ),
@@ -16512,7 +16512,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[21][1] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[21][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][1]_i_1_n_0 ),
@@ -16520,7 +16520,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[21][20] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[21][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][20]_i_1_n_0 ),
@@ -16528,7 +16528,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[21][21] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[21][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][21]_i_1_n_0 ),
@@ -16536,7 +16536,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[21][22] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[21][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][22]_i_1_n_0 ),
@@ -16544,7 +16544,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[21][23] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[21][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][23]_i_1_n_0 ),
@@ -16552,7 +16552,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[21][24] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[21][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][24]_i_1_n_0 ),
@@ -16560,7 +16560,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[21][25] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[21][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][25]_i_1_n_0 ),
@@ -16568,7 +16568,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[21][26] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[21][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][26]_i_1_n_0 ),
@@ -16576,7 +16576,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[21][27] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[21][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][27]_i_1_n_0 ),
@@ -16584,7 +16584,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[21][28] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[21][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][28]_i_1_n_0 ),
@@ -16592,7 +16592,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[21][29] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[21][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][29]_i_1_n_0 ),
@@ -16600,7 +16600,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[21][2] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[21][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][2]_i_1_n_0 ),
@@ -16608,7 +16608,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[21][30] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[21][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][30]_i_1_n_0 ),
@@ -16616,7 +16616,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[21][31] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[21][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][31]_i_2_n_0 ),
@@ -16624,7 +16624,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[21][3] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[21][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][3]_i_1_n_0 ),
@@ -16632,7 +16632,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[21][4] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[21][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][4]_i_1_n_0 ),
@@ -16640,7 +16640,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[21][5] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[21][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][5]_i_1_n_0 ),
@@ -16648,7 +16648,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[21][6] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[21][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][6]_i_1_n_0 ),
@@ -16656,7 +16656,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[21][7] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[21][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][7]_i_1_n_0 ),
@@ -16664,7 +16664,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[21][8] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[21][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][8]_i_1_n_0 ),
@@ -16672,7 +16672,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[21][9] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[21][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][9]_i_1_n_0 ),
@@ -16680,7 +16680,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[22][0] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[22][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][0]_i_1_n_0 ),
@@ -16688,7 +16688,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[22][10] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[22][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][10]_i_1_n_0 ),
@@ -16696,7 +16696,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[22][11] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[22][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][11]_i_1_n_0 ),
@@ -16704,7 +16704,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[22][12] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[22][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][12]_i_1_n_0 ),
@@ -16712,7 +16712,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[22][13] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[22][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][13]_i_1_n_0 ),
@@ -16720,7 +16720,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[22][14] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[22][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][14]_i_1_n_0 ),
@@ -16728,7 +16728,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[22][15] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[22][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][15]_i_1_n_0 ),
@@ -16736,7 +16736,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[22][16] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[22][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][16]_i_1_n_0 ),
@@ -16744,7 +16744,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[22][17] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[22][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][17]_i_1_n_0 ),
@@ -16752,7 +16752,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[22][18] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[22][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][18]_i_1_n_0 ),
@@ -16760,7 +16760,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[22][19] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[22][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][19]_i_1_n_0 ),
@@ -16768,7 +16768,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[22][1] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[22][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][1]_i_1_n_0 ),
@@ -16776,7 +16776,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[22][20] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[22][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][20]_i_1_n_0 ),
@@ -16784,7 +16784,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[22][21] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[22][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][21]_i_1_n_0 ),
@@ -16792,7 +16792,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[22][22] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[22][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][22]_i_1_n_0 ),
@@ -16800,7 +16800,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[22][23] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[22][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][23]_i_1_n_0 ),
@@ -16808,7 +16808,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[22][24] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[22][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][24]_i_1_n_0 ),
@@ -16816,7 +16816,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[22][25] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[22][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][25]_i_1_n_0 ),
@@ -16824,7 +16824,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[22][26] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[22][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][26]_i_1_n_0 ),
@@ -16832,7 +16832,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[22][27] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[22][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][27]_i_1_n_0 ),
@@ -16840,7 +16840,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[22][28] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[22][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][28]_i_1_n_0 ),
@@ -16848,7 +16848,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[22][29] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[22][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][29]_i_1_n_0 ),
@@ -16856,7 +16856,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[22][2] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[22][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][2]_i_1_n_0 ),
@@ -16864,7 +16864,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[22][30] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[22][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][30]_i_1_n_0 ),
@@ -16872,7 +16872,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[22][31] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[22][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][31]_i_2_n_0 ),
@@ -16880,7 +16880,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[22][3] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[22][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][3]_i_1_n_0 ),
@@ -16888,7 +16888,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[22][4] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[22][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][4]_i_1_n_0 ),
@@ -16896,7 +16896,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[22][5] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[22][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][5]_i_1_n_0 ),
@@ -16904,7 +16904,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[22][6] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[22][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][6]_i_1_n_0 ),
@@ -16912,7 +16912,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[22][7] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[22][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][7]_i_1_n_0 ),
@@ -16920,7 +16920,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[22][8] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[22][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][8]_i_1_n_0 ),
@@ -16928,7 +16928,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[22][9] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[22][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][9]_i_1_n_0 ),
@@ -16936,7 +16936,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[23][0] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[23][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][0]_i_1_n_0 ),
@@ -16944,7 +16944,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[23][10] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[23][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][10]_i_1_n_0 ),
@@ -16952,7 +16952,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[23][11] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[23][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][11]_i_1_n_0 ),
@@ -16960,7 +16960,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[23][12] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[23][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][12]_i_1_n_0 ),
@@ -16968,7 +16968,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[23][13] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[23][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][13]_i_1_n_0 ),
@@ -16976,7 +16976,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[23][14] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[23][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][14]_i_1_n_0 ),
@@ -16984,7 +16984,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[23][15] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[23][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][15]_i_1_n_0 ),
@@ -16992,7 +16992,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[23][16] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[23][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][16]_i_1_n_0 ),
@@ -17000,7 +17000,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[23][17] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[23][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][17]_i_1_n_0 ),
@@ -17008,7 +17008,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[23][18] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[23][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][18]_i_1_n_0 ),
@@ -17016,7 +17016,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[23][19] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[23][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][19]_i_1_n_0 ),
@@ -17024,7 +17024,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[23][1] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[23][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][1]_i_1_n_0 ),
@@ -17032,7 +17032,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[23][20] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[23][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][20]_i_1_n_0 ),
@@ -17040,7 +17040,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[23][21] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[23][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][21]_i_1_n_0 ),
@@ -17048,7 +17048,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[23][22] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[23][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][22]_i_1_n_0 ),
@@ -17056,7 +17056,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[23][23] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[23][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][23]_i_1_n_0 ),
@@ -17064,7 +17064,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[23][24] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[23][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][24]_i_1_n_0 ),
@@ -17072,7 +17072,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[23][25] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[23][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][25]_i_1_n_0 ),
@@ -17080,7 +17080,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[23][26] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[23][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][26]_i_1_n_0 ),
@@ -17088,7 +17088,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[23][27] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[23][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][27]_i_1_n_0 ),
@@ -17096,7 +17096,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[23][28] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[23][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][28]_i_1_n_0 ),
@@ -17104,7 +17104,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[23][29] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[23][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][29]_i_1_n_0 ),
@@ -17112,7 +17112,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[23][2] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[23][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][2]_i_1_n_0 ),
@@ -17120,7 +17120,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[23][30] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[23][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][30]_i_1_n_0 ),
@@ -17128,7 +17128,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[23][31] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[23][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][31]_i_2_n_0 ),
@@ -17136,7 +17136,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[23][3] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[23][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][3]_i_1_n_0 ),
@@ -17144,7 +17144,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[23][4] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[23][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][4]_i_1_n_0 ),
@@ -17152,7 +17152,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[23][5] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[23][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][5]_i_1_n_0 ),
@@ -17160,7 +17160,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[23][6] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[23][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][6]_i_1_n_0 ),
@@ -17168,7 +17168,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[23][7] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[23][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][7]_i_1_n_0 ),
@@ -17176,7 +17176,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[23][8] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[23][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][8]_i_1_n_0 ),
@@ -17184,7 +17184,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[23][9] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[23][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][9]_i_1_n_0 ),
@@ -17192,7 +17192,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[24][0] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[24][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][0]_i_1_n_0 ),
@@ -17200,7 +17200,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[24][10] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[24][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][10]_i_1_n_0 ),
@@ -17208,7 +17208,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[24][11] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[24][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][11]_i_1_n_0 ),
@@ -17216,7 +17216,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[24][12] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[24][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][12]_i_1_n_0 ),
@@ -17224,7 +17224,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[24][13] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[24][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][13]_i_1_n_0 ),
@@ -17232,7 +17232,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[24][14] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[24][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][14]_i_1_n_0 ),
@@ -17240,7 +17240,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[24][15] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[24][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][15]_i_1_n_0 ),
@@ -17248,7 +17248,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[24][16] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[24][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][16]_i_1_n_0 ),
@@ -17256,7 +17256,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[24][17] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[24][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][17]_i_1_n_0 ),
@@ -17264,7 +17264,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[24][18] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[24][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][18]_i_1_n_0 ),
@@ -17272,7 +17272,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[24][19] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[24][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][19]_i_1_n_0 ),
@@ -17280,7 +17280,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[24][1] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[24][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][1]_i_1_n_0 ),
@@ -17288,7 +17288,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[24][20] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[24][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][20]_i_1_n_0 ),
@@ -17296,7 +17296,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[24][21] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[24][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][21]_i_1_n_0 ),
@@ -17304,7 +17304,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[24][22] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[24][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][22]_i_1_n_0 ),
@@ -17312,7 +17312,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[24][23] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[24][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][23]_i_1_n_0 ),
@@ -17320,7 +17320,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[24][24] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[24][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][24]_i_1_n_0 ),
@@ -17328,7 +17328,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[24][25] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[24][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][25]_i_1_n_0 ),
@@ -17336,7 +17336,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[24][26] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[24][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][26]_i_1_n_0 ),
@@ -17344,7 +17344,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[24][27] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[24][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][27]_i_1_n_0 ),
@@ -17352,7 +17352,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[24][28] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[24][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][28]_i_1_n_0 ),
@@ -17360,7 +17360,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[24][29] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[24][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][29]_i_1_n_0 ),
@@ -17368,7 +17368,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[24][2] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[24][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][2]_i_1_n_0 ),
@@ -17376,7 +17376,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[24][30] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[24][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][30]_i_1_n_0 ),
@@ -17384,7 +17384,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[24][31] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[24][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][31]_i_2_n_0 ),
@@ -17392,7 +17392,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[24][3] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[24][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][3]_i_1_n_0 ),
@@ -17400,7 +17400,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[24][4] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[24][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][4]_i_1_n_0 ),
@@ -17408,7 +17408,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[24][5] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[24][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][5]_i_1_n_0 ),
@@ -17416,7 +17416,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[24][6] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[24][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][6]_i_1_n_0 ),
@@ -17424,7 +17424,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[24][7] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[24][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][7]_i_1_n_0 ),
@@ -17432,7 +17432,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[24][8] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[24][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][8]_i_1_n_0 ),
@@ -17440,7 +17440,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[24][9] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[24][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][9]_i_1_n_0 ),
@@ -17448,7 +17448,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[25][0] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[25][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][0]_i_1_n_0 ),
@@ -17456,7 +17456,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[25][10] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[25][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][10]_i_1_n_0 ),
@@ -17464,7 +17464,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[25][11] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[25][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][11]_i_1_n_0 ),
@@ -17472,7 +17472,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[25][12] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[25][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][12]_i_1_n_0 ),
@@ -17480,7 +17480,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[25][13] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[25][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][13]_i_1_n_0 ),
@@ -17488,7 +17488,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[25][14] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[25][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][14]_i_1_n_0 ),
@@ -17496,7 +17496,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[25][15] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[25][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][15]_i_1_n_0 ),
@@ -17504,7 +17504,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[25][16] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[25][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][16]_i_1_n_0 ),
@@ -17512,7 +17512,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[25][17] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[25][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][17]_i_1_n_0 ),
@@ -17520,7 +17520,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[25][18] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[25][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][18]_i_1_n_0 ),
@@ -17528,7 +17528,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[25][19] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[25][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][19]_i_1_n_0 ),
@@ -17536,7 +17536,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[25][1] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[25][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][1]_i_1_n_0 ),
@@ -17544,7 +17544,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[25][20] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[25][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][20]_i_1_n_0 ),
@@ -17552,7 +17552,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[25][21] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[25][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][21]_i_1_n_0 ),
@@ -17560,7 +17560,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[25][22] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[25][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][22]_i_1_n_0 ),
@@ -17568,7 +17568,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[25][23] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[25][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][23]_i_1_n_0 ),
@@ -17576,7 +17576,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[25][24] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[25][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][24]_i_1_n_0 ),
@@ -17584,7 +17584,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[25][25] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[25][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][25]_i_1_n_0 ),
@@ -17592,7 +17592,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[25][26] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[25][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][26]_i_1_n_0 ),
@@ -17600,7 +17600,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[25][27] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[25][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][27]_i_1_n_0 ),
@@ -17608,7 +17608,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[25][28] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[25][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][28]_i_1_n_0 ),
@@ -17616,7 +17616,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[25][29] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[25][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][29]_i_1_n_0 ),
@@ -17624,7 +17624,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[25][2] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[25][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][2]_i_1_n_0 ),
@@ -17632,7 +17632,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[25][30] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[25][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][30]_i_1_n_0 ),
@@ -17640,7 +17640,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[25][31] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[25][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][31]_i_2_n_0 ),
@@ -17648,7 +17648,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[25][3] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[25][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][3]_i_1_n_0 ),
@@ -17656,7 +17656,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[25][4] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[25][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][4]_i_1_n_0 ),
@@ -17664,7 +17664,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[25][5] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[25][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][5]_i_1_n_0 ),
@@ -17672,7 +17672,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[25][6] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[25][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][6]_i_1_n_0 ),
@@ -17680,7 +17680,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[25][7] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[25][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][7]_i_1_n_0 ),
@@ -17688,7 +17688,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[25][8] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[25][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][8]_i_1_n_0 ),
@@ -17696,7 +17696,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[25][9] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[25][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][9]_i_1_n_0 ),
@@ -17704,7 +17704,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[26][0] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[26][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][0]_i_1_n_0 ),
@@ -17712,7 +17712,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[26][10] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[26][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][10]_i_1_n_0 ),
@@ -17720,7 +17720,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[26][11] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[26][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][11]_i_1_n_0 ),
@@ -17728,7 +17728,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[26][12] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[26][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][12]_i_1_n_0 ),
@@ -17736,7 +17736,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[26][13] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[26][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][13]_i_1_n_0 ),
@@ -17744,7 +17744,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[26][14] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[26][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][14]_i_1_n_0 ),
@@ -17752,7 +17752,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[26][15] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[26][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][15]_i_1_n_0 ),
@@ -17760,7 +17760,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[26][16] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[26][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][16]_i_1_n_0 ),
@@ -17768,7 +17768,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[26][17] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[26][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][17]_i_1_n_0 ),
@@ -17776,7 +17776,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[26][18] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[26][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][18]_i_1_n_0 ),
@@ -17784,7 +17784,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[26][19] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[26][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][19]_i_1_n_0 ),
@@ -17792,7 +17792,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[26][1] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[26][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][1]_i_1_n_0 ),
@@ -17800,7 +17800,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[26][20] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[26][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][20]_i_1_n_0 ),
@@ -17808,7 +17808,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[26][21] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[26][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][21]_i_1_n_0 ),
@@ -17816,7 +17816,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[26][22] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[26][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][22]_i_1_n_0 ),
@@ -17824,7 +17824,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[26][23] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[26][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][23]_i_1_n_0 ),
@@ -17832,7 +17832,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[26][24] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[26][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][24]_i_1_n_0 ),
@@ -17840,7 +17840,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[26][25] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[26][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][25]_i_1_n_0 ),
@@ -17848,7 +17848,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[26][26] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[26][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][26]_i_1_n_0 ),
@@ -17856,7 +17856,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[26][27] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[26][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][27]_i_1_n_0 ),
@@ -17864,7 +17864,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[26][28] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[26][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][28]_i_1_n_0 ),
@@ -17872,7 +17872,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[26][29] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[26][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][29]_i_1_n_0 ),
@@ -17880,7 +17880,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[26][2] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[26][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][2]_i_1_n_0 ),
@@ -17888,7 +17888,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[26][30] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[26][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][30]_i_1_n_0 ),
@@ -17896,7 +17896,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[26][31] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[26][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][31]_i_2_n_0 ),
@@ -17904,7 +17904,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[26][3] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[26][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][3]_i_1_n_0 ),
@@ -17912,7 +17912,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[26][4] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[26][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][4]_i_1_n_0 ),
@@ -17920,7 +17920,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[26][5] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[26][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][5]_i_1_n_0 ),
@@ -17928,7 +17928,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[26][6] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[26][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][6]_i_1_n_0 ),
@@ -17936,7 +17936,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[26][7] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[26][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][7]_i_1_n_0 ),
@@ -17944,7 +17944,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[26][8] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[26][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][8]_i_1_n_0 ),
@@ -17952,7 +17952,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[26][9] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[26][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][9]_i_1_n_0 ),
@@ -17960,7 +17960,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[27][0] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[27][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][0]_i_1_n_0 ),
@@ -17968,7 +17968,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[27][10] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[27][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][10]_i_1_n_0 ),
@@ -17976,7 +17976,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[27][11] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[27][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][11]_i_1_n_0 ),
@@ -17984,7 +17984,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[27][12] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[27][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][12]_i_1_n_0 ),
@@ -17992,7 +17992,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[27][13] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[27][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][13]_i_1_n_0 ),
@@ -18000,7 +18000,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[27][14] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[27][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][14]_i_1_n_0 ),
@@ -18008,7 +18008,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[27][15] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[27][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][15]_i_1_n_0 ),
@@ -18016,7 +18016,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[27][16] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[27][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][16]_i_1_n_0 ),
@@ -18024,7 +18024,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[27][17] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[27][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][17]_i_1_n_0 ),
@@ -18032,7 +18032,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[27][18] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[27][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][18]_i_1_n_0 ),
@@ -18040,7 +18040,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[27][19] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[27][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][19]_i_1_n_0 ),
@@ -18048,7 +18048,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[27][1] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[27][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][1]_i_1_n_0 ),
@@ -18056,7 +18056,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[27][20] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[27][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][20]_i_1_n_0 ),
@@ -18064,7 +18064,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[27][21] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[27][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][21]_i_1_n_0 ),
@@ -18072,7 +18072,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[27][22] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[27][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][22]_i_1_n_0 ),
@@ -18080,7 +18080,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[27][23] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[27][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][23]_i_1_n_0 ),
@@ -18088,7 +18088,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[27][24] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[27][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][24]_i_1_n_0 ),
@@ -18096,7 +18096,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[27][25] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[27][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][25]_i_1_n_0 ),
@@ -18104,7 +18104,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[27][26] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[27][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][26]_i_1_n_0 ),
@@ -18112,7 +18112,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[27][27] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[27][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][27]_i_1_n_0 ),
@@ -18120,7 +18120,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[27][28] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[27][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][28]_i_1_n_0 ),
@@ -18128,7 +18128,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[27][29] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[27][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][29]_i_1_n_0 ),
@@ -18136,7 +18136,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[27][2] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[27][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][2]_i_1_n_0 ),
@@ -18144,7 +18144,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[27][30] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[27][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][30]_i_1_n_0 ),
@@ -18152,7 +18152,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[27][31] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[27][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][31]_i_2_n_0 ),
@@ -18160,7 +18160,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[27][3] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[27][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][3]_i_1_n_0 ),
@@ -18168,7 +18168,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[27][4] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[27][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][4]_i_1_n_0 ),
@@ -18176,7 +18176,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[27][5] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[27][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][5]_i_1_n_0 ),
@@ -18184,7 +18184,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[27][6] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[27][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][6]_i_1_n_0 ),
@@ -18192,7 +18192,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[27][7] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[27][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][7]_i_1_n_0 ),
@@ -18200,7 +18200,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[27][8] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[27][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][8]_i_1_n_0 ),
@@ -18208,7 +18208,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[27][9] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[27][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][9]_i_1_n_0 ),
@@ -18216,7 +18216,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[28][0] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[28][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][0]_i_1_n_0 ),
@@ -18224,7 +18224,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[28][10] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[28][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][10]_i_1_n_0 ),
@@ -18232,7 +18232,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[28][11] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[28][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][11]_i_1_n_0 ),
@@ -18240,7 +18240,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[28][12] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[28][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][12]_i_1_n_0 ),
@@ -18248,7 +18248,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[28][13] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[28][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][13]_i_1_n_0 ),
@@ -18256,7 +18256,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[28][14] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[28][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][14]_i_1_n_0 ),
@@ -18264,7 +18264,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[28][15] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[28][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][15]_i_1_n_0 ),
@@ -18272,7 +18272,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[28][16] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[28][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][16]_i_1_n_0 ),
@@ -18280,7 +18280,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[28][17] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[28][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][17]_i_1_n_0 ),
@@ -18288,7 +18288,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[28][18] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[28][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][18]_i_1_n_0 ),
@@ -18296,7 +18296,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[28][19] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[28][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][19]_i_1_n_0 ),
@@ -18304,7 +18304,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[28][1] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[28][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][1]_i_1_n_0 ),
@@ -18312,7 +18312,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[28][20] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[28][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][20]_i_1_n_0 ),
@@ -18320,7 +18320,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[28][21] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[28][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][21]_i_1_n_0 ),
@@ -18328,7 +18328,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[28][22] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[28][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][22]_i_1_n_0 ),
@@ -18336,7 +18336,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[28][23] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[28][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][23]_i_1_n_0 ),
@@ -18344,7 +18344,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[28][24] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[28][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][24]_i_1_n_0 ),
@@ -18352,7 +18352,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[28][25] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[28][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][25]_i_1_n_0 ),
@@ -18360,7 +18360,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[28][26] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[28][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][26]_i_1_n_0 ),
@@ -18368,7 +18368,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[28][27] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[28][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][27]_i_1_n_0 ),
@@ -18376,7 +18376,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[28][28] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[28][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][28]_i_1_n_0 ),
@@ -18384,7 +18384,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[28][29] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[28][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][29]_i_1_n_0 ),
@@ -18392,7 +18392,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[28][2] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[28][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][2]_i_1_n_0 ),
@@ -18400,7 +18400,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[28][30] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[28][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][30]_i_1_n_0 ),
@@ -18408,7 +18408,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[28][31] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[28][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][31]_i_2_n_0 ),
@@ -18416,7 +18416,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[28][3] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[28][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][3]_i_1_n_0 ),
@@ -18424,7 +18424,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[28][4] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[28][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][4]_i_1_n_0 ),
@@ -18432,7 +18432,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[28][5] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[28][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][5]_i_1_n_0 ),
@@ -18440,7 +18440,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[28][6] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[28][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][6]_i_1_n_0 ),
@@ -18448,7 +18448,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[28][7] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[28][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][7]_i_1_n_0 ),
@@ -18456,7 +18456,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[28][8] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[28][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][8]_i_1_n_0 ),
@@ -18464,7 +18464,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[28][9] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[28][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][9]_i_1_n_0 ),
@@ -18472,7 +18472,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[29][0] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[29][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][0]_i_1_n_0 ),
@@ -18480,7 +18480,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[29][10] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[29][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][10]_i_1_n_0 ),
@@ -18488,7 +18488,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[29][11] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[29][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][11]_i_1_n_0 ),
@@ -18496,7 +18496,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[29][12] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[29][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][12]_i_1_n_0 ),
@@ -18504,7 +18504,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[29][13] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[29][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][13]_i_1_n_0 ),
@@ -18512,7 +18512,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[29][14] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[29][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][14]_i_1_n_0 ),
@@ -18520,7 +18520,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[29][15] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[29][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][15]_i_1_n_0 ),
@@ -18528,7 +18528,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[29][16] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[29][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][16]_i_1_n_0 ),
@@ -18536,7 +18536,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[29][17] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[29][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][17]_i_1_n_0 ),
@@ -18544,7 +18544,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[29][18] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[29][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][18]_i_1_n_0 ),
@@ -18552,7 +18552,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[29][19] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[29][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][19]_i_1_n_0 ),
@@ -18560,7 +18560,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[29][1] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[29][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][1]_i_1_n_0 ),
@@ -18568,7 +18568,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[29][20] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[29][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][20]_i_1_n_0 ),
@@ -18576,7 +18576,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[29][21] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[29][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][21]_i_1_n_0 ),
@@ -18584,7 +18584,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[29][22] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[29][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][22]_i_1_n_0 ),
@@ -18592,7 +18592,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[29][23] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[29][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][23]_i_1_n_0 ),
@@ -18600,7 +18600,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[29][24] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[29][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][24]_i_1_n_0 ),
@@ -18608,7 +18608,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[29][25] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[29][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][25]_i_1_n_0 ),
@@ -18616,7 +18616,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[29][26] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[29][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][26]_i_1_n_0 ),
@@ -18624,7 +18624,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[29][27] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[29][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][27]_i_1_n_0 ),
@@ -18632,7 +18632,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[29][28] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[29][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][28]_i_1_n_0 ),
@@ -18640,7 +18640,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[29][29] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[29][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][29]_i_1_n_0 ),
@@ -18648,7 +18648,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[29][2] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[29][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][2]_i_1_n_0 ),
@@ -18656,7 +18656,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[29][30] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[29][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][30]_i_1_n_0 ),
@@ -18664,7 +18664,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[29][31] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[29][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][31]_i_2_n_0 ),
@@ -18672,7 +18672,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[29][3] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[29][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][3]_i_1_n_0 ),
@@ -18680,7 +18680,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[29][4] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[29][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][4]_i_1_n_0 ),
@@ -18688,7 +18688,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[29][5] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[29][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][5]_i_1_n_0 ),
@@ -18696,7 +18696,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[29][6] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[29][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][6]_i_1_n_0 ),
@@ -18704,7 +18704,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[29][7] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[29][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][7]_i_1_n_0 ),
@@ -18712,7 +18712,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[29][8] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[29][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][8]_i_1_n_0 ),
@@ -18720,7 +18720,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[29][9] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[29][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[17][9]_i_1_n_0 ),
@@ -18728,7 +18728,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[2][0] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[2][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][0]_i_1_n_0 ),
@@ -18736,7 +18736,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[2][10] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[2][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][10]_i_1_n_0 ),
@@ -18744,7 +18744,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[2][11] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[2][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][11]_i_1_n_0 ),
@@ -18752,7 +18752,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[2][12] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[2][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][12]_i_1_n_0 ),
@@ -18760,7 +18760,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[2][13] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[2][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][13]_i_1_n_0 ),
@@ -18768,7 +18768,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[2][14] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[2][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][14]_i_1_n_0 ),
@@ -18776,7 +18776,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[2][15] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[2][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][15]_i_1_n_0 ),
@@ -18784,7 +18784,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[2][16] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[2][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][16]_i_1_n_0 ),
@@ -18792,7 +18792,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[2][17] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[2][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][17]_i_1_n_0 ),
@@ -18800,7 +18800,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[2][18] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[2][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][18]_i_1_n_0 ),
@@ -18808,7 +18808,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[2][19] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[2][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][19]_i_1_n_0 ),
@@ -18816,7 +18816,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[2][1] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[2][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][1]_i_1_n_0 ),
@@ -18824,7 +18824,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[2][20] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[2][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][20]_i_1_n_0 ),
@@ -18832,7 +18832,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[2][21] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[2][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][21]_i_1_n_0 ),
@@ -18840,7 +18840,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[2][22] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[2][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][22]_i_1_n_0 ),
@@ -18848,7 +18848,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[2][23] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[2][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][23]_i_1_n_0 ),
@@ -18856,7 +18856,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[2][24] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[2][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][24]_i_1_n_0 ),
@@ -18864,7 +18864,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[2][25] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[2][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][25]_i_1_n_0 ),
@@ -18872,7 +18872,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[2][26] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[2][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][26]_i_1_n_0 ),
@@ -18880,7 +18880,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[2][27] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[2][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][27]_i_1_n_0 ),
@@ -18888,7 +18888,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[2][28] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[2][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][28]_i_1_n_0 ),
@@ -18896,7 +18896,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[2][29] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[2][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][29]_i_1_n_0 ),
@@ -18904,7 +18904,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[2][2] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[2][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][2]_i_1_n_0 ),
@@ -18912,7 +18912,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[2][30] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[2][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][30]_i_1_n_0 ),
@@ -18920,7 +18920,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[2][31] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[2][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][31]_i_2_n_0 ),
@@ -18928,7 +18928,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[2][3] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[2][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][3]_i_1_n_0 ),
@@ -18936,7 +18936,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[2][4] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[2][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][4]_i_1_n_0 ),
@@ -18944,7 +18944,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[2][5] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[2][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][5]_i_1_n_0 ),
@@ -18952,7 +18952,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[2][6] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[2][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][6]_i_1_n_0 ),
@@ -18960,7 +18960,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[2][7] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[2][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][7]_i_1_n_0 ),
@@ -18968,7 +18968,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[2][8] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[2][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][8]_i_1_n_0 ),
@@ -18976,7 +18976,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[2][9] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[2][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[2][9]_i_1_n_0 ),
@@ -18984,7 +18984,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[30][0] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[30][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][0]_i_1_n_0 ),
@@ -18992,7 +18992,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[30][10] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[30][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][10]_i_1_n_0 ),
@@ -19000,7 +19000,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[30][11] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[30][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][11]_i_1_n_0 ),
@@ -19008,7 +19008,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[30][12] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[30][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][12]_i_1_n_0 ),
@@ -19016,7 +19016,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[30][13] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[30][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][13]_i_1_n_0 ),
@@ -19024,7 +19024,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[30][14] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[30][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][14]_i_1_n_0 ),
@@ -19032,7 +19032,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[30][15] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[30][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][15]_i_1_n_0 ),
@@ -19040,7 +19040,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[30][16] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[30][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][16]_i_1_n_0 ),
@@ -19048,7 +19048,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[30][17] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[30][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][17]_i_1_n_0 ),
@@ -19056,7 +19056,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[30][18] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[30][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][18]_i_1_n_0 ),
@@ -19064,7 +19064,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[30][19] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[30][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][19]_i_1_n_0 ),
@@ -19072,7 +19072,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[30][1] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[30][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][1]_i_1_n_0 ),
@@ -19080,7 +19080,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[30][20] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[30][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][20]_i_1_n_0 ),
@@ -19088,7 +19088,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[30][21] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[30][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][21]_i_1_n_0 ),
@@ -19096,7 +19096,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[30][22] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[30][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][22]_i_1_n_0 ),
@@ -19104,7 +19104,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[30][23] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[30][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][23]_i_1_n_0 ),
@@ -19112,7 +19112,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[30][24] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[30][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][24]_i_1_n_0 ),
@@ -19120,7 +19120,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[30][25] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[30][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][25]_i_1_n_0 ),
@@ -19128,7 +19128,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[30][26] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[30][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][26]_i_1_n_0 ),
@@ -19136,7 +19136,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[30][27] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[30][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][27]_i_1_n_0 ),
@@ -19144,7 +19144,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[30][28] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[30][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][28]_i_1_n_0 ),
@@ -19152,7 +19152,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[30][29] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[30][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][29]_i_1_n_0 ),
@@ -19160,7 +19160,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[30][2] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[30][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][2]_i_1_n_0 ),
@@ -19168,7 +19168,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[30][30] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[30][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][30]_i_1_n_0 ),
@@ -19176,7 +19176,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[30][31] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[30][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][31]_i_2_n_0 ),
@@ -19184,7 +19184,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[30][3] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[30][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][3]_i_1_n_0 ),
@@ -19192,7 +19192,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[30][4] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[30][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][4]_i_1_n_0 ),
@@ -19200,7 +19200,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[30][5] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[30][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][5]_i_1_n_0 ),
@@ -19208,7 +19208,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[30][6] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[30][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][6]_i_1_n_0 ),
@@ -19216,7 +19216,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[30][7] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[30][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][7]_i_1_n_0 ),
@@ -19224,7 +19224,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[30][8] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[30][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][8]_i_1_n_0 ),
@@ -19232,7 +19232,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[30][9] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[30][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][9]_i_1_n_0 ),
@@ -19240,7 +19240,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[31][0] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[31][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][0]_i_1_n_0 ),
@@ -19248,7 +19248,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[31][10] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[31][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][10]_i_1_n_0 ),
@@ -19256,7 +19256,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[31][11] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[31][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][11]_i_1_n_0 ),
@@ -19264,7 +19264,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[31][12] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[31][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][12]_i_1_n_0 ),
@@ -19272,7 +19272,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[31][13] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[31][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][13]_i_1_n_0 ),
@@ -19280,7 +19280,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[31][14] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[31][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][14]_i_1_n_0 ),
@@ -19288,7 +19288,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[31][15] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[31][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][15]_i_1_n_0 ),
@@ -19296,7 +19296,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[31][16] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[31][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][16]_i_1_n_0 ),
@@ -19304,7 +19304,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[31][17] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[31][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][17]_i_1_n_0 ),
@@ -19312,7 +19312,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[31][18] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[31][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][18]_i_1_n_0 ),
@@ -19320,7 +19320,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[31][19] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[31][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][19]_i_1_n_0 ),
@@ -19328,7 +19328,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[31][1] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[31][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][1]_i_1_n_0 ),
@@ -19336,7 +19336,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[31][20] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[31][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][20]_i_1_n_0 ),
@@ -19344,7 +19344,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[31][21] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[31][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][21]_i_1_n_0 ),
@@ -19352,7 +19352,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[31][22] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[31][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][22]_i_1_n_0 ),
@@ -19360,7 +19360,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[31][23] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[31][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][23]_i_1_n_0 ),
@@ -19368,7 +19368,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[31][24] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[31][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][24]_i_1_n_0 ),
@@ -19376,7 +19376,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[31][25] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[31][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][25]_i_1_n_0 ),
@@ -19384,7 +19384,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[31][26] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[31][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][26]_i_1_n_0 ),
@@ -19392,7 +19392,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[31][27] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[31][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][27]_i_1_n_0 ),
@@ -19400,7 +19400,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[31][28] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[31][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][28]_i_1_n_0 ),
@@ -19408,7 +19408,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[31][29] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[31][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][29]_i_1_n_0 ),
@@ -19416,7 +19416,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[31][2] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[31][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][2]_i_1_n_0 ),
@@ -19424,7 +19424,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[31][30] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[31][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][30]_i_1_n_0 ),
@@ -19432,7 +19432,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[31][31] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[31][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][31]_i_2_n_0 ),
@@ -19440,7 +19440,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[31][3] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[31][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][3]_i_1_n_0 ),
@@ -19448,7 +19448,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[31][4] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[31][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][4]_i_1_n_0 ),
@@ -19456,7 +19456,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[31][5] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[31][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][5]_i_1_n_0 ),
@@ -19464,7 +19464,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[31][6] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[31][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][6]_i_1_n_0 ),
@@ -19472,7 +19472,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[31][7] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[31][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][7]_i_1_n_0 ),
@@ -19480,7 +19480,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[31][8] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[31][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][8]_i_1_n_0 ),
@@ -19488,7 +19488,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[31][9] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[31][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[16][9]_i_1_n_0 ),
@@ -19496,7 +19496,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[3][0] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[3][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][0]_i_1_n_0 ),
@@ -19504,7 +19504,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[3][10] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[3][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][10]_i_1_n_0 ),
@@ -19512,7 +19512,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[3][11] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[3][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][11]_i_1_n_0 ),
@@ -19520,7 +19520,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[3][12] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[3][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][12]_i_1_n_0 ),
@@ -19528,7 +19528,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[3][13] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[3][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][13]_i_1_n_0 ),
@@ -19536,7 +19536,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[3][14] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[3][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][14]_i_1_n_0 ),
@@ -19544,7 +19544,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[3][15] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[3][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][15]_i_1_n_0 ),
@@ -19552,7 +19552,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[3][16] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[3][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][16]_i_1_n_0 ),
@@ -19560,7 +19560,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[3][17] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[3][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][17]_i_1_n_0 ),
@@ -19568,7 +19568,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[3][18] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[3][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][18]_i_1_n_0 ),
@@ -19576,7 +19576,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[3][19] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[3][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][19]_i_1_n_0 ),
@@ -19584,7 +19584,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[3][1] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[3][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][1]_i_1_n_0 ),
@@ -19592,7 +19592,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[3][20] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[3][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][20]_i_1_n_0 ),
@@ -19600,7 +19600,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[3][21] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[3][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][21]_i_1_n_0 ),
@@ -19608,7 +19608,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[3][22] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[3][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][22]_i_1_n_0 ),
@@ -19616,7 +19616,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[3][23] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[3][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][23]_i_1_n_0 ),
@@ -19624,7 +19624,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[3][24] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[3][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][24]_i_1_n_0 ),
@@ -19632,7 +19632,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[3][25] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[3][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][25]_i_1_n_0 ),
@@ -19640,7 +19640,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[3][26] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[3][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][26]_i_1_n_0 ),
@@ -19648,7 +19648,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[3][27] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[3][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][27]_i_1_n_0 ),
@@ -19656,7 +19656,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[3][28] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[3][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][28]_i_1_n_0 ),
@@ -19664,7 +19664,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[3][29] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[3][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][29]_i_1_n_0 ),
@@ -19672,7 +19672,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[3][2] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[3][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][2]_i_1_n_0 ),
@@ -19680,7 +19680,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[3][30] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[3][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][30]_i_1_n_0 ),
@@ -19688,7 +19688,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[3][31] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[3][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][31]_i_2_n_0 ),
@@ -19696,7 +19696,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[3][3] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[3][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][3]_i_1_n_0 ),
@@ -19704,7 +19704,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[3][4] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[3][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][4]_i_1_n_0 ),
@@ -19712,7 +19712,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[3][5] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[3][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][5]_i_1_n_0 ),
@@ -19720,7 +19720,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[3][6] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[3][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][6]_i_1_n_0 ),
@@ -19728,7 +19728,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[3][7] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[3][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][7]_i_1_n_0 ),
@@ -19736,7 +19736,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[3][8] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[3][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][8]_i_1_n_0 ),
@@ -19744,7 +19744,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[3][9] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[3][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][9]_i_1_n_0 ),
@@ -19752,7 +19752,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[4][0] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[4][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][0]_i_1_n_0 ),
@@ -19760,7 +19760,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[4][10] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[4][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][10]_i_1_n_0 ),
@@ -19768,7 +19768,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[4][11] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[4][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][11]_i_1_n_0 ),
@@ -19776,7 +19776,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[4][12] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[4][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][12]_i_1_n_0 ),
@@ -19784,7 +19784,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[4][13] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[4][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][13]_i_1_n_0 ),
@@ -19792,7 +19792,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[4][14] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[4][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][14]_i_1_n_0 ),
@@ -19800,7 +19800,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[4][15] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[4][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][15]_i_1_n_0 ),
@@ -19808,7 +19808,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[4][16] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[4][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][16]_i_1_n_0 ),
@@ -19816,7 +19816,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[4][17] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[4][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][17]_i_1_n_0 ),
@@ -19824,7 +19824,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[4][18] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[4][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][18]_i_1_n_0 ),
@@ -19832,7 +19832,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[4][19] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[4][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][19]_i_1_n_0 ),
@@ -19840,7 +19840,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[4][1] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[4][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][1]_i_1_n_0 ),
@@ -19848,7 +19848,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[4][20] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[4][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][20]_i_1_n_0 ),
@@ -19856,7 +19856,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[4][21] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[4][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][21]_i_1_n_0 ),
@@ -19864,7 +19864,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[4][22] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[4][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][22]_i_1_n_0 ),
@@ -19872,7 +19872,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[4][23] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[4][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][23]_i_1_n_0 ),
@@ -19880,7 +19880,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[4][24] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[4][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][24]_i_1_n_0 ),
@@ -19888,7 +19888,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[4][25] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[4][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][25]_i_1_n_0 ),
@@ -19896,7 +19896,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[4][26] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[4][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][26]_i_1_n_0 ),
@@ -19904,7 +19904,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[4][27] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[4][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][27]_i_1_n_0 ),
@@ -19912,7 +19912,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[4][28] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[4][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][28]_i_1_n_0 ),
@@ -19920,7 +19920,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[4][29] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[4][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][29]_i_1_n_0 ),
@@ -19928,7 +19928,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[4][2] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[4][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][2]_i_1_n_0 ),
@@ -19936,7 +19936,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[4][30] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[4][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][30]_i_1_n_0 ),
@@ -19944,7 +19944,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[4][31] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[4][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][31]_i_2_n_0 ),
@@ -19952,7 +19952,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[4][3] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[4][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][3]_i_1_n_0 ),
@@ -19960,7 +19960,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[4][4] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[4][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][4]_i_1_n_0 ),
@@ -19968,7 +19968,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[4][5] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[4][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][5]_i_1_n_0 ),
@@ -19976,7 +19976,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[4][6] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[4][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][6]_i_1_n_0 ),
@@ -19984,7 +19984,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[4][7] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[4][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][7]_i_1_n_0 ),
@@ -19992,7 +19992,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[4][8] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[4][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][8]_i_1_n_0 ),
@@ -20000,7 +20000,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[4][9] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[4][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][9]_i_1_n_0 ),
@@ -20008,7 +20008,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[5][0] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[5][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][0]_i_1_n_0 ),
@@ -20016,7 +20016,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[5][10] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[5][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][10]_i_1_n_0 ),
@@ -20024,7 +20024,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[5][11] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[5][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][11]_i_1_n_0 ),
@@ -20032,7 +20032,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[5][12] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[5][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][12]_i_1_n_0 ),
@@ -20040,7 +20040,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[5][13] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[5][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][13]_i_1_n_0 ),
@@ -20048,7 +20048,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[5][14] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[5][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][14]_i_1_n_0 ),
@@ -20056,7 +20056,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[5][15] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[5][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][15]_i_1_n_0 ),
@@ -20064,7 +20064,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[5][16] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[5][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][16]_i_1_n_0 ),
@@ -20072,7 +20072,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[5][17] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[5][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][17]_i_1_n_0 ),
@@ -20080,7 +20080,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[5][18] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[5][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][18]_i_1_n_0 ),
@@ -20088,7 +20088,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[5][19] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[5][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][19]_i_1_n_0 ),
@@ -20096,7 +20096,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[5][1] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[5][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][1]_i_1_n_0 ),
@@ -20104,7 +20104,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[5][20] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[5][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][20]_i_1_n_0 ),
@@ -20112,7 +20112,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[5][21] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[5][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][21]_i_1_n_0 ),
@@ -20120,7 +20120,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[5][22] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[5][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][22]_i_1_n_0 ),
@@ -20128,7 +20128,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[5][23] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[5][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][23]_i_1_n_0 ),
@@ -20136,7 +20136,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[5][24] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[5][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][24]_i_1_n_0 ),
@@ -20144,7 +20144,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[5][25] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[5][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][25]_i_1_n_0 ),
@@ -20152,7 +20152,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[5][26] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[5][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][26]_i_1_n_0 ),
@@ -20160,7 +20160,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[5][27] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[5][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][27]_i_1_n_0 ),
@@ -20168,7 +20168,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[5][28] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[5][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][28]_i_1_n_0 ),
@@ -20176,7 +20176,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[5][29] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[5][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][29]_i_1_n_0 ),
@@ -20184,7 +20184,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[5][2] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[5][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][2]_i_1_n_0 ),
@@ -20192,7 +20192,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[5][30] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[5][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][30]_i_1_n_0 ),
@@ -20200,7 +20200,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[5][31] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[5][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][31]_i_2_n_0 ),
@@ -20208,7 +20208,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[5][3] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[5][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][3]_i_1_n_0 ),
@@ -20216,7 +20216,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[5][4] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[5][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][4]_i_1_n_0 ),
@@ -20224,7 +20224,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[5][5] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[5][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][5]_i_1_n_0 ),
@@ -20232,7 +20232,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[5][6] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[5][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][6]_i_1_n_0 ),
@@ -20240,7 +20240,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[5][7] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[5][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][7]_i_1_n_0 ),
@@ -20248,7 +20248,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[5][8] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[5][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][8]_i_1_n_0 ),
@@ -20256,7 +20256,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[5][9] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[5][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][9]_i_1_n_0 ),
@@ -20264,7 +20264,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[6][0] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[6][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][0]_i_1_n_0 ),
@@ -20272,7 +20272,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[6][10] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[6][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][10]_i_1_n_0 ),
@@ -20280,7 +20280,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[6][11] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[6][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][11]_i_1_n_0 ),
@@ -20288,7 +20288,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[6][12] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[6][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][12]_i_1_n_0 ),
@@ -20296,7 +20296,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[6][13] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[6][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][13]_i_1_n_0 ),
@@ -20304,7 +20304,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[6][14] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[6][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][14]_i_1_n_0 ),
@@ -20312,7 +20312,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[6][15] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[6][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][15]_i_1_n_0 ),
@@ -20320,7 +20320,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[6][16] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[6][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][16]_i_1_n_0 ),
@@ -20328,7 +20328,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[6][17] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[6][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][17]_i_1_n_0 ),
@@ -20336,7 +20336,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[6][18] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[6][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][18]_i_1_n_0 ),
@@ -20344,7 +20344,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[6][19] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[6][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][19]_i_1_n_0 ),
@@ -20352,7 +20352,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[6][1] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[6][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][1]_i_1_n_0 ),
@@ -20360,7 +20360,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[6][20] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[6][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][20]_i_1_n_0 ),
@@ -20368,7 +20368,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[6][21] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[6][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][21]_i_1_n_0 ),
@@ -20376,7 +20376,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[6][22] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[6][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][22]_i_1_n_0 ),
@@ -20384,7 +20384,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[6][23] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[6][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][23]_i_1_n_0 ),
@@ -20392,7 +20392,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[6][24] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[6][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][24]_i_1_n_0 ),
@@ -20400,7 +20400,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[6][25] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[6][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][25]_i_1_n_0 ),
@@ -20408,7 +20408,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[6][26] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[6][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][26]_i_1_n_0 ),
@@ -20416,7 +20416,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[6][27] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[6][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][27]_i_1_n_0 ),
@@ -20424,7 +20424,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[6][28] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[6][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][28]_i_1_n_0 ),
@@ -20432,7 +20432,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[6][29] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[6][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][29]_i_1_n_0 ),
@@ -20440,7 +20440,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[6][2] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[6][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][2]_i_1_n_0 ),
@@ -20448,7 +20448,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[6][30] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[6][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][30]_i_1_n_0 ),
@@ -20456,7 +20456,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[6][31] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[6][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][31]_i_2_n_0 ),
@@ -20464,7 +20464,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[6][3] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[6][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][3]_i_1_n_0 ),
@@ -20472,7 +20472,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[6][4] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[6][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][4]_i_1_n_0 ),
@@ -20480,7 +20480,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[6][5] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[6][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][5]_i_1_n_0 ),
@@ -20488,7 +20488,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[6][6] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[6][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][6]_i_1_n_0 ),
@@ -20496,7 +20496,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[6][7] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[6][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][7]_i_1_n_0 ),
@@ -20504,7 +20504,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[6][8] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[6][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][8]_i_1_n_0 ),
@@ -20512,7 +20512,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[6][9] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[6][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][9]_i_1_n_0 ),
@@ -20520,7 +20520,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[7][0] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[7][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][0]_i_1_n_0 ),
@@ -20528,7 +20528,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[7][10] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[7][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][10]_i_1_n_0 ),
@@ -20536,7 +20536,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[7][11] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[7][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][11]_i_1_n_0 ),
@@ -20544,7 +20544,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[7][12] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[7][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][12]_i_1_n_0 ),
@@ -20552,7 +20552,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[7][13] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[7][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][13]_i_1_n_0 ),
@@ -20560,7 +20560,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[7][14] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[7][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][14]_i_1_n_0 ),
@@ -20568,7 +20568,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[7][15] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[7][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][15]_i_1_n_0 ),
@@ -20576,7 +20576,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[7][16] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[7][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][16]_i_1_n_0 ),
@@ -20584,7 +20584,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[7][17] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[7][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][17]_i_1_n_0 ),
@@ -20592,7 +20592,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[7][18] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[7][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][18]_i_1_n_0 ),
@@ -20600,7 +20600,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[7][19] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[7][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][19]_i_1_n_0 ),
@@ -20608,7 +20608,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[7][1] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[7][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][1]_i_1_n_0 ),
@@ -20616,7 +20616,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[7][20] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[7][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][20]_i_1_n_0 ),
@@ -20624,7 +20624,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[7][21] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[7][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][21]_i_1_n_0 ),
@@ -20632,7 +20632,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[7][22] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[7][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][22]_i_1_n_0 ),
@@ -20640,7 +20640,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[7][23] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[7][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][23]_i_1_n_0 ),
@@ -20648,7 +20648,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[7][24] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[7][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][24]_i_1_n_0 ),
@@ -20656,7 +20656,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[7][25] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[7][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][25]_i_1_n_0 ),
@@ -20664,7 +20664,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[7][26] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[7][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][26]_i_1_n_0 ),
@@ -20672,7 +20672,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[7][27] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[7][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][27]_i_1_n_0 ),
@@ -20680,7 +20680,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[7][28] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[7][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][28]_i_1_n_0 ),
@@ -20688,7 +20688,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[7][29] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[7][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][29]_i_1_n_0 ),
@@ -20696,7 +20696,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[7][2] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[7][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][2]_i_1_n_0 ),
@@ -20704,7 +20704,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[7][30] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[7][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][30]_i_1_n_0 ),
@@ -20712,7 +20712,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[7][31] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[7][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][31]_i_2_n_0 ),
@@ -20720,7 +20720,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[7][3] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[7][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][3]_i_1_n_0 ),
@@ -20728,7 +20728,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[7][4] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[7][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][4]_i_1_n_0 ),
@@ -20736,7 +20736,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[7][5] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[7][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][5]_i_1_n_0 ),
@@ -20744,7 +20744,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[7][6] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[7][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][6]_i_1_n_0 ),
@@ -20752,7 +20752,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[7][7] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[7][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][7]_i_1_n_0 ),
@@ -20760,7 +20760,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[7][8] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[7][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][8]_i_1_n_0 ),
@@ -20768,7 +20768,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[7][9] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[7][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[4][9]_i_1_n_0 ),
@@ -20776,7 +20776,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[8][0] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[8][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][0]_i_1_n_0 ),
@@ -20784,7 +20784,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[8][10] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[8][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][10]_i_1_n_0 ),
@@ -20792,7 +20792,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[8][11] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[8][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][11]_i_1_n_0 ),
@@ -20800,7 +20800,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[8][12] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[8][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][12]_i_1_n_0 ),
@@ -20808,7 +20808,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[8][13] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[8][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][13]_i_1_n_0 ),
@@ -20816,7 +20816,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[8][14] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[8][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][14]_i_1_n_0 ),
@@ -20824,7 +20824,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[8][15] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[8][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][15]_i_1_n_0 ),
@@ -20832,7 +20832,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[8][16] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[8][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][16]_i_1_n_0 ),
@@ -20840,7 +20840,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[8][17] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[8][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][17]_i_1_n_0 ),
@@ -20848,7 +20848,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[8][18] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[8][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][18]_i_1_n_0 ),
@@ -20856,7 +20856,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[8][19] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[8][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][19]_i_1_n_0 ),
@@ -20864,7 +20864,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[8][1] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[8][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][1]_i_1_n_0 ),
@@ -20872,7 +20872,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[8][20] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[8][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][20]_i_1_n_0 ),
@@ -20880,7 +20880,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[8][21] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[8][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][21]_i_1_n_0 ),
@@ -20888,7 +20888,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[8][22] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[8][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][22]_i_1_n_0 ),
@@ -20896,7 +20896,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[8][23] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[8][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][23]_i_1_n_0 ),
@@ -20904,7 +20904,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[8][24] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[8][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][24]_i_1_n_0 ),
@@ -20912,7 +20912,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[8][25] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[8][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][25]_i_1_n_0 ),
@@ -20920,7 +20920,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[8][26] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[8][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][26]_i_1_n_0 ),
@@ -20928,7 +20928,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[8][27] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[8][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][27]_i_1_n_0 ),
@@ -20936,7 +20936,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[8][28] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[8][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][28]_i_1_n_0 ),
@@ -20944,7 +20944,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[8][29] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[8][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][29]_i_1_n_0 ),
@@ -20952,7 +20952,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[8][2] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[8][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][2]_i_1_n_0 ),
@@ -20960,7 +20960,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[8][30] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[8][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][30]_i_1_n_0 ),
@@ -20968,7 +20968,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[8][31] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[8][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][31]_i_2_n_0 ),
@@ -20976,7 +20976,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[8][3] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[8][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][3]_i_1_n_0 ),
@@ -20984,7 +20984,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[8][4] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[8][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][4]_i_1_n_0 ),
@@ -20992,7 +20992,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[8][5] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[8][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][5]_i_1_n_0 ),
@@ -21000,7 +21000,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[8][6] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[8][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][6]_i_1_n_0 ),
@@ -21008,7 +21008,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[8][7] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[8][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][7]_i_1_n_0 ),
@@ -21016,7 +21016,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[8][8] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[8][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][8]_i_1_n_0 ),
@@ -21024,7 +21024,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[8][9] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[8][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[8][9]_i_1_n_0 ),
@@ -21032,7 +21032,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[9][0] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[9][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][0]_i_1_n_0 ),
@@ -21040,7 +21040,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[9][10] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[9][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][10]_i_1_n_0 ),
@@ -21048,7 +21048,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[9][11] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[9][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][11]_i_1_n_0 ),
@@ -21056,7 +21056,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[9][12] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[9][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][12]_i_1_n_0 ),
@@ -21064,7 +21064,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[9][13] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[9][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][13]_i_1_n_0 ),
@@ -21072,7 +21072,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[9][14] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[9][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][14]_i_1_n_0 ),
@@ -21080,7 +21080,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[9][15] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[9][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][15]_i_1_n_0 ),
@@ -21088,7 +21088,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[9][16] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[9][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][16]_i_1_n_0 ),
@@ -21096,7 +21096,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[9][17] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[9][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][17]_i_1_n_0 ),
@@ -21104,7 +21104,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[9][18] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[9][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][18]_i_1_n_0 ),
@@ -21112,7 +21112,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[9][19] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[9][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][19]_i_1_n_0 ),
@@ -21120,7 +21120,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[9][1] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[9][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][1]_i_1_n_0 ),
@@ -21128,7 +21128,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[9][20] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[9][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][20]_i_1_n_0 ),
@@ -21136,7 +21136,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[9][21] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[9][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][21]_i_1_n_0 ),
@@ -21144,7 +21144,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[9][22] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[9][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][22]_i_1_n_0 ),
@@ -21152,7 +21152,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[9][23] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[9][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][23]_i_1_n_0 ),
@@ -21160,7 +21160,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[9][24] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[9][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][24]_i_1_n_0 ),
@@ -21168,7 +21168,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[9][25] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[9][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][25]_i_1_n_0 ),
@@ -21176,7 +21176,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[9][26] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[9][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][26]_i_1_n_0 ),
@@ -21184,7 +21184,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[9][27] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[9][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][27]_i_1_n_0 ),
@@ -21192,7 +21192,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[9][28] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[9][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][28]_i_1_n_0 ),
@@ -21200,7 +21200,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[9][29] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[9][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][29]_i_1_n_0 ),
@@ -21208,7 +21208,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[9][2] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[9][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][2]_i_1_n_0 ),
@@ -21216,7 +21216,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[9][30] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[9][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][30]_i_1_n_0 ),
@@ -21224,7 +21224,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[9][31] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[9][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][31]_i_2_n_0 ),
@@ -21232,7 +21232,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[9][3] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[9][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][3]_i_1_n_0 ),
@@ -21240,7 +21240,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[9][4] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[9][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][4]_i_1_n_0 ),
@@ -21248,7 +21248,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[9][5] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[9][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][5]_i_1_n_0 ),
@@ -21256,7 +21256,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[9][6] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[9][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][6]_i_1_n_0 ),
@@ -21264,7 +21264,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[9][7] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[9][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][7]_i_1_n_0 ),
@@ -21272,7 +21272,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[9][8] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[9][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][8]_i_1_n_0 ),
@@ -21280,7 +21280,7 @@ module regfile
   FDCE #(
     .INIT(1'b0)) 
     \registers_reg[9][9] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\registers[9][31]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(\registers[1][9]_i_1_n_0 ),
@@ -21303,12 +21303,12 @@ module sram
     mem_write_reg,
     mem_write_reg_0,
     sram_uart_done_reg_1,
-    \reg_instruction_reg[0] ,
+    \reg_instruction_reg[5] ,
     mem_write_reg_1,
     mem_write_reg_2,
     mem_write_reg_3,
     \base_ram_data_reg[31]_0 ,
-    clk_11M0592_IBUF_BUFG,
+    clk_50M_IBUF_BUFG,
     reset_btn_IBUF,
     data_z_reg_0,
     Q,
@@ -21332,7 +21332,7 @@ module sram
     base_ram_data_IBUF,
     uart_tsre_IBUF,
     uart_tbre_IBUF,
-    \reg_instruction_reg[0]_0 ,
+    \reg_instruction_reg[5]_0 ,
     \base_ram_data_reg[31]_1 ,
     lopt,
     lopt_1,
@@ -21385,12 +21385,12 @@ module sram
   output mem_write_reg;
   output mem_write_reg_0;
   output sram_uart_done_reg_1;
-  output \reg_instruction_reg[0] ;
+  output \reg_instruction_reg[5] ;
   output mem_write_reg_1;
   output mem_write_reg_2;
   output mem_write_reg_3;
   output [31:0]\base_ram_data_reg[31]_0 ;
-  input clk_11M0592_IBUF_BUFG;
+  input clk_50M_IBUF_BUFG;
   input reset_btn_IBUF;
   input data_z_reg_0;
   input [7:0]Q;
@@ -21414,7 +21414,7 @@ module sram
   input [0:0]base_ram_data_IBUF;
   input uart_tsre_IBUF;
   input uart_tbre_IBUF;
-  input \reg_instruction_reg[0]_0 ;
+  input \reg_instruction_reg[5]_0 ;
   input [31:0]\base_ram_data_reg[31]_1 ;
   output lopt;
   output lopt_1;
@@ -21519,7 +21519,7 @@ module sram
   wire base_ram_we;
   wire base_ram_we_i_1_n_0;
   wire base_ram_we_reg_lopt_replica_1;
-  wire clk_11M0592_IBUF_BUFG;
+  wire clk_50M_IBUF_BUFG;
   wire [4:0]\cpu_stage_reg[0] ;
   wire data_z_i_1_n_0;
   wire data_z_i_2_n_0;
@@ -21545,9 +21545,9 @@ module sram
   wire mem_write_reg_3;
   wire rdn;
   wire rdn_i_1_n_0;
-  wire \reg_instruction_reg[0] ;
-  wire \reg_instruction_reg[0]_0 ;
   wire [0:0]\reg_instruction_reg[13] ;
+  wire \reg_instruction_reg[5] ;
+  wire \reg_instruction_reg[5]_0 ;
   wire \reg_waddr_reg[0] ;
   wire \reg_wdata[31]_i_3_n_0 ;
   wire \reg_wdata_reg[31] ;
@@ -21793,7 +21793,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \FSM_sequential_state_reg[0] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(1'b1),
         .CLR(reset_btn_IBUF),
         .D(\FSM_sequential_state[0]_i_1_n_0 ),
@@ -21802,7 +21802,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \FSM_sequential_state_reg[1] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(1'b1),
         .CLR(reset_btn_IBUF),
         .D(\FSM_sequential_state[1]_i_1_n_0 ),
@@ -21811,7 +21811,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \FSM_sequential_state_reg[2] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(1'b1),
         .CLR(reset_btn_IBUF),
         .D(\FSM_sequential_state[2]_i_1_n_0 ),
@@ -21820,7 +21820,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \FSM_sequential_state_reg[3] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(1'b1),
         .CLR(reset_btn_IBUF),
         .D(\FSM_sequential_state[3]_i_1_n_0 ),
@@ -21836,7 +21836,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[0] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [0]),
@@ -21846,7 +21846,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[0]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [0]),
@@ -21854,7 +21854,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[10] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [10]),
@@ -21864,7 +21864,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[10]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [10]),
@@ -21872,7 +21872,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[11] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [11]),
@@ -21882,7 +21882,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[11]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [11]),
@@ -21890,7 +21890,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[12] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [12]),
@@ -21900,7 +21900,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[12]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [12]),
@@ -21908,7 +21908,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[13] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [13]),
@@ -21918,7 +21918,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[13]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [13]),
@@ -21926,7 +21926,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[14] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [14]),
@@ -21936,7 +21936,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[14]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [14]),
@@ -21944,7 +21944,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[15] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [15]),
@@ -21954,7 +21954,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[15]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [15]),
@@ -21962,7 +21962,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[16] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [16]),
@@ -21972,7 +21972,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[16]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [16]),
@@ -21980,7 +21980,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[17] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [17]),
@@ -21990,7 +21990,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[17]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [17]),
@@ -21998,7 +21998,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[18] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [18]),
@@ -22008,7 +22008,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[18]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [18]),
@@ -22016,7 +22016,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[19] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [19]),
@@ -22026,7 +22026,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[19]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [19]),
@@ -22034,7 +22034,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[1] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [1]),
@@ -22044,7 +22044,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[1]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [1]),
@@ -22052,7 +22052,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[20] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [20]),
@@ -22062,7 +22062,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[20]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [20]),
@@ -22070,7 +22070,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[21] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [21]),
@@ -22080,7 +22080,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[21]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [21]),
@@ -22088,7 +22088,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[22] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [22]),
@@ -22098,7 +22098,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[22]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [22]),
@@ -22106,7 +22106,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[23] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [23]),
@@ -22116,7 +22116,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[23]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [23]),
@@ -22124,7 +22124,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[24] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [24]),
@@ -22134,7 +22134,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[24]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [24]),
@@ -22142,7 +22142,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[25] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [25]),
@@ -22152,7 +22152,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[25]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [25]),
@@ -22160,7 +22160,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[26] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [26]),
@@ -22170,7 +22170,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[26]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [26]),
@@ -22178,7 +22178,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[27] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [27]),
@@ -22188,7 +22188,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[27]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [27]),
@@ -22196,7 +22196,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[28] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [28]),
@@ -22206,7 +22206,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[28]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [28]),
@@ -22214,7 +22214,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[29] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [29]),
@@ -22224,7 +22224,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[29]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [29]),
@@ -22232,7 +22232,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[2] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [2]),
@@ -22242,7 +22242,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[2]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [2]),
@@ -22250,7 +22250,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[30] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [30]),
@@ -22260,7 +22260,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[30]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [30]),
@@ -22268,7 +22268,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[31] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [31]),
@@ -22278,7 +22278,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[31]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [31]),
@@ -22286,7 +22286,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[3] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [3]),
@@ -22296,7 +22296,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[3]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [3]),
@@ -22304,7 +22304,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[4] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [4]),
@@ -22314,7 +22314,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[4]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [4]),
@@ -22322,7 +22322,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[5] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [5]),
@@ -22332,7 +22332,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[5]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [5]),
@@ -22340,7 +22340,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[6] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [6]),
@@ -22350,7 +22350,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[6]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [6]),
@@ -22358,7 +22358,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[7] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [7]),
@@ -22368,7 +22368,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[7]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [7]),
@@ -22376,7 +22376,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[8] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [8]),
@@ -22386,7 +22386,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[8]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [8]),
@@ -22394,7 +22394,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[9] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [9]),
@@ -22404,7 +22404,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     \base_ram_data_reg[9]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_data),
         .CLR(reset_btn_IBUF),
         .D(\base_ram_data_reg[31]_1 [9]),
@@ -22435,7 +22435,7 @@ module sram
   FDPE #(
     .INIT(1'b1)) 
     base_ram_oe_reg
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_oe_i_1_n_0),
         .D(base_ram_oe),
         .PRE(reset_btn_IBUF),
@@ -22445,7 +22445,7 @@ module sram
   FDPE #(
     .INIT(1'b1)) 
     base_ram_oe_reg_lopt_replica
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_oe_i_1_n_0),
         .D(base_ram_oe),
         .PRE(reset_btn_IBUF),
@@ -22466,7 +22466,7 @@ module sram
   FDPE #(
     .INIT(1'b1)) 
     base_ram_we_reg
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_we_i_1_n_0),
         .D(base_ram_we),
         .PRE(reset_btn_IBUF),
@@ -22476,7 +22476,7 @@ module sram
   FDPE #(
     .INIT(1'b1)) 
     base_ram_we_reg_lopt_replica
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(base_ram_we_i_1_n_0),
         .D(base_ram_we),
         .PRE(reset_btn_IBUF),
@@ -22514,7 +22514,7 @@ module sram
   FDPE #(
     .INIT(1'b1)) 
     data_z_reg
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(1'b1),
         .D(data_z_i_1_n_0),
         .PRE(reset_btn_IBUF),
@@ -22578,21 +22578,11 @@ module sram
   FDPE #(
     .INIT(1'b1)) 
     rdn_reg
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(rdn_i_1_n_0),
         .D(rdn),
         .PRE(reset_btn_IBUF),
         .Q(uart_rdn_OBUF));
-  LUT6 #(
-    .INIT(64'hD888FFFFD8880000)) 
-    \reg_instruction[0]_i_1 
-       (.I0(\mem_address_reg[2] ),
-        .I1(base_ram_data_IBUF),
-        .I2(uart_tsre_IBUF),
-        .I3(uart_tbre_IBUF),
-        .I4(\FSM_onehot_cpu_stage_reg[0] ),
-        .I5(\reg_instruction_reg[0]_0 ),
-        .O(\reg_instruction_reg[0] ));
   LUT4 #(
     .INIT(16'h0008)) 
     \reg_instruction[31]_i_1 
@@ -22608,6 +22598,16 @@ module sram
         .I1(\cpu_stage_reg[0] [0]),
         .I2(mem_done),
         .O(\FSM_onehot_cpu_stage_reg[0] ));
+  LUT6 #(
+    .INIT(64'hD888FFFFD8880000)) 
+    \reg_instruction[5]_i_1 
+       (.I0(\mem_address_reg[2] ),
+        .I1(base_ram_data_IBUF),
+        .I2(uart_tsre_IBUF),
+        .I3(uart_tbre_IBUF),
+        .I4(\FSM_onehot_cpu_stage_reg[0] ),
+        .I5(\reg_instruction_reg[5]_0 ),
+        .O(\reg_instruction_reg[5] ));
   LUT5 #(
     .INIT(32'h0000AAEA)) 
     \reg_waddr[4]_i_1 
@@ -22709,7 +22709,7 @@ module sram
   FDCE #(
     .INIT(1'b0)) 
     sram_uart_done_reg
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(1'b1),
         .CLR(reset_btn_IBUF),
         .D(sram_uart_done_i_1_n_0),
@@ -22731,14 +22731,14 @@ module sram
   FDPE #(
     .INIT(1'b1)) 
     wrn_reg
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(wrn_i_1_n_0),
         .D(wrn),
         .PRE(reset_btn_IBUF),
         .Q(uart_wrn_OBUF));
 endmodule
 
-(* ECO_CHECKSUM = "b6d1929d" *) (* STAGE_EXE = "3'b010" *) (* STAGE_ID = "3'b001" *) 
+(* ECO_CHECKSUM = "dc4f1b1" *) (* STAGE_EXE = "3'b010" *) (* STAGE_ID = "3'b001" *) 
 (* STAGE_IF = "3'b000" *) (* STAGE_MEM = "3'b011" *) (* STAGE_WB = "3'b100" *) 
 (* NotValidForBitStream *)
 module thinpad_top
@@ -22978,9 +22978,9 @@ module thinpad_top
   wire [31:0]base_ram_data_IBUF;
   wire base_ram_oe_n;
   wire base_ram_we_n;
-  wire clk_11M0592;
-  wire clk_11M0592_IBUF;
-  wire clk_11M0592_IBUF_BUFG;
+  wire clk_50M;
+  wire clk_50M_IBUF;
+  wire clk_50M_IBUF_BUFG;
   wire cpu_stage;
   wire \cpu_stage[0]_i_1_n_0 ;
   wire \cpu_stage[1]_i_1_n_0 ;
@@ -23336,9 +23336,6 @@ module thinpad_top
   wire \reg_waddr_reg_n_0_[3] ;
   wire \reg_waddr_reg_n_0_[4] ;
   wire \reg_wdata[0]_i_2_n_0 ;
-  wire \reg_wdata[0]_i_3_n_0 ;
-  wire \reg_wdata[0]_i_4_n_0 ;
-  wire \reg_wdata[0]_i_5_n_0 ;
   wire \reg_wdata[10]_i_2_n_0 ;
   wire \reg_wdata[11]_i_2_n_0 ;
   wire \reg_wdata[12]_i_2_n_0 ;
@@ -23367,6 +23364,9 @@ module thinpad_top
   wire \reg_wdata[3]_i_2_n_0 ;
   wire \reg_wdata[4]_i_2_n_0 ;
   wire \reg_wdata[5]_i_2_n_0 ;
+  wire \reg_wdata[5]_i_3_n_0 ;
+  wire \reg_wdata[5]_i_4_n_0 ;
+  wire \reg_wdata[5]_i_5_n_0 ;
   wire \reg_wdata[6]_i_2_n_0 ;
   wire \reg_wdata[7]_i_2_n_0 ;
   wire \reg_wdata[8]_i_2_n_0 ;
@@ -23497,7 +23497,7 @@ end
   FDPE #(
     .INIT(1'b1)) 
     \FSM_onehot_cpu_stage_reg[0] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(cpu_stage),
         .D(\FSM_onehot_cpu_stage[0]_i_1_n_0 ),
         .PRE(reset_btn_IBUF),
@@ -23506,7 +23506,7 @@ end
   FDCE #(
     .INIT(1'b0)) 
     \FSM_onehot_cpu_stage_reg[1] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(cpu_stage),
         .CLR(reset_btn_IBUF),
         .D(\FSM_onehot_cpu_stage_reg_n_0_[0] ),
@@ -23515,7 +23515,7 @@ end
   FDCE #(
     .INIT(1'b0)) 
     \FSM_onehot_cpu_stage_reg[2] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(cpu_stage),
         .CLR(reset_btn_IBUF),
         .D(\FSM_onehot_cpu_stage[2]_i_1_n_0 ),
@@ -23524,7 +23524,7 @@ end
   FDCE #(
     .INIT(1'b0)) 
     \FSM_onehot_cpu_stage_reg[3] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(cpu_stage),
         .CLR(reset_btn_IBUF),
         .D(\FSM_onehot_cpu_stage[3]_i_1_n_0 ),
@@ -23533,7 +23533,7 @@ end
   FDCE #(
     .INIT(1'b0)) 
     \FSM_onehot_cpu_stage_reg[4] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(cpu_stage),
         .CLR(reset_btn_IBUF),
         .D(\FSM_onehot_cpu_stage[4]_i_2_n_0 ),
@@ -23542,7 +23542,7 @@ end
        (.D({_alu_n_0,_alu_n_1,_alu_n_2,_alu_n_3,_alu_n_4,_alu_n_5,_alu_n_6,_alu_n_7,_alu_n_8,_alu_n_9,_alu_n_10,_alu_n_11,_alu_n_12,_alu_n_13,_alu_n_14,_alu_n_15,_alu_n_16,_alu_n_17,_alu_n_18,_alu_n_19,_alu_n_20,_alu_n_21,_alu_n_22,_alu_n_23,_alu_n_24,_alu_n_25,_alu_n_26,_alu_n_27,_alu_n_28,_alu_n_29,_alu_n_30,_alu_n_31}),
         .\FSM_onehot_cpu_stage_reg[1] ({_alu_n_32,_alu_n_33,_alu_n_34,_alu_n_35,_alu_n_36,_alu_n_37,_alu_n_38,_alu_n_39,_alu_n_40,_alu_n_41,_alu_n_42,_alu_n_43,_alu_n_44,_alu_n_45,_alu_n_46,_alu_n_47,_alu_n_48,_alu_n_49,_alu_n_50,_alu_n_51,_alu_n_52,_alu_n_53,_alu_n_54,_alu_n_55,_alu_n_56,_alu_n_57}),
         .Q(exe_reg_s_val__0),
-        .base_ram_data_IBUF(base_ram_data_IBUF[31:1]),
+        .base_ram_data_IBUF({base_ram_data_IBUF[31:6],base_ram_data_IBUF[4:0]}),
         .exe_imm(exe_imm),
         .\exe_reg_s_val_reg[31] ({_alu_n_58,_alu_n_59,_alu_n_60,_alu_n_61,_alu_n_62,_alu_n_63,_alu_n_64,_alu_n_65,_alu_n_66,_alu_n_67,_alu_n_68,_alu_n_69,_alu_n_70,_alu_n_71,_alu_n_72,_alu_n_73,_alu_n_74,_alu_n_75,_alu_n_76,_alu_n_77,_alu_n_78,_alu_n_79,_alu_n_80,_alu_n_81,_alu_n_82,_alu_n_83,_alu_n_84,_alu_n_85,_alu_n_86,_alu_n_87,_alu_n_88,_alu_n_89}),
         .i__carry_i_8_0(exe_op),
@@ -23643,11 +23643,9 @@ end
         .\pc_reg[8]_0 (\pc[8]_i_3_n_0 ),
         .\pc_reg[9] (\pc[9]_i_2_n_0 ),
         .\pc_reg[9]_0 (\pc[9]_i_3_n_0 ),
-        .\reg_wdata_reg[0] (\reg_wdata[0]_i_2_n_0 ),
-        .\reg_wdata_reg[0]_0 (\reg_wdata[0]_i_3_n_0 ),
-        .\reg_wdata_reg[0]_1 (\mem_data_out[31]_i_2_n_0 ),
-        .\reg_wdata_reg[0]_2 (\reg_wdata[0]_i_4_n_0 ),
-        .\reg_wdata_reg[0]_3 (\reg_wdata[31]_i_5_n_0 ),
+        .\reg_wdata_reg[0] ({\FSM_onehot_cpu_stage_reg_n_0_[3] ,exe_reg_s_val,\FSM_onehot_cpu_stage_reg_n_0_[0] }),
+        .\reg_wdata_reg[0]_0 (_sram_n_5),
+        .\reg_wdata_reg[0]_1 (\reg_wdata[0]_i_2_n_0 ),
         .\reg_wdata_reg[10] (\reg_wdata[10]_i_2_n_0 ),
         .\reg_wdata_reg[11] (\reg_wdata[11]_i_2_n_0 ),
         .\reg_wdata_reg[12] (\reg_wdata[12]_i_2_n_0 ),
@@ -23658,9 +23656,7 @@ end
         .\reg_wdata_reg[17] (\reg_wdata[17]_i_2_n_0 ),
         .\reg_wdata_reg[18] (\reg_wdata[18]_i_2_n_0 ),
         .\reg_wdata_reg[19] (\reg_wdata[19]_i_2_n_0 ),
-        .\reg_wdata_reg[1] ({\FSM_onehot_cpu_stage_reg_n_0_[3] ,exe_reg_s_val,\FSM_onehot_cpu_stage_reg_n_0_[0] }),
-        .\reg_wdata_reg[1]_0 (_sram_n_5),
-        .\reg_wdata_reg[1]_1 (\reg_wdata[1]_i_2_n_0 ),
+        .\reg_wdata_reg[1] (\reg_wdata[1]_i_2_n_0 ),
         .\reg_wdata_reg[20] (\reg_wdata[20]_i_2_n_0 ),
         .\reg_wdata_reg[21] (\reg_wdata[21]_i_2_n_0 ),
         .\reg_wdata_reg[22] (\reg_wdata[22]_i_2_n_0 ),
@@ -23677,6 +23673,10 @@ end
         .\reg_wdata_reg[3] (\reg_wdata[3]_i_2_n_0 ),
         .\reg_wdata_reg[4] (\reg_wdata[4]_i_2_n_0 ),
         .\reg_wdata_reg[5] (\reg_wdata[5]_i_2_n_0 ),
+        .\reg_wdata_reg[5]_0 (\reg_wdata[5]_i_3_n_0 ),
+        .\reg_wdata_reg[5]_1 (\mem_data_out[31]_i_2_n_0 ),
+        .\reg_wdata_reg[5]_2 (\reg_wdata[5]_i_4_n_0 ),
+        .\reg_wdata_reg[5]_3 (\reg_wdata[31]_i_5_n_0 ),
         .\reg_wdata_reg[6] (\reg_wdata[6]_i_2_n_0 ),
         .\reg_wdata_reg[7] (\reg_wdata[7]_i_2_n_0 ),
         .\reg_wdata_reg[8] (\reg_wdata[8]_i_2_n_0 ),
@@ -23686,7 +23686,7 @@ end
   regfile _regfile
        (.D(reg_rdata1),
         .Q({\reg_wdata_reg_n_0_[31] ,\reg_wdata_reg_n_0_[30] ,\reg_wdata_reg_n_0_[29] ,\reg_wdata_reg_n_0_[28] ,\reg_wdata_reg_n_0_[27] ,\reg_wdata_reg_n_0_[26] ,\reg_wdata_reg_n_0_[25] ,\reg_wdata_reg_n_0_[24] ,\reg_wdata_reg_n_0_[23] ,\reg_wdata_reg_n_0_[22] ,\reg_wdata_reg_n_0_[21] ,\reg_wdata_reg_n_0_[20] ,\reg_wdata_reg_n_0_[19] ,\reg_wdata_reg_n_0_[18] ,\reg_wdata_reg_n_0_[17] ,\reg_wdata_reg_n_0_[16] ,\reg_wdata_reg_n_0_[15] ,\reg_wdata_reg_n_0_[14] ,\reg_wdata_reg_n_0_[13] ,\reg_wdata_reg_n_0_[12] ,\reg_wdata_reg_n_0_[11] ,\reg_wdata_reg_n_0_[10] ,\reg_wdata_reg_n_0_[9] ,\reg_wdata_reg_n_0_[8] ,\reg_wdata_reg_n_0_[7] ,\reg_wdata_reg_n_0_[6] ,\reg_wdata_reg_n_0_[5] ,\reg_wdata_reg_n_0_[4] ,\reg_wdata_reg_n_0_[3] ,\reg_wdata_reg_n_0_[2] ,\reg_wdata_reg_n_0_[1] ,\reg_wdata_reg_n_0_[0] }),
-        .clk_11M0592_IBUF_BUFG(clk_11M0592_IBUF_BUFG),
+        .clk_50M_IBUF_BUFG(clk_50M_IBUF_BUFG),
         .\exe_reg_s_val_reg[0]_i_2_0 (\reg_instruction_reg[18]_rep_n_0 ),
         .\exe_reg_s_val_reg[0]_i_2_1 (\reg_instruction_reg[19]_rep_n_0 ),
         .\exe_reg_t_val_reg[0]_i_2_0 (\reg_instruction_reg[23]_rep_n_0 ),
@@ -23710,10 +23710,10 @@ end
         .\FSM_onehot_cpu_stage_reg[2] (_sram_n_11),
         .\FSM_onehot_cpu_stage_reg[4] (cpu_stage),
         .Q({\mem_address_reg_n_0_[31] ,\mem_address_reg_n_0_[30] ,\mem_address_reg_n_0_[29] ,\mem_address_reg_n_0_[28] ,ext_ram_addr_OBUF[1:0],\mem_address_reg_n_0_[1] ,\mem_address_reg_n_0_[0] }),
-        .base_ram_data_IBUF(base_ram_data_IBUF[0]),
+        .base_ram_data_IBUF(base_ram_data_IBUF[5]),
         .\base_ram_data_reg[31]_0 (ext_ram_data_OBUF),
         .\base_ram_data_reg[31]_1 ({\mem_data_out_reg_n_0_[31] ,\mem_data_out_reg_n_0_[30] ,\mem_data_out_reg_n_0_[29] ,\mem_data_out_reg_n_0_[28] ,\mem_data_out_reg_n_0_[27] ,\mem_data_out_reg_n_0_[26] ,\mem_data_out_reg_n_0_[25] ,\mem_data_out_reg_n_0_[24] ,\mem_data_out_reg_n_0_[23] ,\mem_data_out_reg_n_0_[22] ,\mem_data_out_reg_n_0_[21] ,\mem_data_out_reg_n_0_[20] ,\mem_data_out_reg_n_0_[19] ,\mem_data_out_reg_n_0_[18] ,\mem_data_out_reg_n_0_[17] ,\mem_data_out_reg_n_0_[16] ,\mem_data_out_reg_n_0_[15] ,\mem_data_out_reg_n_0_[14] ,\mem_data_out_reg_n_0_[13] ,\mem_data_out_reg_n_0_[12] ,\mem_data_out_reg_n_0_[11] ,\mem_data_out_reg_n_0_[10] ,\mem_data_out_reg_n_0_[9] ,\mem_data_out_reg_n_0_[8] ,\mem_data_out_reg_n_0_[7] ,\mem_data_out_reg_n_0_[6] ,\mem_data_out_reg_n_0_[5] ,\mem_data_out_reg_n_0_[4] ,\mem_data_out_reg_n_0_[3] ,\mem_data_out_reg_n_0_[2] ,\mem_data_out_reg_n_0_[1] ,\mem_data_out_reg_n_0_[0] }),
-        .clk_11M0592_IBUF_BUFG(clk_11M0592_IBUF_BUFG),
+        .clk_50M_IBUF_BUFG(clk_50M_IBUF_BUFG),
         .\cpu_stage_reg[0] ({\FSM_onehot_cpu_stage_reg_n_0_[4] ,\FSM_onehot_cpu_stage_reg_n_0_[3] ,\FSM_onehot_cpu_stage_reg_n_0_[2] ,exe_reg_s_val,\FSM_onehot_cpu_stage_reg_n_0_[0] }),
         .data_z_reg_0(mem_we_reg_n_0),
         .\ext_ram_data_TRI[0] (\ext_ram_data_TRI[0] ),
@@ -23768,9 +23768,9 @@ end
         .mem_write_reg_1(_sram_n_16),
         .mem_write_reg_2(_sram_n_17),
         .mem_write_reg_3(_sram_n_18),
-        .\reg_instruction_reg[0] (_sram_n_15),
-        .\reg_instruction_reg[0]_0 (\reg_instruction_reg_n_0_[0] ),
         .\reg_instruction_reg[13] (p_0_in),
+        .\reg_instruction_reg[5] (_sram_n_15),
+        .\reg_instruction_reg[5]_0 (\reg_instruction_reg_n_0_[5] ),
         .\reg_waddr_reg[0] (\reg_waddr[4]_i_3_n_0 ),
         .\reg_wdata_reg[31] (\reg_instruction_reg_n_0_[13] ),
         .\reg_wdata_reg[31]_0 (\leds_OBUF[4]_inst_i_3_n_0 ),
@@ -23897,187 +23897,187 @@ end
         .O(base_ram_data_IBUF[0]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD1365 \base_ram_data_IOBUF[10]_inst 
+  IOBUF_HD1 \base_ram_data_IOBUF[10]_inst 
        (.I(ext_ram_data_OBUF[10]),
         .IO(base_ram_data[10]),
         .O(base_ram_data_IBUF[10]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD1366 \base_ram_data_IOBUF[11]_inst 
+  IOBUF_HD2 \base_ram_data_IOBUF[11]_inst 
        (.I(ext_ram_data_OBUF[11]),
         .IO(base_ram_data[11]),
         .O(base_ram_data_IBUF[11]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD1367 \base_ram_data_IOBUF[12]_inst 
+  IOBUF_HD3 \base_ram_data_IOBUF[12]_inst 
        (.I(ext_ram_data_OBUF[12]),
         .IO(base_ram_data[12]),
         .O(base_ram_data_IBUF[12]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD1368 \base_ram_data_IOBUF[13]_inst 
+  IOBUF_HD4 \base_ram_data_IOBUF[13]_inst 
        (.I(ext_ram_data_OBUF[13]),
         .IO(base_ram_data[13]),
         .O(base_ram_data_IBUF[13]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD1369 \base_ram_data_IOBUF[14]_inst 
+  IOBUF_HD5 \base_ram_data_IOBUF[14]_inst 
        (.I(ext_ram_data_OBUF[14]),
         .IO(base_ram_data[14]),
         .O(base_ram_data_IBUF[14]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD1370 \base_ram_data_IOBUF[15]_inst 
+  IOBUF_HD6 \base_ram_data_IOBUF[15]_inst 
        (.I(ext_ram_data_OBUF[15]),
         .IO(base_ram_data[15]),
         .O(base_ram_data_IBUF[15]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD1371 \base_ram_data_IOBUF[16]_inst 
+  IOBUF_HD7 \base_ram_data_IOBUF[16]_inst 
        (.I(ext_ram_data_OBUF[16]),
         .IO(base_ram_data[16]),
         .O(base_ram_data_IBUF[16]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD1372 \base_ram_data_IOBUF[17]_inst 
+  IOBUF_HD8 \base_ram_data_IOBUF[17]_inst 
        (.I(ext_ram_data_OBUF[17]),
         .IO(base_ram_data[17]),
         .O(base_ram_data_IBUF[17]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD1373 \base_ram_data_IOBUF[18]_inst 
+  IOBUF_HD9 \base_ram_data_IOBUF[18]_inst 
        (.I(ext_ram_data_OBUF[18]),
         .IO(base_ram_data[18]),
         .O(base_ram_data_IBUF[18]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD1374 \base_ram_data_IOBUF[19]_inst 
+  IOBUF_HD10 \base_ram_data_IOBUF[19]_inst 
        (.I(ext_ram_data_OBUF[19]),
         .IO(base_ram_data[19]),
         .O(base_ram_data_IBUF[19]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD1375 \base_ram_data_IOBUF[1]_inst 
+  IOBUF_HD11 \base_ram_data_IOBUF[1]_inst 
        (.I(ext_ram_data_OBUF[1]),
         .IO(base_ram_data[1]),
         .O(base_ram_data_IBUF[1]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD1376 \base_ram_data_IOBUF[20]_inst 
+  IOBUF_HD12 \base_ram_data_IOBUF[20]_inst 
        (.I(ext_ram_data_OBUF[20]),
         .IO(base_ram_data[20]),
         .O(base_ram_data_IBUF[20]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD1377 \base_ram_data_IOBUF[21]_inst 
+  IOBUF_HD13 \base_ram_data_IOBUF[21]_inst 
        (.I(ext_ram_data_OBUF[21]),
         .IO(base_ram_data[21]),
         .O(base_ram_data_IBUF[21]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD1378 \base_ram_data_IOBUF[22]_inst 
+  IOBUF_HD14 \base_ram_data_IOBUF[22]_inst 
        (.I(ext_ram_data_OBUF[22]),
         .IO(base_ram_data[22]),
         .O(base_ram_data_IBUF[22]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD1379 \base_ram_data_IOBUF[23]_inst 
+  IOBUF_HD15 \base_ram_data_IOBUF[23]_inst 
        (.I(ext_ram_data_OBUF[23]),
         .IO(base_ram_data[23]),
         .O(base_ram_data_IBUF[23]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD1380 \base_ram_data_IOBUF[24]_inst 
+  IOBUF_HD16 \base_ram_data_IOBUF[24]_inst 
        (.I(ext_ram_data_OBUF[24]),
         .IO(base_ram_data[24]),
         .O(base_ram_data_IBUF[24]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD1381 \base_ram_data_IOBUF[25]_inst 
+  IOBUF_HD17 \base_ram_data_IOBUF[25]_inst 
        (.I(ext_ram_data_OBUF[25]),
         .IO(base_ram_data[25]),
         .O(base_ram_data_IBUF[25]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD1382 \base_ram_data_IOBUF[26]_inst 
+  IOBUF_HD18 \base_ram_data_IOBUF[26]_inst 
        (.I(ext_ram_data_OBUF[26]),
         .IO(base_ram_data[26]),
         .O(base_ram_data_IBUF[26]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD1383 \base_ram_data_IOBUF[27]_inst 
+  IOBUF_HD19 \base_ram_data_IOBUF[27]_inst 
        (.I(ext_ram_data_OBUF[27]),
         .IO(base_ram_data[27]),
         .O(base_ram_data_IBUF[27]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD1384 \base_ram_data_IOBUF[28]_inst 
+  IOBUF_HD20 \base_ram_data_IOBUF[28]_inst 
        (.I(ext_ram_data_OBUF[28]),
         .IO(base_ram_data[28]),
         .O(base_ram_data_IBUF[28]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD1385 \base_ram_data_IOBUF[29]_inst 
+  IOBUF_HD21 \base_ram_data_IOBUF[29]_inst 
        (.I(ext_ram_data_OBUF[29]),
         .IO(base_ram_data[29]),
         .O(base_ram_data_IBUF[29]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD1386 \base_ram_data_IOBUF[2]_inst 
+  IOBUF_HD22 \base_ram_data_IOBUF[2]_inst 
        (.I(ext_ram_data_OBUF[2]),
         .IO(base_ram_data[2]),
         .O(base_ram_data_IBUF[2]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD1387 \base_ram_data_IOBUF[30]_inst 
+  IOBUF_HD23 \base_ram_data_IOBUF[30]_inst 
        (.I(ext_ram_data_OBUF[30]),
         .IO(base_ram_data[30]),
         .O(base_ram_data_IBUF[30]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD1388 \base_ram_data_IOBUF[31]_inst 
+  IOBUF_HD24 \base_ram_data_IOBUF[31]_inst 
        (.I(ext_ram_data_OBUF[31]),
         .IO(base_ram_data[31]),
         .O(base_ram_data_IBUF[31]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD1389 \base_ram_data_IOBUF[3]_inst 
+  IOBUF_HD25 \base_ram_data_IOBUF[3]_inst 
        (.I(ext_ram_data_OBUF[3]),
         .IO(base_ram_data[3]),
         .O(base_ram_data_IBUF[3]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD1390 \base_ram_data_IOBUF[4]_inst 
+  IOBUF_HD26 \base_ram_data_IOBUF[4]_inst 
        (.I(ext_ram_data_OBUF[4]),
         .IO(base_ram_data[4]),
         .O(base_ram_data_IBUF[4]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD1391 \base_ram_data_IOBUF[5]_inst 
+  IOBUF_HD27 \base_ram_data_IOBUF[5]_inst 
        (.I(ext_ram_data_OBUF[5]),
         .IO(base_ram_data[5]),
         .O(base_ram_data_IBUF[5]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD1392 \base_ram_data_IOBUF[6]_inst 
+  IOBUF_HD28 \base_ram_data_IOBUF[6]_inst 
        (.I(ext_ram_data_OBUF[6]),
         .IO(base_ram_data[6]),
         .O(base_ram_data_IBUF[6]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD1393 \base_ram_data_IOBUF[7]_inst 
+  IOBUF_HD29 \base_ram_data_IOBUF[7]_inst 
        (.I(ext_ram_data_OBUF[7]),
         .IO(base_ram_data[7]),
         .O(base_ram_data_IBUF[7]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD1394 \base_ram_data_IOBUF[8]_inst 
+  IOBUF_HD30 \base_ram_data_IOBUF[8]_inst 
        (.I(ext_ram_data_OBUF[8]),
         .IO(base_ram_data[8]),
         .O(base_ram_data_IBUF[8]),
         .T(\ext_ram_data_TRI[0] ));
   (* IS_CCIO = "FALSE" *) 
-  IOBUF_HD1395 \base_ram_data_IOBUF[9]_inst 
+  IOBUF_HD31 \base_ram_data_IOBUF[9]_inst 
        (.I(ext_ram_data_OBUF[9]),
         .IO(base_ram_data[9]),
         .O(base_ram_data_IBUF[9]),
@@ -24090,12 +24090,12 @@ end
   OBUF base_ram_we_n_OBUF_inst
        (.I(lopt_2),
         .O(base_ram_we_n));
-  BUFG clk_11M0592_IBUF_BUFG_inst
-       (.I(clk_11M0592_IBUF),
-        .O(clk_11M0592_IBUF_BUFG));
-  IBUF clk_11M0592_IBUF_inst
-       (.I(clk_11M0592),
-        .O(clk_11M0592_IBUF));
+  BUFG clk_50M_IBUF_BUFG_inst
+       (.I(clk_50M_IBUF),
+        .O(clk_50M_IBUF_BUFG));
+  IBUF clk_50M_IBUF_inst
+       (.I(clk_50M),
+        .O(clk_50M_IBUF));
   LUT6 #(
     .INIT(64'h0101011101110101)) 
     \cpu_stage[0]_i_1 
@@ -24129,7 +24129,7 @@ end
   FDCE #(
     .INIT(1'b0)) 
     \cpu_stage_reg[0] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(cpu_stage),
         .CLR(reset_btn_IBUF),
         .D(\cpu_stage[0]_i_1_n_0 ),
@@ -24137,7 +24137,7 @@ end
   FDCE #(
     .INIT(1'b0)) 
     \cpu_stage_reg[1] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(cpu_stage),
         .CLR(reset_btn_IBUF),
         .D(\cpu_stage[1]_i_1_n_0 ),
@@ -24145,7 +24145,7 @@ end
   FDCE #(
     .INIT(1'b0)) 
     \cpu_stage_reg[2] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(cpu_stage),
         .CLR(reset_btn_IBUF),
         .D(\cpu_stage[2]_i_1_n_0 ),
@@ -24380,7 +24380,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_imm_reg[0] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(leds_OBUF[0]),
         .Q(exe_imm[0]),
@@ -24388,7 +24388,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_imm_reg[10] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(\reg_instruction_reg_n_0_[30] ),
         .Q(exe_imm[10]),
@@ -24396,7 +24396,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_imm_reg[11] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(leds_OBUF[11]),
         .Q(exe_imm[11]),
@@ -24404,7 +24404,7 @@ end
   FDSE #(
     .INIT(1'b1)) 
     \exe_imm_reg[12] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(\exe_imm[12]_i_1_n_0 ),
         .Q(exe_imm[12]),
@@ -24412,7 +24412,7 @@ end
   FDSE #(
     .INIT(1'b1)) 
     \exe_imm_reg[13] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(\exe_imm[13]_i_1_n_0 ),
         .Q(exe_imm[13]),
@@ -24420,7 +24420,7 @@ end
   FDSE #(
     .INIT(1'b1)) 
     \exe_imm_reg[14] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(\exe_imm[14]_i_1_n_0 ),
         .Q(exe_imm[14]),
@@ -24428,7 +24428,7 @@ end
   FDSE #(
     .INIT(1'b1)) 
     \exe_imm_reg[15] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(\exe_imm[15]_i_1_n_0 ),
         .Q(exe_imm[15]),
@@ -24436,7 +24436,7 @@ end
   FDSE #(
     .INIT(1'b1)) 
     \exe_imm_reg[16] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(\exe_imm[16]_i_1_n_0 ),
         .Q(exe_imm[16]),
@@ -24444,7 +24444,7 @@ end
   FDSE #(
     .INIT(1'b1)) 
     \exe_imm_reg[17] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(\exe_imm[17]_i_1_n_0 ),
         .Q(exe_imm[17]),
@@ -24452,7 +24452,7 @@ end
   FDSE #(
     .INIT(1'b1)) 
     \exe_imm_reg[18] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(\exe_imm[18]_i_1_n_0 ),
         .Q(exe_imm[18]),
@@ -24460,7 +24460,7 @@ end
   FDSE #(
     .INIT(1'b1)) 
     \exe_imm_reg[19] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(\exe_imm[19]_i_1_n_0 ),
         .Q(exe_imm[19]),
@@ -24468,7 +24468,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_imm_reg[1] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(leds_OBUF[1]),
         .Q(exe_imm[1]),
@@ -24476,7 +24476,7 @@ end
   FDSE #(
     .INIT(1'b1)) 
     \exe_imm_reg[20] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(\exe_imm[20]_i_1_n_0 ),
         .Q(exe_imm[20]),
@@ -24484,7 +24484,7 @@ end
   FDSE #(
     .INIT(1'b1)) 
     \exe_imm_reg[21] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(\exe_imm[21]_i_1_n_0 ),
         .Q(exe_imm[21]),
@@ -24492,7 +24492,7 @@ end
   FDSE #(
     .INIT(1'b1)) 
     \exe_imm_reg[22] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(\exe_imm[22]_i_1_n_0 ),
         .Q(exe_imm[22]),
@@ -24500,7 +24500,7 @@ end
   FDSE #(
     .INIT(1'b1)) 
     \exe_imm_reg[23] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(\exe_imm[23]_i_1_n_0 ),
         .Q(exe_imm[23]),
@@ -24508,7 +24508,7 @@ end
   FDSE #(
     .INIT(1'b1)) 
     \exe_imm_reg[24] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(\exe_imm[24]_i_1_n_0 ),
         .Q(exe_imm[24]),
@@ -24516,7 +24516,7 @@ end
   FDSE #(
     .INIT(1'b1)) 
     \exe_imm_reg[25] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(\exe_imm[25]_i_1_n_0 ),
         .Q(exe_imm[25]),
@@ -24524,7 +24524,7 @@ end
   FDSE #(
     .INIT(1'b1)) 
     \exe_imm_reg[26] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(\exe_imm[26]_i_1_n_0 ),
         .Q(exe_imm[26]),
@@ -24532,7 +24532,7 @@ end
   FDSE #(
     .INIT(1'b1)) 
     \exe_imm_reg[27] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(\exe_imm[27]_i_1_n_0 ),
         .Q(exe_imm[27]),
@@ -24540,7 +24540,7 @@ end
   FDSE #(
     .INIT(1'b1)) 
     \exe_imm_reg[28] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(\exe_imm[28]_i_1_n_0 ),
         .Q(exe_imm[28]),
@@ -24548,7 +24548,7 @@ end
   FDSE #(
     .INIT(1'b1)) 
     \exe_imm_reg[29] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(\exe_imm[29]_i_1_n_0 ),
         .Q(exe_imm[29]),
@@ -24556,7 +24556,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_imm_reg[2] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(leds_OBUF[2]),
         .Q(exe_imm[2]),
@@ -24564,7 +24564,7 @@ end
   FDSE #(
     .INIT(1'b1)) 
     \exe_imm_reg[30] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(\exe_imm[30]_i_1_n_0 ),
         .Q(exe_imm[30]),
@@ -24572,7 +24572,7 @@ end
   FDSE #(
     .INIT(1'b1)) 
     \exe_imm_reg[31] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(\exe_imm[31]_i_2_n_0 ),
         .Q(exe_imm[31]),
@@ -24580,7 +24580,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_imm_reg[3] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(leds_OBUF[3]),
         .Q(exe_imm[3]),
@@ -24588,7 +24588,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_imm_reg[4] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(leds_OBUF[4]),
         .Q(exe_imm[4]),
@@ -24596,7 +24596,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_imm_reg[5] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(\reg_instruction_reg_n_0_[25] ),
         .Q(exe_imm[5]),
@@ -24604,7 +24604,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_imm_reg[6] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(\reg_instruction_reg_n_0_[26] ),
         .Q(exe_imm[6]),
@@ -24612,7 +24612,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_imm_reg[7] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(\reg_instruction_reg_n_0_[27] ),
         .Q(exe_imm[7]),
@@ -24620,7 +24620,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_imm_reg[8] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(\reg_instruction_reg_n_0_[28] ),
         .Q(exe_imm[8]),
@@ -24628,7 +24628,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_imm_reg[9] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(\reg_instruction_reg_n_0_[29] ),
         .Q(exe_imm[9]),
@@ -24642,7 +24642,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     exe_imm_select_reg
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(\_decoder/imm_select ),
         .Q(exe_imm_select_reg_n_0),
@@ -24762,7 +24762,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_op_reg[0] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(\exe_op[0]_i_1_n_0 ),
         .Q(exe_op[0]),
@@ -24770,7 +24770,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_op_reg[1] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(\exe_op[1]_i_1_n_0 ),
         .Q(exe_op[1]),
@@ -24778,7 +24778,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_op_reg[2] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(\exe_op[2]_i_1_n_0 ),
         .Q(exe_op[2]),
@@ -24786,7 +24786,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_op_reg[3] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(\exe_op[3]_i_2_n_0 ),
         .Q(exe_op[3]),
@@ -24794,7 +24794,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_s_val_reg[0] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata1[0]),
         .Q(exe_reg_s_val__0[0]),
@@ -24802,7 +24802,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_s_val_reg[10] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata1[10]),
         .Q(exe_reg_s_val__0[10]),
@@ -24810,7 +24810,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_s_val_reg[11] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata1[11]),
         .Q(exe_reg_s_val__0[11]),
@@ -24818,7 +24818,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_s_val_reg[12] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata1[12]),
         .Q(exe_reg_s_val__0[12]),
@@ -24826,7 +24826,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_s_val_reg[13] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata1[13]),
         .Q(exe_reg_s_val__0[13]),
@@ -24834,7 +24834,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_s_val_reg[14] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata1[14]),
         .Q(exe_reg_s_val__0[14]),
@@ -24842,7 +24842,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_s_val_reg[15] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata1[15]),
         .Q(exe_reg_s_val__0[15]),
@@ -24850,7 +24850,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_s_val_reg[16] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata1[16]),
         .Q(exe_reg_s_val__0[16]),
@@ -24858,7 +24858,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_s_val_reg[17] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata1[17]),
         .Q(exe_reg_s_val__0[17]),
@@ -24866,7 +24866,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_s_val_reg[18] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata1[18]),
         .Q(exe_reg_s_val__0[18]),
@@ -24874,7 +24874,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_s_val_reg[19] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata1[19]),
         .Q(exe_reg_s_val__0[19]),
@@ -24882,7 +24882,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_s_val_reg[1] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata1[1]),
         .Q(exe_reg_s_val__0[1]),
@@ -24890,7 +24890,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_s_val_reg[20] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata1[20]),
         .Q(exe_reg_s_val__0[20]),
@@ -24898,7 +24898,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_s_val_reg[21] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata1[21]),
         .Q(exe_reg_s_val__0[21]),
@@ -24906,7 +24906,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_s_val_reg[22] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata1[22]),
         .Q(exe_reg_s_val__0[22]),
@@ -24914,7 +24914,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_s_val_reg[23] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata1[23]),
         .Q(exe_reg_s_val__0[23]),
@@ -24922,7 +24922,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_s_val_reg[24] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata1[24]),
         .Q(exe_reg_s_val__0[24]),
@@ -24930,7 +24930,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_s_val_reg[25] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata1[25]),
         .Q(exe_reg_s_val__0[25]),
@@ -24938,7 +24938,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_s_val_reg[26] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata1[26]),
         .Q(exe_reg_s_val__0[26]),
@@ -24946,7 +24946,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_s_val_reg[27] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata1[27]),
         .Q(exe_reg_s_val__0[27]),
@@ -24954,7 +24954,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_s_val_reg[28] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata1[28]),
         .Q(exe_reg_s_val__0[28]),
@@ -24962,7 +24962,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_s_val_reg[29] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata1[29]),
         .Q(exe_reg_s_val__0[29]),
@@ -24970,7 +24970,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_s_val_reg[2] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata1[2]),
         .Q(exe_reg_s_val__0[2]),
@@ -24978,7 +24978,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_s_val_reg[30] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata1[30]),
         .Q(exe_reg_s_val__0[30]),
@@ -24986,7 +24986,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_s_val_reg[31] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata1[31]),
         .Q(exe_reg_s_val__0[31]),
@@ -24994,7 +24994,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_s_val_reg[3] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata1[3]),
         .Q(exe_reg_s_val__0[3]),
@@ -25002,7 +25002,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_s_val_reg[4] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata1[4]),
         .Q(exe_reg_s_val__0[4]),
@@ -25010,7 +25010,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_s_val_reg[5] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata1[5]),
         .Q(exe_reg_s_val__0[5]),
@@ -25018,7 +25018,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_s_val_reg[6] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata1[6]),
         .Q(exe_reg_s_val__0[6]),
@@ -25026,7 +25026,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_s_val_reg[7] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata1[7]),
         .Q(exe_reg_s_val__0[7]),
@@ -25034,7 +25034,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_s_val_reg[8] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata1[8]),
         .Q(exe_reg_s_val__0[8]),
@@ -25042,7 +25042,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_s_val_reg[9] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata1[9]),
         .Q(exe_reg_s_val__0[9]),
@@ -25050,7 +25050,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_t_val_reg[0] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata2[0]),
         .Q(exe_reg_t_val[0]),
@@ -25058,7 +25058,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_t_val_reg[10] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata2[10]),
         .Q(exe_reg_t_val[10]),
@@ -25066,7 +25066,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_t_val_reg[11] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata2[11]),
         .Q(exe_reg_t_val[11]),
@@ -25074,7 +25074,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_t_val_reg[12] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata2[12]),
         .Q(exe_reg_t_val[12]),
@@ -25082,7 +25082,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_t_val_reg[13] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata2[13]),
         .Q(exe_reg_t_val[13]),
@@ -25090,7 +25090,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_t_val_reg[14] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata2[14]),
         .Q(exe_reg_t_val[14]),
@@ -25098,7 +25098,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_t_val_reg[15] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata2[15]),
         .Q(exe_reg_t_val[15]),
@@ -25106,7 +25106,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_t_val_reg[16] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata2[16]),
         .Q(exe_reg_t_val[16]),
@@ -25114,7 +25114,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_t_val_reg[17] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata2[17]),
         .Q(exe_reg_t_val[17]),
@@ -25122,7 +25122,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_t_val_reg[18] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata2[18]),
         .Q(exe_reg_t_val[18]),
@@ -25130,7 +25130,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_t_val_reg[19] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata2[19]),
         .Q(exe_reg_t_val[19]),
@@ -25138,7 +25138,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_t_val_reg[1] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata2[1]),
         .Q(exe_reg_t_val[1]),
@@ -25146,7 +25146,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_t_val_reg[20] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata2[20]),
         .Q(exe_reg_t_val[20]),
@@ -25154,7 +25154,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_t_val_reg[21] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata2[21]),
         .Q(exe_reg_t_val[21]),
@@ -25162,7 +25162,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_t_val_reg[22] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata2[22]),
         .Q(exe_reg_t_val[22]),
@@ -25170,7 +25170,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_t_val_reg[23] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata2[23]),
         .Q(exe_reg_t_val[23]),
@@ -25178,7 +25178,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_t_val_reg[24] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata2[24]),
         .Q(exe_reg_t_val[24]),
@@ -25186,7 +25186,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_t_val_reg[25] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata2[25]),
         .Q(exe_reg_t_val[25]),
@@ -25194,7 +25194,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_t_val_reg[26] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata2[26]),
         .Q(exe_reg_t_val[26]),
@@ -25202,7 +25202,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_t_val_reg[27] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata2[27]),
         .Q(exe_reg_t_val[27]),
@@ -25210,7 +25210,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_t_val_reg[28] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata2[28]),
         .Q(exe_reg_t_val[28]),
@@ -25218,7 +25218,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_t_val_reg[29] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata2[29]),
         .Q(exe_reg_t_val[29]),
@@ -25226,7 +25226,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_t_val_reg[2] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata2[2]),
         .Q(exe_reg_t_val[2]),
@@ -25234,7 +25234,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_t_val_reg[30] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata2[30]),
         .Q(exe_reg_t_val[30]),
@@ -25242,7 +25242,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_t_val_reg[31] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata2[31]),
         .Q(exe_reg_t_val[31]),
@@ -25250,7 +25250,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_t_val_reg[3] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata2[3]),
         .Q(exe_reg_t_val[3]),
@@ -25258,7 +25258,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_t_val_reg[4] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata2[4]),
         .Q(exe_reg_t_val[4]),
@@ -25266,7 +25266,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_t_val_reg[5] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata2[5]),
         .Q(exe_reg_t_val[5]),
@@ -25274,7 +25274,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_t_val_reg[6] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata2[6]),
         .Q(exe_reg_t_val[6]),
@@ -25282,7 +25282,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_t_val_reg[7] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata2[7]),
         .Q(exe_reg_t_val[7]),
@@ -25290,7 +25290,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_t_val_reg[8] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata2[8]),
         .Q(exe_reg_t_val[8]),
@@ -25298,7 +25298,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \exe_reg_t_val_reg[9] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\exe_op[3]_i_1_n_0 ),
         .D(reg_rdata2[9]),
         .Q(exe_reg_t_val[9]),
@@ -26150,7 +26150,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_address_reg[0] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_7),
         .D(_alu_n_57),
         .Q(\mem_address_reg_n_0_[0] ),
@@ -26158,7 +26158,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_address_reg[10] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_7),
         .D(_alu_n_47),
         .Q(ext_ram_addr_OBUF[8]),
@@ -26168,7 +26168,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_address_reg[10]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_7),
         .D(_alu_n_47),
         .Q(\mem_address_reg[10]_lopt_replica_1 ),
@@ -26176,7 +26176,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_address_reg[11] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_7),
         .D(_alu_n_46),
         .Q(ext_ram_addr_OBUF[9]),
@@ -26186,7 +26186,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_address_reg[11]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_7),
         .D(_alu_n_46),
         .Q(\mem_address_reg[11]_lopt_replica_1 ),
@@ -26194,7 +26194,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_address_reg[12] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_7),
         .D(_alu_n_45),
         .Q(ext_ram_addr_OBUF[10]),
@@ -26204,7 +26204,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_address_reg[12]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_7),
         .D(_alu_n_45),
         .Q(\mem_address_reg[12]_lopt_replica_1 ),
@@ -26212,7 +26212,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_address_reg[13] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_7),
         .D(_alu_n_44),
         .Q(ext_ram_addr_OBUF[11]),
@@ -26222,7 +26222,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_address_reg[13]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_7),
         .D(_alu_n_44),
         .Q(\mem_address_reg[13]_lopt_replica_1 ),
@@ -26230,7 +26230,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_address_reg[14] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_7),
         .D(_alu_n_43),
         .Q(ext_ram_addr_OBUF[12]),
@@ -26240,7 +26240,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_address_reg[14]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_7),
         .D(_alu_n_43),
         .Q(\mem_address_reg[14]_lopt_replica_1 ),
@@ -26248,7 +26248,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_address_reg[15] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_7),
         .D(_alu_n_42),
         .Q(ext_ram_addr_OBUF[13]),
@@ -26258,7 +26258,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_address_reg[15]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_7),
         .D(_alu_n_42),
         .Q(\mem_address_reg[15]_lopt_replica_1 ),
@@ -26266,7 +26266,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_address_reg[16] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_7),
         .D(_alu_n_41),
         .Q(ext_ram_addr_OBUF[14]),
@@ -26276,7 +26276,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_address_reg[16]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_7),
         .D(_alu_n_41),
         .Q(\mem_address_reg[16]_lopt_replica_1 ),
@@ -26284,7 +26284,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_address_reg[17] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_7),
         .D(_alu_n_40),
         .Q(ext_ram_addr_OBUF[15]),
@@ -26294,7 +26294,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_address_reg[17]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_7),
         .D(_alu_n_40),
         .Q(\mem_address_reg[17]_lopt_replica_1 ),
@@ -26302,7 +26302,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_address_reg[18] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_7),
         .D(_alu_n_39),
         .Q(ext_ram_addr_OBUF[16]),
@@ -26312,7 +26312,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_address_reg[18]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_7),
         .D(_alu_n_39),
         .Q(\mem_address_reg[18]_lopt_replica_1 ),
@@ -26320,7 +26320,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_address_reg[19] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_7),
         .D(_alu_n_38),
         .Q(ext_ram_addr_OBUF[17]),
@@ -26330,7 +26330,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_address_reg[19]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_7),
         .D(_alu_n_38),
         .Q(\mem_address_reg[19]_lopt_replica_1 ),
@@ -26338,7 +26338,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_address_reg[1] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_7),
         .D(_alu_n_56),
         .Q(\mem_address_reg_n_0_[1] ),
@@ -26346,7 +26346,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_address_reg[20] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_7),
         .D(_alu_n_37),
         .Q(ext_ram_addr_OBUF[18]),
@@ -26356,7 +26356,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_address_reg[20]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_7),
         .D(_alu_n_37),
         .Q(\mem_address_reg[20]_lopt_replica_1 ),
@@ -26364,7 +26364,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_address_reg[21] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_7),
         .D(_alu_n_36),
         .Q(ext_ram_addr_OBUF[19]),
@@ -26374,7 +26374,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_address_reg[21]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_7),
         .D(_alu_n_36),
         .Q(\mem_address_reg[21]_lopt_replica_1 ),
@@ -26382,7 +26382,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_address_reg[28] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_7),
         .D(_alu_n_35),
         .Q(\mem_address_reg_n_0_[28] ),
@@ -26390,7 +26390,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_address_reg[29] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_7),
         .D(_alu_n_34),
         .Q(\mem_address_reg_n_0_[29] ),
@@ -26398,7 +26398,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_address_reg[2] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_7),
         .D(_alu_n_55),
         .Q(ext_ram_addr_OBUF[0]),
@@ -26408,7 +26408,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_address_reg[2]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_7),
         .D(_alu_n_55),
         .Q(\mem_address_reg[2]_lopt_replica_1 ),
@@ -26418,7 +26418,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_address_reg[2]_lopt_replica_2 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_7),
         .D(_alu_n_55),
         .Q(\mem_address_reg[2]_lopt_replica_2_1 ),
@@ -26426,7 +26426,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_address_reg[30] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_7),
         .D(_alu_n_33),
         .Q(\mem_address_reg_n_0_[30] ),
@@ -26434,7 +26434,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_address_reg[31] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_7),
         .D(_alu_n_32),
         .Q(\mem_address_reg_n_0_[31] ),
@@ -26442,7 +26442,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_address_reg[3] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_7),
         .D(_alu_n_54),
         .Q(ext_ram_addr_OBUF[1]),
@@ -26452,7 +26452,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_address_reg[3]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_7),
         .D(_alu_n_54),
         .Q(\mem_address_reg[3]_lopt_replica_1 ),
@@ -26462,7 +26462,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_address_reg[3]_lopt_replica_2 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_7),
         .D(_alu_n_54),
         .Q(\mem_address_reg[3]_lopt_replica_2_1 ),
@@ -26470,7 +26470,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_address_reg[4] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_7),
         .D(_alu_n_53),
         .Q(ext_ram_addr_OBUF[2]),
@@ -26480,7 +26480,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_address_reg[4]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_7),
         .D(_alu_n_53),
         .Q(\mem_address_reg[4]_lopt_replica_1 ),
@@ -26488,7 +26488,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_address_reg[5] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_7),
         .D(_alu_n_52),
         .Q(ext_ram_addr_OBUF[3]),
@@ -26498,7 +26498,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_address_reg[5]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_7),
         .D(_alu_n_52),
         .Q(\mem_address_reg[5]_lopt_replica_1 ),
@@ -26506,7 +26506,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_address_reg[6] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_7),
         .D(_alu_n_51),
         .Q(ext_ram_addr_OBUF[4]),
@@ -26516,7 +26516,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_address_reg[6]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_7),
         .D(_alu_n_51),
         .Q(\mem_address_reg[6]_lopt_replica_1 ),
@@ -26524,7 +26524,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_address_reg[7] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_7),
         .D(_alu_n_50),
         .Q(ext_ram_addr_OBUF[5]),
@@ -26534,7 +26534,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_address_reg[7]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_7),
         .D(_alu_n_50),
         .Q(\mem_address_reg[7]_lopt_replica_1 ),
@@ -26542,7 +26542,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_address_reg[8] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_7),
         .D(_alu_n_49),
         .Q(ext_ram_addr_OBUF[6]),
@@ -26552,7 +26552,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_address_reg[8]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_7),
         .D(_alu_n_49),
         .Q(\mem_address_reg[8]_lopt_replica_1 ),
@@ -26560,7 +26560,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_address_reg[9] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_7),
         .D(_alu_n_48),
         .Q(ext_ram_addr_OBUF[7]),
@@ -26570,7 +26570,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_address_reg[9]_lopt_replica 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_7),
         .D(_alu_n_48),
         .Q(\mem_address_reg[9]_lopt_replica_1 ),
@@ -26610,7 +26610,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_data_out_reg[0] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\mem_data_out[7]_i_1_n_0 ),
         .D(exe_reg_t_val[0]),
         .Q(\mem_data_out_reg_n_0_[0] ),
@@ -26618,7 +26618,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_data_out_reg[10] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\mem_data_out[31]_i_1_n_0 ),
         .D(exe_reg_t_val[10]),
         .Q(\mem_data_out_reg_n_0_[10] ),
@@ -26626,7 +26626,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_data_out_reg[11] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\mem_data_out[31]_i_1_n_0 ),
         .D(exe_reg_t_val[11]),
         .Q(\mem_data_out_reg_n_0_[11] ),
@@ -26634,7 +26634,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_data_out_reg[12] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\mem_data_out[31]_i_1_n_0 ),
         .D(exe_reg_t_val[12]),
         .Q(\mem_data_out_reg_n_0_[12] ),
@@ -26642,7 +26642,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_data_out_reg[13] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\mem_data_out[31]_i_1_n_0 ),
         .D(exe_reg_t_val[13]),
         .Q(\mem_data_out_reg_n_0_[13] ),
@@ -26650,7 +26650,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_data_out_reg[14] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\mem_data_out[31]_i_1_n_0 ),
         .D(exe_reg_t_val[14]),
         .Q(\mem_data_out_reg_n_0_[14] ),
@@ -26658,7 +26658,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_data_out_reg[15] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\mem_data_out[31]_i_1_n_0 ),
         .D(exe_reg_t_val[15]),
         .Q(\mem_data_out_reg_n_0_[15] ),
@@ -26666,7 +26666,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_data_out_reg[16] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\mem_data_out[31]_i_1_n_0 ),
         .D(exe_reg_t_val[16]),
         .Q(\mem_data_out_reg_n_0_[16] ),
@@ -26674,7 +26674,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_data_out_reg[17] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\mem_data_out[31]_i_1_n_0 ),
         .D(exe_reg_t_val[17]),
         .Q(\mem_data_out_reg_n_0_[17] ),
@@ -26682,7 +26682,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_data_out_reg[18] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\mem_data_out[31]_i_1_n_0 ),
         .D(exe_reg_t_val[18]),
         .Q(\mem_data_out_reg_n_0_[18] ),
@@ -26690,7 +26690,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_data_out_reg[19] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\mem_data_out[31]_i_1_n_0 ),
         .D(exe_reg_t_val[19]),
         .Q(\mem_data_out_reg_n_0_[19] ),
@@ -26698,7 +26698,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_data_out_reg[1] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\mem_data_out[7]_i_1_n_0 ),
         .D(exe_reg_t_val[1]),
         .Q(\mem_data_out_reg_n_0_[1] ),
@@ -26706,7 +26706,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_data_out_reg[20] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\mem_data_out[31]_i_1_n_0 ),
         .D(exe_reg_t_val[20]),
         .Q(\mem_data_out_reg_n_0_[20] ),
@@ -26714,7 +26714,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_data_out_reg[21] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\mem_data_out[31]_i_1_n_0 ),
         .D(exe_reg_t_val[21]),
         .Q(\mem_data_out_reg_n_0_[21] ),
@@ -26722,7 +26722,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_data_out_reg[22] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\mem_data_out[31]_i_1_n_0 ),
         .D(exe_reg_t_val[22]),
         .Q(\mem_data_out_reg_n_0_[22] ),
@@ -26730,7 +26730,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_data_out_reg[23] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\mem_data_out[31]_i_1_n_0 ),
         .D(exe_reg_t_val[23]),
         .Q(\mem_data_out_reg_n_0_[23] ),
@@ -26738,7 +26738,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_data_out_reg[24] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\mem_data_out[31]_i_1_n_0 ),
         .D(exe_reg_t_val[24]),
         .Q(\mem_data_out_reg_n_0_[24] ),
@@ -26746,7 +26746,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_data_out_reg[25] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\mem_data_out[31]_i_1_n_0 ),
         .D(exe_reg_t_val[25]),
         .Q(\mem_data_out_reg_n_0_[25] ),
@@ -26754,7 +26754,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_data_out_reg[26] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\mem_data_out[31]_i_1_n_0 ),
         .D(exe_reg_t_val[26]),
         .Q(\mem_data_out_reg_n_0_[26] ),
@@ -26762,7 +26762,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_data_out_reg[27] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\mem_data_out[31]_i_1_n_0 ),
         .D(exe_reg_t_val[27]),
         .Q(\mem_data_out_reg_n_0_[27] ),
@@ -26770,7 +26770,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_data_out_reg[28] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\mem_data_out[31]_i_1_n_0 ),
         .D(exe_reg_t_val[28]),
         .Q(\mem_data_out_reg_n_0_[28] ),
@@ -26778,7 +26778,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_data_out_reg[29] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\mem_data_out[31]_i_1_n_0 ),
         .D(exe_reg_t_val[29]),
         .Q(\mem_data_out_reg_n_0_[29] ),
@@ -26786,7 +26786,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_data_out_reg[2] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\mem_data_out[7]_i_1_n_0 ),
         .D(exe_reg_t_val[2]),
         .Q(\mem_data_out_reg_n_0_[2] ),
@@ -26794,7 +26794,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_data_out_reg[30] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\mem_data_out[31]_i_1_n_0 ),
         .D(exe_reg_t_val[30]),
         .Q(\mem_data_out_reg_n_0_[30] ),
@@ -26802,7 +26802,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_data_out_reg[31] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\mem_data_out[31]_i_1_n_0 ),
         .D(exe_reg_t_val[31]),
         .Q(\mem_data_out_reg_n_0_[31] ),
@@ -26810,7 +26810,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_data_out_reg[3] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\mem_data_out[7]_i_1_n_0 ),
         .D(exe_reg_t_val[3]),
         .Q(\mem_data_out_reg_n_0_[3] ),
@@ -26818,7 +26818,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_data_out_reg[4] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\mem_data_out[7]_i_1_n_0 ),
         .D(exe_reg_t_val[4]),
         .Q(\mem_data_out_reg_n_0_[4] ),
@@ -26826,7 +26826,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_data_out_reg[5] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\mem_data_out[7]_i_1_n_0 ),
         .D(exe_reg_t_val[5]),
         .Q(\mem_data_out_reg_n_0_[5] ),
@@ -26834,7 +26834,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_data_out_reg[6] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\mem_data_out[7]_i_1_n_0 ),
         .D(exe_reg_t_val[6]),
         .Q(\mem_data_out_reg_n_0_[6] ),
@@ -26842,7 +26842,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_data_out_reg[7] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\mem_data_out[7]_i_1_n_0 ),
         .D(exe_reg_t_val[7]),
         .Q(\mem_data_out_reg_n_0_[7] ),
@@ -26850,7 +26850,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_data_out_reg[8] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\mem_data_out[31]_i_1_n_0 ),
         .D(exe_reg_t_val[8]),
         .Q(\mem_data_out_reg_n_0_[8] ),
@@ -26858,7 +26858,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \mem_data_out_reg[9] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\mem_data_out[31]_i_1_n_0 ),
         .D(exe_reg_t_val[9]),
         .Q(\mem_data_out_reg_n_0_[9] ),
@@ -26878,7 +26878,7 @@ end
   FDCE #(
     .INIT(1'b0)) 
     mem_oe_reg
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(1'b1),
         .CLR(reset_btn_IBUF),
         .D(_sram_n_11),
@@ -26895,7 +26895,7 @@ end
   FDCE #(
     .INIT(1'b0)) 
     mem_we_reg
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(1'b1),
         .CLR(reset_btn_IBUF),
         .D(_sram_n_12),
@@ -26912,7 +26912,7 @@ end
   FDCE #(
     .INIT(1'b0)) 
     mem_write_reg
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(1'b1),
         .CLR(reset_btn_IBUF),
         .D(mem_write_i_1_n_0),
@@ -27756,7 +27756,7 @@ end
   FDCE #(
     .INIT(1'b0)) 
     \pc_reg[0] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\FSM_onehot_cpu_stage[0]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(_alu_n_89),
@@ -27764,7 +27764,7 @@ end
   FDCE #(
     .INIT(1'b0)) 
     \pc_reg[10] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\FSM_onehot_cpu_stage[0]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(_alu_n_79),
@@ -27772,7 +27772,7 @@ end
   FDCE #(
     .INIT(1'b0)) 
     \pc_reg[11] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\FSM_onehot_cpu_stage[0]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(_alu_n_78),
@@ -27780,7 +27780,7 @@ end
   FDCE #(
     .INIT(1'b0)) 
     \pc_reg[12] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\FSM_onehot_cpu_stage[0]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(_alu_n_77),
@@ -27796,7 +27796,7 @@ end
   FDCE #(
     .INIT(1'b0)) 
     \pc_reg[13] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\FSM_onehot_cpu_stage[0]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(_alu_n_76),
@@ -27804,7 +27804,7 @@ end
   FDCE #(
     .INIT(1'b0)) 
     \pc_reg[14] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\FSM_onehot_cpu_stage[0]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(_alu_n_75),
@@ -27812,7 +27812,7 @@ end
   FDCE #(
     .INIT(1'b0)) 
     \pc_reg[15] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\FSM_onehot_cpu_stage[0]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(_alu_n_74),
@@ -27820,7 +27820,7 @@ end
   FDCE #(
     .INIT(1'b0)) 
     \pc_reg[16] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\FSM_onehot_cpu_stage[0]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(_alu_n_73),
@@ -27836,7 +27836,7 @@ end
   FDCE #(
     .INIT(1'b0)) 
     \pc_reg[17] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\FSM_onehot_cpu_stage[0]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(_alu_n_72),
@@ -27844,7 +27844,7 @@ end
   FDCE #(
     .INIT(1'b0)) 
     \pc_reg[18] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\FSM_onehot_cpu_stage[0]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(_alu_n_71),
@@ -27852,7 +27852,7 @@ end
   FDCE #(
     .INIT(1'b0)) 
     \pc_reg[19] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\FSM_onehot_cpu_stage[0]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(_alu_n_70),
@@ -27860,7 +27860,7 @@ end
   FDCE #(
     .INIT(1'b0)) 
     \pc_reg[1] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\FSM_onehot_cpu_stage[0]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(_alu_n_88),
@@ -27868,7 +27868,7 @@ end
   FDCE #(
     .INIT(1'b0)) 
     \pc_reg[20] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\FSM_onehot_cpu_stage[0]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(_alu_n_69),
@@ -27884,7 +27884,7 @@ end
   FDCE #(
     .INIT(1'b0)) 
     \pc_reg[21] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\FSM_onehot_cpu_stage[0]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(_alu_n_68),
@@ -27892,7 +27892,7 @@ end
   FDCE #(
     .INIT(1'b0)) 
     \pc_reg[22] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\FSM_onehot_cpu_stage[0]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(_alu_n_67),
@@ -27900,7 +27900,7 @@ end
   FDCE #(
     .INIT(1'b0)) 
     \pc_reg[23] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\FSM_onehot_cpu_stage[0]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(_alu_n_66),
@@ -27908,7 +27908,7 @@ end
   FDCE #(
     .INIT(1'b0)) 
     \pc_reg[24] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\FSM_onehot_cpu_stage[0]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(_alu_n_65),
@@ -27924,7 +27924,7 @@ end
   FDCE #(
     .INIT(1'b0)) 
     \pc_reg[25] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\FSM_onehot_cpu_stage[0]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(_alu_n_64),
@@ -27932,7 +27932,7 @@ end
   FDCE #(
     .INIT(1'b0)) 
     \pc_reg[26] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\FSM_onehot_cpu_stage[0]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(_alu_n_63),
@@ -27940,7 +27940,7 @@ end
   FDCE #(
     .INIT(1'b0)) 
     \pc_reg[27] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\FSM_onehot_cpu_stage[0]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(_alu_n_62),
@@ -27948,7 +27948,7 @@ end
   FDCE #(
     .INIT(1'b0)) 
     \pc_reg[28] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\FSM_onehot_cpu_stage[0]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(_alu_n_61),
@@ -27964,7 +27964,7 @@ end
   FDCE #(
     .INIT(1'b0)) 
     \pc_reg[29] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\FSM_onehot_cpu_stage[0]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(_alu_n_60),
@@ -27972,7 +27972,7 @@ end
   FDCE #(
     .INIT(1'b0)) 
     \pc_reg[2] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\FSM_onehot_cpu_stage[0]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(_alu_n_87),
@@ -27980,7 +27980,7 @@ end
   FDCE #(
     .INIT(1'b0)) 
     \pc_reg[30] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\FSM_onehot_cpu_stage[0]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(_alu_n_59),
@@ -27988,7 +27988,7 @@ end
   FDCE #(
     .INIT(1'b0)) 
     \pc_reg[31] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\FSM_onehot_cpu_stage[0]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(_alu_n_58),
@@ -28028,7 +28028,7 @@ end
   FDCE #(
     .INIT(1'b0)) 
     \pc_reg[3] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\FSM_onehot_cpu_stage[0]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(_alu_n_86),
@@ -28036,7 +28036,7 @@ end
   FDCE #(
     .INIT(1'b0)) 
     \pc_reg[4] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\FSM_onehot_cpu_stage[0]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(_alu_n_85),
@@ -28052,7 +28052,7 @@ end
   FDCE #(
     .INIT(1'b0)) 
     \pc_reg[5] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\FSM_onehot_cpu_stage[0]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(_alu_n_84),
@@ -28060,7 +28060,7 @@ end
   FDCE #(
     .INIT(1'b0)) 
     \pc_reg[6] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\FSM_onehot_cpu_stage[0]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(_alu_n_83),
@@ -28068,7 +28068,7 @@ end
   FDCE #(
     .INIT(1'b0)) 
     \pc_reg[7] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\FSM_onehot_cpu_stage[0]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(_alu_n_82),
@@ -28076,7 +28076,7 @@ end
   FDCE #(
     .INIT(1'b0)) 
     \pc_reg[8] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\FSM_onehot_cpu_stage[0]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(_alu_n_81),
@@ -28092,7 +28092,7 @@ end
   FDCE #(
     .INIT(1'b0)) 
     \pc_reg[9] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(\FSM_onehot_cpu_stage[0]_i_1_n_0 ),
         .CLR(reset_btn_IBUF),
         .D(_alu_n_80),
@@ -28100,15 +28100,15 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_instruction_reg[0] 
-       (.C(clk_11M0592_IBUF_BUFG),
-        .CE(1'b1),
-        .D(_sram_n_15),
+       (.C(clk_50M_IBUF_BUFG),
+        .CE(_sram_n_6),
+        .D(base_ram_data_IBUF[0]),
         .Q(\reg_instruction_reg_n_0_[0] ),
-        .R(1'b0));
+        .R(_sram_n_14));
   FDRE #(
     .INIT(1'b0)) 
     \reg_instruction_reg[10] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_6),
         .D(base_ram_data_IBUF[10]),
         .Q(reg_d[3]),
@@ -28116,7 +28116,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_instruction_reg[11] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_6),
         .D(base_ram_data_IBUF[11]),
         .Q(reg_d[4]),
@@ -28124,7 +28124,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_instruction_reg[12] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_6),
         .D(base_ram_data_IBUF[12]),
         .Q(\reg_instruction_reg_n_0_[12] ),
@@ -28132,7 +28132,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_instruction_reg[13] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_6),
         .D(base_ram_data_IBUF[13]),
         .Q(\reg_instruction_reg_n_0_[13] ),
@@ -28140,7 +28140,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_instruction_reg[14] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_6),
         .D(base_ram_data_IBUF[14]),
         .Q(\reg_instruction_reg_n_0_[14] ),
@@ -28148,7 +28148,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_instruction_reg[15] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_6),
         .D(base_ram_data_IBUF[15]),
         .Q(reg_s[0]),
@@ -28156,7 +28156,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_instruction_reg[16] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_6),
         .D(base_ram_data_IBUF[16]),
         .Q(reg_s[1]),
@@ -28164,7 +28164,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_instruction_reg[17] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_6),
         .D(base_ram_data_IBUF[17]),
         .Q(reg_s[2]),
@@ -28173,7 +28173,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_instruction_reg[18] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_6),
         .D(base_ram_data_IBUF[18]),
         .Q(reg_s[3]),
@@ -28182,7 +28182,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_instruction_reg[18]_rep 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_6),
         .D(base_ram_data_IBUF[18]),
         .Q(\reg_instruction_reg[18]_rep_n_0 ),
@@ -28191,7 +28191,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_instruction_reg[19] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_6),
         .D(base_ram_data_IBUF[19]),
         .Q(reg_s[4]),
@@ -28200,7 +28200,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_instruction_reg[19]_rep 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_6),
         .D(base_ram_data_IBUF[19]),
         .Q(\reg_instruction_reg[19]_rep_n_0 ),
@@ -28208,7 +28208,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_instruction_reg[1] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_6),
         .D(base_ram_data_IBUF[1]),
         .Q(\reg_instruction_reg_n_0_[1] ),
@@ -28216,7 +28216,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_instruction_reg[20] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_6),
         .D(base_ram_data_IBUF[20]),
         .Q(reg_t[0]),
@@ -28224,7 +28224,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_instruction_reg[21] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_6),
         .D(base_ram_data_IBUF[21]),
         .Q(reg_t[1]),
@@ -28232,7 +28232,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_instruction_reg[22] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_6),
         .D(base_ram_data_IBUF[22]),
         .Q(reg_t[2]),
@@ -28241,7 +28241,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_instruction_reg[23] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_6),
         .D(base_ram_data_IBUF[23]),
         .Q(reg_t[3]),
@@ -28250,7 +28250,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_instruction_reg[23]_rep 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_6),
         .D(base_ram_data_IBUF[23]),
         .Q(\reg_instruction_reg[23]_rep_n_0 ),
@@ -28259,7 +28259,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_instruction_reg[24] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_6),
         .D(base_ram_data_IBUF[24]),
         .Q(reg_t[4]),
@@ -28268,7 +28268,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_instruction_reg[24]_rep 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_6),
         .D(base_ram_data_IBUF[24]),
         .Q(\reg_instruction_reg[24]_rep_n_0 ),
@@ -28276,7 +28276,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_instruction_reg[25] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_6),
         .D(base_ram_data_IBUF[25]),
         .Q(\reg_instruction_reg_n_0_[25] ),
@@ -28284,7 +28284,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_instruction_reg[26] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_6),
         .D(base_ram_data_IBUF[26]),
         .Q(\reg_instruction_reg_n_0_[26] ),
@@ -28292,7 +28292,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_instruction_reg[27] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_6),
         .D(base_ram_data_IBUF[27]),
         .Q(\reg_instruction_reg_n_0_[27] ),
@@ -28300,7 +28300,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_instruction_reg[28] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_6),
         .D(base_ram_data_IBUF[28]),
         .Q(\reg_instruction_reg_n_0_[28] ),
@@ -28308,7 +28308,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_instruction_reg[29] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_6),
         .D(base_ram_data_IBUF[29]),
         .Q(\reg_instruction_reg_n_0_[29] ),
@@ -28316,7 +28316,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_instruction_reg[2] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_6),
         .D(base_ram_data_IBUF[2]),
         .Q(\reg_instruction_reg_n_0_[2] ),
@@ -28324,7 +28324,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_instruction_reg[30] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_6),
         .D(base_ram_data_IBUF[30]),
         .Q(\reg_instruction_reg_n_0_[30] ),
@@ -28332,7 +28332,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_instruction_reg[31] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_6),
         .D(base_ram_data_IBUF[31]),
         .Q(data20),
@@ -28340,7 +28340,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_instruction_reg[3] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_6),
         .D(base_ram_data_IBUF[3]),
         .Q(\reg_instruction_reg_n_0_[3] ),
@@ -28348,7 +28348,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_instruction_reg[4] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_6),
         .D(base_ram_data_IBUF[4]),
         .Q(\reg_instruction_reg_n_0_[4] ),
@@ -28356,15 +28356,15 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_instruction_reg[5] 
-       (.C(clk_11M0592_IBUF_BUFG),
-        .CE(_sram_n_6),
-        .D(base_ram_data_IBUF[5]),
+       (.C(clk_50M_IBUF_BUFG),
+        .CE(1'b1),
+        .D(_sram_n_15),
         .Q(\reg_instruction_reg_n_0_[5] ),
-        .R(_sram_n_14));
+        .R(1'b0));
   FDRE #(
     .INIT(1'b0)) 
     \reg_instruction_reg[6] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_6),
         .D(base_ram_data_IBUF[6]),
         .Q(\reg_instruction_reg_n_0_[6] ),
@@ -28372,7 +28372,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_instruction_reg[7] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_6),
         .D(base_ram_data_IBUF[7]),
         .Q(reg_d[0]),
@@ -28380,7 +28380,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_instruction_reg[8] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_6),
         .D(base_ram_data_IBUF[8]),
         .Q(reg_d[1]),
@@ -28388,7 +28388,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_instruction_reg[9] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_6),
         .D(base_ram_data_IBUF[9]),
         .Q(reg_d[2]),
@@ -28450,7 +28450,7 @@ end
   FDSE #(
     .INIT(1'b1)) 
     \reg_waddr_reg[0] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_8),
         .D(\reg_waddr[0]_i_1_n_0 ),
         .Q(\reg_waddr_reg_n_0_[0] ),
@@ -28458,7 +28458,7 @@ end
   FDSE #(
     .INIT(1'b1)) 
     \reg_waddr_reg[1] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_8),
         .D(\reg_waddr[1]_i_1_n_0 ),
         .Q(\reg_waddr_reg_n_0_[1] ),
@@ -28466,7 +28466,7 @@ end
   FDSE #(
     .INIT(1'b1)) 
     \reg_waddr_reg[2] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_8),
         .D(\reg_waddr[2]_i_1_n_0 ),
         .Q(\reg_waddr_reg_n_0_[2] ),
@@ -28474,7 +28474,7 @@ end
   FDSE #(
     .INIT(1'b1)) 
     \reg_waddr_reg[3] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_8),
         .D(\reg_waddr[3]_i_1_n_0 ),
         .Q(\reg_waddr_reg_n_0_[3] ),
@@ -28482,47 +28482,21 @@ end
   FDSE #(
     .INIT(1'b1)) 
     \reg_waddr_reg[4] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_8),
         .D(\reg_waddr[4]_i_2_n_0 ),
         .Q(\reg_waddr_reg_n_0_[4] ),
         .S(1'b0));
   LUT6 #(
-    .INIT(64'h8F88888888888888)) 
+    .INIT(64'hF5FFF0FCF0FCF0FC)) 
     \reg_wdata[0]_i_2 
-       (.I0(exe_reg_s_val__0[0]),
-        .I1(\reg_wdata[0]_i_5_n_0 ),
-        .I2(_sram_n_5),
-        .I3(\FSM_onehot_cpu_stage_reg_n_0_[3] ),
-        .I4(uart_tbre_IBUF),
-        .I5(uart_tsre_IBUF),
+       (.I0(exe_op[2]),
+        .I1(\pc[31]_i_7_n_0 ),
+        .I2(\mem_data_out[31]_i_2_n_0 ),
+        .I3(\pc[0]_i_4_n_0 ),
+        .I4(exe_reg_s_val__0[0]),
+        .I5(\pc[31]_i_9_n_0 ),
         .O(\reg_wdata[0]_i_2_n_0 ));
-  LUT3 #(
-    .INIT(8'h80)) 
-    \reg_wdata[0]_i_3 
-       (.I0(_sram_n_5),
-        .I1(\FSM_onehot_cpu_stage_reg_n_0_[3] ),
-        .I2(base_ram_data_IBUF[0]),
-        .O(\reg_wdata[0]_i_3_n_0 ));
-  LUT6 #(
-    .INIT(64'hEAEAEA000000EA00)) 
-    \reg_wdata[0]_i_4 
-       (.I0(\pc[31]_i_7_n_0 ),
-        .I1(\pc[31]_i_9_n_0 ),
-        .I2(exe_reg_s_val__0[0]),
-        .I3(exe_reg_t_val[0]),
-        .I4(exe_imm_select_reg_n_0),
-        .I5(exe_imm[0]),
-        .O(\reg_wdata[0]_i_4_n_0 ));
-  LUT5 #(
-    .INIT(32'h00002000)) 
-    \reg_wdata[0]_i_5 
-       (.I0(exe_op[0]),
-        .I1(exe_op[3]),
-        .I2(exe_op[1]),
-        .I3(\FSM_onehot_cpu_stage_reg_n_0_[2] ),
-        .I4(exe_op[2]),
-        .O(\reg_wdata[0]_i_5_n_0 ));
   LUT6 #(
     .INIT(64'hF5FFF0FCF0FCF0FC)) 
     \reg_wdata[10]_i_2 
@@ -28793,15 +28767,41 @@ end
         .I5(\pc[31]_i_9_n_0 ),
         .O(\reg_wdata[4]_i_2_n_0 ));
   LUT6 #(
-    .INIT(64'hF5FFF0FCF0FCF0FC)) 
+    .INIT(64'h8F88888888888888)) 
     \reg_wdata[5]_i_2 
-       (.I0(exe_op[2]),
-        .I1(\pc[31]_i_7_n_0 ),
-        .I2(\mem_data_out[31]_i_2_n_0 ),
-        .I3(\mem_address[5]_i_3_n_0 ),
-        .I4(exe_reg_s_val__0[5]),
-        .I5(\pc[31]_i_9_n_0 ),
+       (.I0(exe_reg_s_val__0[5]),
+        .I1(\reg_wdata[5]_i_5_n_0 ),
+        .I2(_sram_n_5),
+        .I3(\FSM_onehot_cpu_stage_reg_n_0_[3] ),
+        .I4(uart_tbre_IBUF),
+        .I5(uart_tsre_IBUF),
         .O(\reg_wdata[5]_i_2_n_0 ));
+  LUT3 #(
+    .INIT(8'h80)) 
+    \reg_wdata[5]_i_3 
+       (.I0(_sram_n_5),
+        .I1(\FSM_onehot_cpu_stage_reg_n_0_[3] ),
+        .I2(base_ram_data_IBUF[5]),
+        .O(\reg_wdata[5]_i_3_n_0 ));
+  LUT6 #(
+    .INIT(64'hEAEAEA000000EA00)) 
+    \reg_wdata[5]_i_4 
+       (.I0(\pc[31]_i_7_n_0 ),
+        .I1(\pc[31]_i_9_n_0 ),
+        .I2(exe_reg_s_val__0[5]),
+        .I3(exe_reg_t_val[5]),
+        .I4(exe_imm_select_reg_n_0),
+        .I5(exe_imm[5]),
+        .O(\reg_wdata[5]_i_4_n_0 ));
+  LUT5 #(
+    .INIT(32'h00002000)) 
+    \reg_wdata[5]_i_5 
+       (.I0(exe_op[0]),
+        .I1(exe_op[3]),
+        .I2(exe_op[1]),
+        .I3(\FSM_onehot_cpu_stage_reg_n_0_[2] ),
+        .I4(exe_op[2]),
+        .O(\reg_wdata[5]_i_5_n_0 ));
   LUT6 #(
     .INIT(64'hF5FFF0FCF0FCF0FC)) 
     \reg_wdata[6]_i_2 
@@ -28845,7 +28845,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_wdata_reg[0] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_8),
         .D(_alu_n_31),
         .Q(\reg_wdata_reg_n_0_[0] ),
@@ -28853,7 +28853,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_wdata_reg[10] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(p_0_in),
         .D(_alu_n_21),
         .Q(\reg_wdata_reg_n_0_[10] ),
@@ -28861,7 +28861,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_wdata_reg[11] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(p_0_in),
         .D(_alu_n_20),
         .Q(\reg_wdata_reg_n_0_[11] ),
@@ -28869,7 +28869,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_wdata_reg[12] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(p_0_in),
         .D(_alu_n_19),
         .Q(\reg_wdata_reg_n_0_[12] ),
@@ -28877,7 +28877,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_wdata_reg[13] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(p_0_in),
         .D(_alu_n_18),
         .Q(\reg_wdata_reg_n_0_[13] ),
@@ -28885,7 +28885,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_wdata_reg[14] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(p_0_in),
         .D(_alu_n_17),
         .Q(\reg_wdata_reg_n_0_[14] ),
@@ -28893,7 +28893,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_wdata_reg[15] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(p_0_in),
         .D(_alu_n_16),
         .Q(\reg_wdata_reg_n_0_[15] ),
@@ -28901,7 +28901,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_wdata_reg[16] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(p_0_in),
         .D(_alu_n_15),
         .Q(\reg_wdata_reg_n_0_[16] ),
@@ -28909,7 +28909,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_wdata_reg[17] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(p_0_in),
         .D(_alu_n_14),
         .Q(\reg_wdata_reg_n_0_[17] ),
@@ -28917,7 +28917,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_wdata_reg[18] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(p_0_in),
         .D(_alu_n_13),
         .Q(\reg_wdata_reg_n_0_[18] ),
@@ -28925,7 +28925,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_wdata_reg[19] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(p_0_in),
         .D(_alu_n_12),
         .Q(\reg_wdata_reg_n_0_[19] ),
@@ -28933,7 +28933,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_wdata_reg[1] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_8),
         .D(_alu_n_30),
         .Q(\reg_wdata_reg_n_0_[1] ),
@@ -28941,7 +28941,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_wdata_reg[20] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(p_0_in),
         .D(_alu_n_11),
         .Q(\reg_wdata_reg_n_0_[20] ),
@@ -28949,7 +28949,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_wdata_reg[21] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(p_0_in),
         .D(_alu_n_10),
         .Q(\reg_wdata_reg_n_0_[21] ),
@@ -28957,7 +28957,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_wdata_reg[22] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(p_0_in),
         .D(_alu_n_9),
         .Q(\reg_wdata_reg_n_0_[22] ),
@@ -28965,7 +28965,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_wdata_reg[23] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(p_0_in),
         .D(_alu_n_8),
         .Q(\reg_wdata_reg_n_0_[23] ),
@@ -28973,7 +28973,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_wdata_reg[24] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(p_0_in),
         .D(_alu_n_7),
         .Q(\reg_wdata_reg_n_0_[24] ),
@@ -28981,7 +28981,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_wdata_reg[25] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(p_0_in),
         .D(_alu_n_6),
         .Q(\reg_wdata_reg_n_0_[25] ),
@@ -28989,7 +28989,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_wdata_reg[26] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(p_0_in),
         .D(_alu_n_5),
         .Q(\reg_wdata_reg_n_0_[26] ),
@@ -28997,7 +28997,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_wdata_reg[27] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(p_0_in),
         .D(_alu_n_4),
         .Q(\reg_wdata_reg_n_0_[27] ),
@@ -29005,7 +29005,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_wdata_reg[28] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(p_0_in),
         .D(_alu_n_3),
         .Q(\reg_wdata_reg_n_0_[28] ),
@@ -29013,7 +29013,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_wdata_reg[29] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(p_0_in),
         .D(_alu_n_2),
         .Q(\reg_wdata_reg_n_0_[29] ),
@@ -29021,7 +29021,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_wdata_reg[2] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_8),
         .D(_alu_n_29),
         .Q(\reg_wdata_reg_n_0_[2] ),
@@ -29029,7 +29029,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_wdata_reg[30] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(p_0_in),
         .D(_alu_n_1),
         .Q(\reg_wdata_reg_n_0_[30] ),
@@ -29037,7 +29037,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_wdata_reg[31] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(p_0_in),
         .D(_alu_n_0),
         .Q(\reg_wdata_reg_n_0_[31] ),
@@ -29045,7 +29045,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_wdata_reg[3] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_8),
         .D(_alu_n_28),
         .Q(\reg_wdata_reg_n_0_[3] ),
@@ -29053,7 +29053,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_wdata_reg[4] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_8),
         .D(_alu_n_27),
         .Q(\reg_wdata_reg_n_0_[4] ),
@@ -29061,7 +29061,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_wdata_reg[5] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_8),
         .D(_alu_n_26),
         .Q(\reg_wdata_reg_n_0_[5] ),
@@ -29069,7 +29069,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_wdata_reg[6] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_8),
         .D(_alu_n_25),
         .Q(\reg_wdata_reg_n_0_[6] ),
@@ -29077,7 +29077,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_wdata_reg[7] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(_sram_n_8),
         .D(_alu_n_24),
         .Q(\reg_wdata_reg_n_0_[7] ),
@@ -29085,7 +29085,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_wdata_reg[8] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(p_0_in),
         .D(_alu_n_23),
         .Q(\reg_wdata_reg_n_0_[8] ),
@@ -29093,7 +29093,7 @@ end
   FDRE #(
     .INIT(1'b0)) 
     \reg_wdata_reg[9] 
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(p_0_in),
         .D(_alu_n_22),
         .Q(\reg_wdata_reg_n_0_[9] ),
@@ -29112,7 +29112,7 @@ end
   FDCE #(
     .INIT(1'b0)) 
     reg_we_reg
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(1'b1),
         .CLR(reset_btn_IBUF),
         .D(_sram_n_13),
@@ -29121,7 +29121,7 @@ end
   FDCE #(
     .INIT(1'b0)) 
     reg_we_reg_rep
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(1'b1),
         .CLR(reset_btn_IBUF),
         .D(_sram_n_16),
@@ -29130,7 +29130,7 @@ end
   FDCE #(
     .INIT(1'b0)) 
     reg_we_reg_rep__0
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(1'b1),
         .CLR(reset_btn_IBUF),
         .D(_sram_n_17),
@@ -29139,7 +29139,7 @@ end
   FDCE #(
     .INIT(1'b0)) 
     reg_we_reg_rep__1
-       (.C(clk_11M0592_IBUF_BUFG),
+       (.C(clk_50M_IBUF_BUFG),
         .CE(1'b1),
         .CLR(reset_btn_IBUF),
         .D(_sram_n_18),
