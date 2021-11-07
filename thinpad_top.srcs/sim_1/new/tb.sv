@@ -72,7 +72,7 @@ initial begin
     //     cpld.pc_send_byte(8'h41 + i);
     // end
     // 模拟PC通过串口发送字符
-    // cpld.pc_send_byte(8'h32);
+    cpld.pc_send_byte(8'h41);
     // #10000;
     // cpld.pc_send_byte(8'h33);
 end

@@ -1,7 +1,7 @@
 // Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-// Date        : Sun Nov  7 15:20:29 2021
+// Date        : Sun Nov  7 15:37:00 2021
 // Host        : DESKTOP-LOG1PQ3 running 64-bit major release  (build 9200)
 // Command     : write_verilog -mode timesim -nolib -sdf_anno true -force -file
 //               C:/Users/22850/Desktop/temp/cod21-hly19/thinpad_top.sim/sim_1/impl/timing/xsim/tb_time_impl.v
