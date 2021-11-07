@@ -176,31 +176,31 @@ always@(posedge rst or posedge clk) begin
                 ext_ram_oe <= 1'b0;
             end
             else if(uart_oe == 1'b1) begin // 读串口
-                state <= STATE_READ_UART_2;
+                state <= STATE_READ_UART_1;
                 rdn <= 1'b0;
             end
             else if(uart_we == 1'b1) begin // 写串口
-                state <= STATE_WRITE_UART_2;
+                state <= STATE_WRITE_UART_1;
                 wrn <= 1'b0; // 拉低信号
             end
             else if(uart_state_oe == 1'b1) begin // 读串口状态位
-                state <= STATE_READ_UART_STATE_2;
+                state <= STATE_READ_UART_STATE_1;
             end
             else begin
                 state <= STATE_IDLE;
             end
         end
-        STATE_READ_UART_STATE_2: begin
+        STATE_READ_UART_STATE_1: begin
             if(uart_state_oe == 1'b0) begin
                 state <= STATE_IDLE;
                 sram_uart_done <= 1'b0;
             end
             else begin
                 sram_uart_done <= 1'b1;
-                state <= STATE_READ_UART_STATE_2;
+                state <= STATE_READ_UART_STATE_1;
             end
         end
-        STATE_WRITE_UART_2: begin // 直接回
+        STATE_WRITE_UART_1: begin // 直接回
             wrn <= 1'b1;
             if(uart_we == 1'b0) begin
                 state <= STATE_IDLE;
@@ -208,10 +208,10 @@ always@(posedge rst or posedge clk) begin
             end
             else begin
                 sram_uart_done <= 1'b1;
-                state <= STATE_WRITE_UART_2;
+                state <= STATE_WRITE_UART_1;
             end
         end
-        STATE_READ_UART_2: begin
+        STATE_READ_UART_1: begin
             if(uart_oe == 1'b0) begin
                 rdn <= 1'b1;
                 state <= STATE_IDLE;
@@ -219,7 +219,7 @@ always@(posedge rst or posedge clk) begin
             end
             else begin
                 rdn <= 1'b0;
-                state <= STATE_READ_UART_2;
+                state <= STATE_READ_UART_1;
                 sram_uart_done <= 1'b1;
             end
         end
