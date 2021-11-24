@@ -158,7 +158,7 @@ wire [7:0] ext_uart_rx;
 reg  [7:0] ext_uart_buffer, ext_uart_tx;
 wire ext_uart_ready, ext_uart_clear, ext_uart_busy;
 reg ext_uart_start, ext_uart_avai;
-    
+
 assign number = ext_uart_buffer;
 
 async_receiver #(.ClkFrequency(50000000),.Baud(9600)) //接收模块，9600无检验位
@@ -199,7 +199,7 @@ async_transmitter #(.ClkFrequency(50000000),.Baud(9600)) //发送模块，9600�
 
 //图像输出演示，分辨率800x600@75Hz，像素时钟为50MHz
 wire [11:0] hdata;
-assign video_red = hdata < 266 ? 3'b111 : 0; //红色竖条
+assign video_red = hdata < 266 ? 3'b110 : 0; //红色竖条
 assign video_green = hdata < 532 && hdata >= 266 ? 3'b111 : 0; //绿色竖条
 assign video_blue = hdata >= 532 ? 2'b11 : 0; //蓝色竖条
 assign video_clk = clk_50M;
